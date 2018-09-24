@@ -1,0 +1,13 @@
+.edit-logo-wrapper{
+  display: flex;
+  flex-direction: column;
+
+  .slider{
+   height: 30px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,36 @@
+@import '../main';
+
+.edit-wrapper {
+  display: flex;
+
+  .left {
+    padding: 20px;
+    width: 420px;
+
+    .title {
+      @include paragraph-n3;
+      text-align: left;
+    }
+
+    .info {
+      @include paragraph-n2;
+      text-align: left;
+      padding: 0px 20px;
+      margin-top: 5px;
+    }
+
+    .edit-state-wrapper {
+      padding: 20px 50px 0px;
+
+    }
+  }
+
+  .right {
+    padding: 20px;
+    width: 420px;
+
+    .bottom {
+      padding: 0px 40px 20px;
+    }
+  }
+}

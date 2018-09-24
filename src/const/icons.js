@@ -1,0 +1,11 @@
+export const ADD_TEXT_ICON = '/icons/AddText.png';
+export const CENTER_LOGO_ICON = '/icons/center.png';
+export const UPLOAD_LOGO_ICON = '/icons/UploadLogo.png';
+export const ZOOM_ICON = '/icons/Zoom.png';
+export const MOVE_ICON = '/icons/Move.png';
+export const UNDO_ICON = '/icons/Undo.png';
+export const REDO_ICON = '/icons/Redo.png';
+export const SAVE_DESIGN_ICON = '/icons/SaveDesign.png';
+export const SHARE_DESIGN_ICON = '/icons/ShareDesign.png';
+export const ROTATE_LEFT_ICON = '/icons/RotateLeft.png';
+export const ROTATE_RIGHT_ICON = '/icons/RotateRight.png';

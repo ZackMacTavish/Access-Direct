@@ -1,0 +1,21 @@
+@import './main';
+
+.edit-button-wrapper{
+
+  img{
+    width: 40px;
+  }
+
+
+  p{
+    @include paragraph-n2;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 600;
+    color: #383737;
+  }
+}
+
+.edit-button-wrapper:hover{
+  cursor: pointer;
+}

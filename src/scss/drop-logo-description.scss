@@ -1,0 +1,41 @@
+@import 'main';
+
+.drop-logo-description-wrapper{
+  display: flex;
+  justify-content: center;
+
+ .content{
+   .description-header{
+     p{
+       @include paragraph-n4;
+       text-align: center;
+       margin-top: 5px;
+     }
+
+     img{
+       align-content: center;
+       width: 180px;
+     }
+   }
+
+   .info{
+     margin: 15px 0px;
+     text-align: left;
+   }
+
+   .info p{
+     margin: 0px;
+     font-size: 12px;
+     text-align: left;
+   }
+
+   .info p:nth-child(1){
+     font-weight: 600;
+   }
+
+   .warning{
+     @include paragraph-n2;
+     text-align: left;
+   }
+ }
+}

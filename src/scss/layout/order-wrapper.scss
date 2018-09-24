@@ -1,0 +1,60 @@
+@import '../main';
+
+.order-wrapper {
+  form {
+    width: 800px;
+    .company-info {
+      .fields {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .section {
+          display: flex;
+          flex-grow: 1;
+          flex-direction: column;
+          margin: 20px;
+
+          .text-field {
+            margin-top: 7px !important;
+            margin-bottom: 0px !important;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .formatting {
+      .radio-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .radio-section {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+
+    .note {
+      .fields {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .bottom button {
+      margin: 10px;
+    }
+  }
+
+  form > div {
+    margin-top: 50px;
+  }
+}

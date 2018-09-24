@@ -1,0 +1,45 @@
+@import './main';
+
+.fobo-result-wrapper {
+  border: 2px solid gray;
+
+  .fobo-result {
+    position: relative;
+    overflow: hidden;
+
+    .base-img {
+      position: relative;
+      top: 0px;
+      left: 0px;
+    }
+
+    .logo-img {
+      position: absolute;
+      top:0px;
+      left: 0px;
+      display: inline-block;
+    }
+
+    .logo-img:hover {
+      cursor: grab;
+    }
+
+    .logo-img:active {
+      cursor: grabbing;
+    }
+
+    img {
+      align-content: center;
+      max-width: 100%;
+      pointer-events: none;
+    }
+  }
+
+}
+
+
+.center{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
