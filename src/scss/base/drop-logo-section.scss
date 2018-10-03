@@ -1,0 +1,26 @@
+@import 'main';
+
+.drop-logo-section-wrapper{
+  display: flex;
+  justify-content: center;
+
+  .dropzone{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 500px;
+  }
+
+  .dropzone > div:first-child {
+    display: inline-block;
+    background-color: $base-color-grey;
+    //border-color: gray !important;
+    border-style: none !important;
+    border-radius: 0px !important;
+    width: 100% !important;
+    height: fit-content !important;
+    padding: 40px;
+  }
+
+}
+

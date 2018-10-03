@@ -1,0 +1,81 @@
+@import 'main';
+
+.fobo-result-wrapper {
+  border: 2px solid gray;
+
+  .fobo-result {
+    position: relative;
+    overflow: hidden;
+
+    .base-img {
+      position: relative;
+      top: 0px;
+      left: 0px;
+    }
+
+    .base-cover-img {
+      border: 5px solid white;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+
+    .logo-img {
+      position: absolute;
+      top:0px;
+      left: 0px;
+      display: inline-block;
+    }
+
+    .logo-img:hover {
+      cursor: grab;
+    }
+
+    .logo-img:active {
+      cursor: grabbing;
+    }
+
+    img {
+      align-content: center;
+      max-width: 100%;
+      pointer-events: none;
+    }
+
+    .add-text-result {
+      position: absolute;
+      top: 20px;
+      left: 30px;
+    }
+  }
+
+}
+
+.fobo-id {
+  position: absolute;
+  width: 100%;
+  bottom: 35px;
+  .option-w{
+    display: flex;
+    justify-content: center;
+    .option{
+      margin: 0px 5px;
+    }
+  }
+
+  .mandatory {
+
+  }
+
+  .id-v {
+    color: #ece8fbc7;
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+
+.center{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}

@@ -1,0 +1,20 @@
+@import '../base/main';
+
+.confirm-dialog-wrapper {
+
+}
+
+.dialog-box {
+  border-top: 5px solid $base-color-blue;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.title h2{
+  font-size: 18px;
+}

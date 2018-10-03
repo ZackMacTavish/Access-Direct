@@ -6,10 +6,10 @@ import {
     REDO,
     ROTATE_LEFT,
     ROTATE_RIGHT,
-    SAVE_STATE,
+    SAVE_STATE, SET_ADD_TEXT_SIZE, SET_ADD_TEXT_VALUE,
     SET_BASE_IMG,
     SET_LOGO_POSITION,
-    SET_LOGO_PROPERTIES,
+    SET_LOGO_PROPERTIES, SET_TEXT,
     TOGGLE_SLIDE,
     UNDO,
     UPLOAD_LOGO,
@@ -17,11 +17,12 @@ import {
 } from "../../const/actions";
 
 import {getNextState, getPrevState, saveState} from './stateVersions';
-import {BLACK_FOBO_IMG} from "../../const/images";
+import {BLACK_FOBO_COVER_IMG, BLACK_FOBO_IMG} from "../../const/images";
 
 const initialState = {
     id: 0,
     baseImg: BLACK_FOBO_IMG,
+    baseCoverImg: BLACK_FOBO_COVER_IMG,
     baseImgWidth: 0,
     baseImgHeight: 0,
     userLogoImg: null,
@@ -35,6 +36,8 @@ const initialState = {
     rotation: 0,
     zoomRates: 1,
     slideVisibility: false,
+    addTextValue: '',
+    addTextSize: '',
 };
 
 const editReducer = (state = initialState, action) => {
@@ -70,7 +73,8 @@ const editReducer = (state = initialState, action) => {
         case SET_BASE_IMG: {
             const newState = {
                 ...state,
-                baseImg: action.baseImg
+                baseImg: action.baseImg,
+                baseCoverImg: action.baseCoverImg,
             };
 
             return saveState(newState);
@@ -118,6 +122,7 @@ const editReducer = (state = initialState, action) => {
             };
 
         case ROTATE_RIGHT: {
+            console.log('Rotate_right reducer!!!!');
             const newState = {
                 ...state,
                 rotation: state.rotation + 90,
@@ -152,6 +157,20 @@ const editReducer = (state = initialState, action) => {
 
         case REDO: {
             return getNextState(state);
+        }
+
+        case SET_ADD_TEXT_VALUE: {
+            return {
+                ...state,
+                addTextValue: action.value,
+            }
+        }
+
+        case SET_ADD_TEXT_SIZE: {
+            return {
+                ...state,
+                addTextSize: action.value,
+            }
         }
 
         case SAVE_STATE: {

@@ -9,7 +9,6 @@ export const ZOOM_LOGO = 'ZOOM_LOGO';
 export const CENTER_LOGO = 'CENTER_LOGO';
 export const FLIP_LOGO = 'FLIP_LOGO';
 export const SET_LOGO_POSITION = 'SET_LOGO_POSITION';
-export const ADD_TEXT = 'ADD_TEXT';
 export const INIT_BASE = 'INIT_BASE';
 export const INIT_LOGO = 'INIT_LOGO';
 export const SET_LOGO_PROPERTIES = 'SET_LOGO_PROPERTIES';
@@ -18,11 +17,21 @@ export const ROTATE_RIGHT = 'ROTATE_RIGHT';
 export const HIDE_SLIDE = 'HIDE_SLIDE';
 export const TOGGLE_SLIDE = 'TOGGLE_SLIDE';
 export const SAVE_STATE = 'SAVE_STATE';
+export const SET_ADD_TEXT_SIZE = 'SET_ADD_TEXT_SIZE';
+export const SET_ADD_TEXT_VALUE = 'SET_ADD_TEXT_VALUE';
 
 // Order Actions
 export const FIELD_CHANGE = 'FIELD_CHANGE';
+export const VALIDATE = 'VALIDATE';
+export const VALIDATE_FIELD = 'VALIDATE_FIELD';
+export const VALIDATE_FORM = 'VALIDATE_FORM';
+export const SUBMIT_ORDER = 'SUBMIT_ORDER';
 
 // Page display
 export const DISPLAY_EDIT_PAGE = 'DISPLAY_EDIT_PAGE';
 export const DISPLAY_ORDER_PAGE = 'DISPLAY_ORDER_PAGE';
+export const DISPLAY_DIALOG = "DISPLAY_DIALOG";
+export const TOGGLE_ADD_TEXT_DISPLAY = 'TOGGLE_ADD_TEXT_DISPLAY';
+// export const DISPLAY_FACILITY_CODE = 'DISPLAY_FACILITY_CODE';
+// export const DISPLAY_FORMAT= 'DISPLAY_FORMAT';
 

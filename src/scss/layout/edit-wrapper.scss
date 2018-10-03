@@ -1,36 +1,47 @@
-@import '../main';
+@import '../base/main';
 
-.edit-wrapper {
+.edit-wrapper{
   display: flex;
+  flex-grow: 1;
+  flex-direction: column;
 
-  .left {
-    padding: 20px;
-    width: 420px;
+  .edit-content{
+    display: flex;
+    justify-content: center;
 
-    .title {
-      @include paragraph-n3;
-      text-align: left;
-    }
+    .edit-body {
+      display: flex;
 
-    .info {
-      @include paragraph-n2;
-      text-align: left;
-      padding: 0px 20px;
-      margin-top: 5px;
-    }
+      .left {
+        padding: 20px;
+        width: 420px;
 
-    .edit-state-wrapper {
-      padding: 20px 50px 0px;
+        .title {
+          @include paragraph-n3;
+          text-align: left;
+        }
 
-    }
-  }
+        .info {
+          @include paragraph-n2;
+          text-align: left;
+          padding: 0px 20px;
+          margin-top: 5px;
+        }
 
-  .right {
-    padding: 20px;
-    width: 420px;
+        .edit-state-wrapper {
+          padding: 20px 50px 0px;
 
-    .bottom {
-      padding: 0px 40px 20px;
+        }
+      }
+
+      .right {
+        padding: 20px;
+        width: 420px;
+
+        .bottom {
+          padding: 0px 40px 20px;
+        }
+      }
     }
   }
 }

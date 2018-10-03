@@ -1,11 +1,12 @@
 import React from "react";
 import '../../scss/layout/layout.scss';
-import Header from "./Header";
-import Navigation from "../Navigation";
-import EditWrapper from "./EditWrapper";
-import ProductOrderWrapper from "./ProductOrderWrapper";
-import ProductOrderContainer from "../../containers/ProductOrderContainer";
-import EditContainer from "../../containers/EditContainer";
+import Header from "../base/Header";
+import Navigation from "../base/Navigation";
+import OrderContainer from "../containers/OrderContainer";
+import EditContainer from "../containers/EditContainer";
+import ConfirmDialogContainer from "../containers/ConfirmDialogContainer";
+import {lang} from "../../i18/en/lang";
+import FoboColorPickerContainer from "../containers/FoboColorPickerContainer";
 
 class Layout extends React.Component {
     render() {
@@ -13,15 +14,18 @@ class Layout extends React.Component {
             <div className="layout-wrapper">
                 <div className="top">
                     <Header/>
-                    <Navigation/>
                 </div>
                 <div className="middle">
                     <EditContainer/>
-                    <ProductOrderContainer/>
+                    <OrderContainer/>
                 </div>
                 <div className="bottom">
                     {/*<Footer/>*/}
                 </div>
+                <div>
+                    <ConfirmDialogContainer title={lang.en.dialog.is_design_finished_title} />
+                </div>
+                {/*<FoboColorPickerContainer/>*/}
             </div>
         )
     }

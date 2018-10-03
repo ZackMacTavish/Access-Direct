@@ -1,0 +1,62 @@
+@import './main';
+
+.add-text-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+
+  .element {
+    margin-right: 20px;
+    display: block;
+    align-items: center;
+
+    > div {
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+
+  .button-section {
+
+  }
+
+  .text-section {
+
+  }
+
+  .font-size-section {
+    display: flex;
+
+    input {
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      /* display: none; <- Crashes Chrome on hover */
+      -webkit-appearance: none;
+      margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    }
+
+
+    .font-size-buttons div{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 25px;
+      height: 20px;
+      margin: 5px;
+      font-size: 21px;
+      background-color: $base-color-blue;
+      color: white;
+    }
+
+    .font-size-buttons:hover {
+      cursor: pointer;
+    }
+  }
+
+}

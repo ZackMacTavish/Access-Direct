@@ -1,12 +1,21 @@
 import {
-    CENTER_LOGO, HIDE_SLIDE,
-    INIT_BASE, INIT_LOGO, REDO, ROTATE_LEFT, ROTATE_RIGHT, SAVE_STATE,
-    SET_BASE_IMG,
+    CENTER_LOGO,
+    HIDE_SLIDE,
+    INIT_BASE,
+    INIT_LOGO,
+    REDO,
+    ROTATE_LEFT,
+    ROTATE_RIGHT,
+    SAVE_STATE, SET_ADD_TEXT_SIZE, SET_ADD_TEXT_VALUE,
+    SET_BASE_IMG, SET_FONT_SIZE,
     SET_LOGO_POSITION,
-    SET_LOGO_PROPERTIES, TOGGLE_SLIDE, UNDO,
-    UPLOAD_LOGO, ZOOM_LOGO
+    SET_LOGO_PROPERTIES,
+    SET_TEXT,
+    TOGGLE_SLIDE,
+    UNDO,
+    UPLOAD_LOGO,
+    ZOOM_LOGO
 } from "../../const/actions";
-
 
 export const initBase = (width, height) => {
     return {
@@ -24,10 +33,11 @@ export const initLogo = (width, height) => {
     }
 };
 
-export const setBaseImg = (baseImg) => {
+export const setBaseImg = (baseImg, baseCoverImg) => {
     return {
         type: SET_BASE_IMG,
-        baseImg: baseImg
+        baseImg: baseImg,
+        baseCoverImg: baseCoverImg,
     }
 };
 
@@ -55,9 +65,9 @@ export const setLogoProperties = (width, height) => {
 };
 
 export const centerLogo = () => {
-  return {
-      type: CENTER_LOGO
-  }
+    return {
+        type: CENTER_LOGO
+    }
 };
 
 export const rotateLeft = () => {
@@ -86,15 +96,15 @@ export const hideSlide = () => {
 };
 
 export const toggleSlide = () => {
-  return {
-      type: TOGGLE_SLIDE,
-  }
+    return {
+        type: TOGGLE_SLIDE,
+    }
 };
 
 export const undo = () => {
-  return {
-      type: UNDO,
-  }
+    return {
+        type: UNDO,
+    }
 };
 
 export const redo = () => {
@@ -106,6 +116,20 @@ export const redo = () => {
 export const saveState = () => {
     return {
         type: SAVE_STATE,
+    }
+};
+
+export const setAddTextSize = (value) => {
+    return {
+        type: SET_ADD_TEXT_SIZE,
+        value: value,
+    }
+};
+
+export const setAddTextValue = (value) => {
+    return {
+        type: SET_ADD_TEXT_VALUE,
+        value: value,
     }
 };
 

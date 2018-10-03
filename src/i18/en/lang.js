@@ -1,5 +1,6 @@
 export const lang = {
         en: {
+
             edit: {
                 center_logo: 'Center Logo',
                 add_text: 'Add Text',
@@ -13,6 +14,7 @@ export const lang = {
                 rotate_left: 'Rotate Left',
                 rotate_right: 'Rotate Right',
                 rotate: 'Rotate',
+                next_step: 'Next step',
             },
             result_title: '2 inch Custom Fob with programming Options',
             result_info: 'Please note our artists can fix any minor issues with your artwork. You can\n' +
@@ -32,6 +34,32 @@ export const lang = {
                     b9: 'EM64 Honeywell 10 Digit 64 Bit EM ',
                     b10: 'KC10X Keri CK',
                 }
-            }
+            },
+            breadcrumbs: {
+                    black_fobo: 'BLACK FOBO',
+                    gray_fobo: 'GRAY FOBO',
+                    red_fobo: 'RED FOBO',
+            },
+            drop_info: {
+                for_best_result: 'For best results we prefer vector image files:',
+                for_best_result_format: '*Ai.ai *EPS.eps *Vector.pdf *PSD.psd',
+                alternatively: 'Alternatively, we also accept high resolution raster files:',
+                alternatively_format: '*JPEG.jpg *PDF.pdf *PNG.png *GIF.gif',
+                warning_1: 'Warning: Text and logo must not overlap. Actual product may look different than the mockup.',
+                warning_2: 'Occasional wear and tear may occur over time if the fob/card is held in the pocket next to keys, loose change, and other sharp metal objects.',
+            },
+            dialog: {
+                is_design_finished_title: 'Are you finished working on your design'
+
+            },
+            advertisement: {
+                title: 'OUR PRODUCTS',
+                highpower: 'Touchscreen access control system supporting eight doors per panel.',
+                switches: 'Mechanical push for egress.'
+            },
+            no: 'No',
+            yes: 'Yes',
+            yes_proceed: 'Yes, proceed',
+
         }
 };

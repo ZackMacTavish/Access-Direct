@@ -1,8 +1,14 @@
-@import '../main';
+@import '../base/main';
 
 .order-wrapper {
+
+  .MuiFormLabel-root-1{
+    text-align: left;
+  }
+
+
   form {
-    width: 800px;
+    width: 760px;
     .company-info {
       .fields {
         display: flex;
@@ -11,9 +17,10 @@
 
         .section {
           display: flex;
-          flex-grow: 1;
+          justify-content: space-between;
           flex-direction: column;
-          margin: 20px;
+          flex-grow: 1;
+          max-width: 320px;
 
           .text-field {
             margin-top: 7px !important;
@@ -27,8 +34,12 @@
     .formatting {
       .radio-group {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        height: 250px;
+        margin-top: 20px;
 
         .radio-section {
           display: flex;

@@ -3,7 +3,7 @@ import {REDO, SAVE_DESIGN, SHARE_DESIGN, UNDO} from "../../const/actions";
 import {lang} from "../../i18/en/lang";
 import {REDO_ICON, SAVE_DESIGN_ICON, SHARE_DESIGN_ICON, UNDO_ICON} from "../../const/icons";
 import '../../scss/layout/edit-state-wrapper.scss';
-import EditButtonContainer from "../../containers/EditButtonContainer";
+import EditButtonContainer from "../containers/EditButtonContainer";
 
 class EditStateWrapper extends React.Component{
     render(){

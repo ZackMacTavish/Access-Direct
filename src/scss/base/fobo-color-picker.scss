@@ -1,0 +1,23 @@
+@import 'main';
+
+.fobo-color-picker-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin-bottom: 10px;
+
+  background-color: $base-color-blue;
+  color: white;
+
+  p {
+    font-size: 14px;
+  };
+
+  > div {
+    margin-right: 50px;
+  }
+
+  > div:hover {
+    cursor: pointer;
+  }
+}
