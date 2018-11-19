@@ -2,12 +2,15 @@ import React from 'react';
 import Dropzone from 'react-dropzone';
 import DropLogoDescription from "./DropLogoDescription";
 import '../../scss/base/drop-logo-section.scss';
+import {fileToBase64} from "../../util/fileUtils";
 
 class DropLogoSection extends React.Component{
 
-    uploadLogoHandler = (file) => {
-        const userLogoImg = URL.createObjectURL(file[0]);
-        this.props.uploadLogo(userLogoImg);
+    uploadLogoHandler = async (file) => {
+        const imgFile = file[0];
+        const imgUrl = URL.createObjectURL(imgFile);
+        const imgBase64 = await fileToBase64(imgFile);
+        this.props.uploadLogo(imgBase64, imgUrl);
     };
 
     render(){

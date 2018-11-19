@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import FoboResult from "../base/FoboResult";
-import {initBase, initLogo, setLogoPosition, setLogoProperties} from "../../store/actions/editActions";
+import {initBase, initLogo, setLogoPosition} from "../../store/actions/editActions";
 
 
 class ResultContainer extends React.Component{
@@ -15,16 +15,9 @@ class ResultContainer extends React.Component{
 
 const mapStateToProps = (state) => {
     return {
-        userLogoImg: state.edit.userLogoImg,
-        width: state.edit.userLogoWidth,
-        baseImg: state.edit.baseImg,
-        baseCoverImg: state.edit.baseCoverImg,
-        x: state.edit.userLogoX,
-        y: state.edit.userLogoY,
-        rotation: state.edit.rotation,
-        facilityCodeDisplay: state.order.productOrder.facilityCodeDisplay,
-        formatDisplay: state.order.productOrder.formatDisplay,
-        addTextValue: state.edit.addTextValue,
+        userLogoImgUrl: state.edit.userLogoImgUrl,
+        buildLogoProperties: state.edit.buildLogoProperties,
+        productOrder: state.order.productOrder,
     }
 };
 

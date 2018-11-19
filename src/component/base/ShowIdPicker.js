@@ -1,6 +1,6 @@
 import React from "react";
-import FormControlLabel from "@material-ui/core/es/FormControlLabel/FormControlLabel";
-import Checkbox from "@material-ui/core/es/Checkbox/Checkbox";
+import FormControlLabel from "@material-ui/core/FormControlLabel/FormControlLabel";
+import Checkbox from "@material-ui/core/Checkbox/Checkbox";
 
 class ShowIdPicker extends React.Component {
     render() {

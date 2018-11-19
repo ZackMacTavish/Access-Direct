@@ -13,7 +13,7 @@ class DropLogoContainer extends React.Component{
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        uploadLogo: (img) => {dispatch(uploadLogo(img))}
+        uploadLogo: (img, imgUrl) => {dispatch(uploadLogo(img, imgUrl))}
     }
 };
 

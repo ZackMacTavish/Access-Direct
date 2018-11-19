@@ -1,0 +1,10 @@
+export const FORMATTING_1 = "H26 HID Standard 26 Bit (H10301)";
+export const FORMATTING_2 = "H36K HID Bit C15001 (Keyscan)";
+export const FORMATTING_3 = "H36NAL HID Bit N901157A (Napco Gem/Alarm Lock)";
+export const FORMATTING_4 = "H37 HID 37 Bit (H10304)";
+export const FORMATTING_5 = "A26 AWID Standard 26 Bit Format";
+export const FORMATTING_6 = "A34 AWID 34 Bit Format";
+export const FORMATTING_7 = "F26 Farpointe 26 Bit Format";
+export const FORMATTING_8 = "F30 Farpointe 30 Bit Format";
+export const FORMATTING_9 = "EM64 Honeywell 10 Digit 64 Bit EM";
+export const FORMATTING_10 = "KC10X Keri CK";

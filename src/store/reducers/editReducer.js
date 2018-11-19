@@ -6,10 +6,13 @@ import {
     REDO,
     ROTATE_LEFT,
     ROTATE_RIGHT,
-    SAVE_STATE, SET_ADD_TEXT_SIZE, SET_ADD_TEXT_VALUE,
+    SAVE_STATE,
+    SET_ADD_TEXT_SIZE,
+    SET_ADD_TEXT_VALUE,
     SET_BASE_IMG,
     SET_LOGO_POSITION,
-    SET_LOGO_PROPERTIES, SET_TEXT,
+    SET_LOGO_PROPERTIES,
+    SET_TEXT,
     TOGGLE_SLIDE,
     UNDO,
     UPLOAD_LOGO,
@@ -17,27 +20,28 @@ import {
 } from "../../const/actions";
 
 import {getNextState, getPrevState, saveState} from './stateVersions';
-import {BLACK_FOBO_COVER_IMG, BLACK_FOBO_IMG} from "../../const/images";
+import {BLACK_FOBO_COVER_IMG_NAME, BLACK_FOBO_IMG_NAME} from "../../const/images";
 
 const initialState = {
-    id: 0,
-    baseImg: BLACK_FOBO_IMG,
-    baseCoverImg: BLACK_FOBO_COVER_IMG,
-    baseImgWidth: 0,
-    baseImgHeight: 0,
-    userLogoImg: null,
-    userLogoImgInitialized: false,
+    stateId: 0,
     userLogoInitWidth: null,
     userLogoInitHeight: null,
-    userLogoWidth: null,
-    userLogoHeight: null,
-    userLogoX: 0,
-    userLogoY: 0,
-    rotation: 0,
+    userLogoImgInitialized: false,
     zoomRates: 1,
     slideVisibility: false,
-    addTextValue: '',
-    addTextSize: '',
+    userLogoImgUrl: null,
+    buildLogoProperties: {
+        baseImgName: BLACK_FOBO_IMG_NAME,
+        baseCoverImgName: BLACK_FOBO_COVER_IMG_NAME,
+        baseImgWidth: 0,
+        baseImgHeight: 0,
+        userLogoImg: null,
+        userLogoWidth: null,
+        userLogoHeight: null,
+        userLogoX: 0,
+        userLogoY: 0,
+        rotation: 0,
+    }
 };
 
 const editReducer = (state = initialState, action) => {
@@ -46,21 +50,27 @@ const editReducer = (state = initialState, action) => {
         case INIT_BASE:
             return {
                 ...state,
-                baseImgWidth: action.width,
-                baseImgHeight: action.height,
+                buildLogoProperties: {
+                    ...state.buildLogoProperties,
+                    baseImgWidth: action.width,
+                    baseImgHeight: action.height,
+                }
             };
         case INIT_LOGO: {
             if (!state.userLogoImgInitialized) {
 
                 const newState = {
                     ...state,
-                    userLogoWidth: action.width,
-                    userLogoHeight: action.height,
+                    userLogoImgInitialized: true,
                     userLogoInitWidth: action.width,
                     userLogoInitHeight: action.height,
-                    userLogoX: (state.baseImgWidth / 2) - (action.width / 2),
-                    userLogoY: (state.baseImgHeight / 2) - (action.height / 2),
-                    userLogoImgInitialized: true,
+                    buildLogoProperties: {
+                        ...state.buildLogoProperties,
+                        userLogoWidth: action.width,
+                        userLogoHeight: action.height,
+                        userLogoX: (state.buildLogoProperties.baseImgWidth / 2) - (action.width / 2),
+                        userLogoY: (state.buildLogoProperties.baseImgHeight / 2) - (action.height / 2),
+                    },
                 };
 
                 return saveState(newState);
@@ -73,25 +83,37 @@ const editReducer = (state = initialState, action) => {
         case SET_BASE_IMG: {
             const newState = {
                 ...state,
-                baseImg: action.baseImg,
-                baseCoverImg: action.baseCoverImg,
+                buildLogoProperties: {
+                    ...state.buildLogoProperties,
+                    baseImgName: action.baseImg,
+                    baseCoverImgName: action.baseCoverImg,
+                },
             };
 
             return saveState(newState);
         }
 
         case UPLOAD_LOGO: {
-            return {
+            const newState = {
                 ...state,
-                userLogoImg: action.userLogoImg,
+                userLogoImgUrl: action.userLogoImgUrl,
+                buildLogoProperties: {
+                    ...state.buildLogoProperties,
+                    userLogoImg: action.userLogoImg,
+                },
             };
+
+            return newState;
         }
 
         case SET_LOGO_POSITION: {
             const newState = {
                 ...state,
-                userLogoX: action.userLogoX,
-                userLogoY: action.userLogoY,
+                buildLogoProperties: {
+                    ...state.buildLogoProperties,
+                    userLogoX: action.userLogoX,
+                    userLogoY: action.userLogoY,
+                },
             };
 
             return saveState(newState);
@@ -100,8 +122,11 @@ const editReducer = (state = initialState, action) => {
         case CENTER_LOGO: {
             const newState = {
                 ...state,
-                userLogoX: (state.baseImgWidth / 2) - (state.userLogoWidth / 2),
-                userLogoY: (state.baseImgHeight / 2) - (state.userLogoHeight / 2),
+                buildLogoProperties: {
+                    ...state.buildLogoProperties,
+                    userLogoX: (state.buildLogoProperties.baseImgWidth / 2) - (state.buildLogoProperties.userLogoWidth / 2),
+                    userLogoY: (state.buildLogoProperties.baseImgHeight / 2) - (state.buildLogoProperties.userLogoHeight / 2),
+                },
             };
 
             return saveState(newState);
@@ -110,22 +135,30 @@ const editReducer = (state = initialState, action) => {
         case SET_LOGO_PROPERTIES: {
             return {
                 ...state,
-                userLogoWidth: action.width,
-                userLogoHeight: action.height,
+                buildLogoProperties: {
+                    ...state.buildLogoProperties,
+                    userLogoWidth: action.width,
+                    userLogoHeight: action.height,
+                },
             };
         }
 
         case ROTATE_LEFT:
             return {
                 ...state,
-                rotation: state.rotation - 90,
+                buildLogoProperties: {
+                    ...state.buildLogoProperties,
+                    rotation: state.buildLogoProperties.rotation - 90,
+                },
             };
 
         case ROTATE_RIGHT: {
-            console.log('Rotate_right reducer!!!!');
             const newState = {
                 ...state,
-                rotation: state.rotation + 90,
+                buildLogoProperties: {
+                    ...state.buildLogoProperties,
+                    rotation: state.buildLogoProperties.rotation + 90,
+                },
             };
 
             return saveState(newState);
@@ -135,8 +168,11 @@ const editReducer = (state = initialState, action) => {
             return {
                 ...state,
                 zoomRates: action.zoomRates,
-                userLogoWidth: state.userLogoInitWidth * action.zoomRates,
-                userLogoHeight: state.userLogoInitHeight * action.zoomRates,
+                buildLogoProperties: {
+                    ...state.buildLogoProperties,
+                    userLogoWidth: state.userLogoInitWidth * action.zoomRates,
+                    userLogoHeight: state.userLogoInitHeight * action.zoomRates,
+                },
             };
         }
         case HIDE_SLIDE:
@@ -157,20 +193,6 @@ const editReducer = (state = initialState, action) => {
 
         case REDO: {
             return getNextState(state);
-        }
-
-        case SET_ADD_TEXT_VALUE: {
-            return {
-                ...state,
-                addTextValue: action.value,
-            }
-        }
-
-        case SET_ADD_TEXT_SIZE: {
-            return {
-                ...state,
-                addTextSize: action.value,
-            }
         }
 
         case SAVE_STATE: {

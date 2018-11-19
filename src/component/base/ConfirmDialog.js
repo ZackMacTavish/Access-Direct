@@ -1,9 +1,9 @@
 import React from "react";
 import '../../scss/base/confirm-dialog.scss';
-import Dialog from "@material-ui/core/es/Dialog/Dialog";
-import DialogTitle from "@material-ui/core/es/DialogTitle/DialogTitle";
+import Dialog from "@material-ui/core/Dialog/Dialog";
+import DialogTitle from "@material-ui/core/DialogTitle/DialogTitle";
 import {lang} from "../../i18/en/lang";
-import Button from "@material-ui/core/es/Button/Button";
+import Button from "@material-ui/core/Button/Button";
 
 class ConfirmDialog extends React.Component{
     render(){

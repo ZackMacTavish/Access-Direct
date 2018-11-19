@@ -1,0 +1,11 @@
+@import './main';
+
+.ad-button-wrapper {
+  padding: 12px;
+  background-color: $base-color-blue;
+  color: white;
+}
+
+.ad-button-wrapper:hover {
+  cursor: pointer;
+}

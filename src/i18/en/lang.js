@@ -31,7 +31,7 @@ export const lang = {
                     b6: 'A34 AWID 34 Bit Format',
                     b7: 'F26 Farpointe 26 Bit Format',
                     b8: 'F30 Farpointe 30 Bit Format',
-                    b9: 'EM64 Honeywell 10 Digit 64 Bit EM ',
+                    b9: 'EM64 Honeywell 10 Digit 64 Bit EM',
                     b10: 'KC10X Keri CK',
                 }
             },
@@ -49,8 +49,9 @@ export const lang = {
                 warning_2: 'Occasional wear and tear may occur over time if the fob/card is held in the pocket next to keys, loose change, and other sharp metal objects.',
             },
             dialog: {
-                is_design_finished_title: 'Are you finished working on your design'
-
+                is_design_finished_title: 'Are you finished working on your design',
+                please_upload_your_logo: 'Please upload your logo',
+                thanks_for_filling_form: 'Thanks for filling out our form!',
             },
             advertisement: {
                 title: 'OUR PRODUCTS',

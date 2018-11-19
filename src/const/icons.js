@@ -1,5 +1,5 @@
 export const ADD_TEXT_ICON = '/icons/AddText.png';
-export const CENTER_LOGO_ICON = '/icons/center.png';
+export const CENTER_LOGO_ICON = '/icons/Center.png';
 export const UPLOAD_LOGO_ICON = '/icons/UploadLogo.png';
 export const ZOOM_ICON = '/icons/Zoom.png';
 export const MOVE_ICON = '/icons/Move.png';

@@ -2,8 +2,9 @@ import React from "react";
 
 class Section extends React.Component{
     render(){
-        var classes = this.props.classes;
-        if(this.props.visible === false){
+        let {visible, classes} = this.props;
+
+        if(visible === false){
             classes += ' hidden';
         }
 

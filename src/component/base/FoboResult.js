@@ -2,7 +2,8 @@ import React from 'react';
 import Draggable from 'react-draggable';
 import '../../scss/base/fobo-result.scss';
 import Section from "./Section";
-import TextField from "@material-ui/core/es/TextField/TextField";
+import {IMG_SOURCE_PATH} from "../../const/images";
+
 
 class FoboResult extends React.Component {
 
@@ -27,59 +28,46 @@ class FoboResult extends React.Component {
 
 
     render() {
-        const width = this.props.width;
+        const width = this.props.buildLogoProperties.userLogoWidth;
         var imgStyle = null;
-
-        console.log('NeEEEEEE');
-        console.log(this.props.rotation);
 
         if (width == 0 || width == null) {
             imgStyle = {
-                transform: 'rotate(' + this.props.rotation + 'deg)',
+                transform: 'rotate(' + this.props.buildLogoProperties.rotation + 'deg)',
             };
         } else {
             imgStyle = {
-                transform: 'rotate(' + this.props.rotation + 'deg)',
-                width: this.props.width,
+                transform: 'rotate(' + this.props.buildLogoProperties.rotation + 'deg)',
+                width: width,
             };
         }
 
-        console.log(imgStyle);
+        const x = this.props.buildLogoProperties.userLogoX;
+        const y = this.props.buildLogoProperties.userLogoY;
 
         return (
             <div className="fobo-result-wrapper">
                 <div className="fobo-result">
                     <div className="base-img">
-                        <img ref={this.baseImgRef} onLoad={() => this.initBase()} src={this.props.baseImg}/>
+                        <img ref={this.baseImgRef} onLoad={() => this.initBase()} src={IMG_SOURCE_PATH + this.props.buildLogoProperties.baseImgName}/>
                     </div>
-                    <Draggable position={{x: this.props.x, y: this.props.y}}
+                    <Draggable position={{x: x, y: y}}
                                onStop={(event, dragElement) => this.props.setLogoPosition(dragElement.x, dragElement.y)}>
                         <div className="logo-img">
                             <img style={imgStyle} ref={this.userImgRef} onLoad={() => this.initLogo()}
-                                 src={this.props.userLogoImg}/>
+                                 src={this.props.userLogoImgUrl}/>
                         </div>
                     </Draggable>
                     <div>
-                        <img className="base-cover-img" src={this.props.baseCoverImg}/>
+                        <img className="base-cover-img" src={IMG_SOURCE_PATH + this.props.buildLogoProperties.baseCoverImgName}/>
                     </div>
                     <div className="fobo-id">
                         <div className="option-w">
-                            <Section classes="option id-v" visible={this.props.facilityCodeDisplay}>FC255</Section>
-                            <Section classes="option id-v" visible={this.props.formatDisplay}>HD26</Section>
+                            <Section classes="option id-v" visible={this.props.productOrder.facilityCodeDisplay}>FC255</Section>
+                            <Section classes="option id-v" visible={this.props.productOrder.formatDisplay}>HD26</Section>
                         </div>
                         <div className="mandatory id-v">12345</div>
                     </div>
-                    {/*<div className="add-text-result">*/}
-                        {/*<TextField*/}
-                            {/*id="outlined-multiline-flexible"*/}
-                            {/*multiline*/}
-                            {/*value={this.props.addTextValue}*/}
-                            {/*// onChange={this.props.changeText}*/}
-                            {/*// onBlur={this.props.saveState}*/}
-                            {/*margin="normal"*/}
-                            {/*variant="outlined"*/}
-                        {/*/>*/}
-                    {/*</div>*/}
                 </div>
             </div>
         )

@@ -1,0 +1,25 @@
+@import 'main';
+
+.edit-tools-n2 {
+  img{
+    width: 40px;
+  }
+
+  p{
+    @include paragraph-n2;
+    text-align: center;
+    margin: 0px;
+    font-weight: 600;
+    color: #383737;
+  }
+
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+  }
+}

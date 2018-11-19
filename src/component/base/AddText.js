@@ -2,7 +2,7 @@ import React from "react";
 import '../../scss/base/add-text.scss';
 import EditButton from "./EditButton";
 import {lang} from "../../i18/en/lang";
-import TextField from "@material-ui/core/es/TextField/TextField";
+import TextField from "@material-ui/core/TextField/TextField";
 import Section from "./Section";
 import {TOGGLE_ADD_TEXT_DISPLAY} from "../../const/actions";
 
