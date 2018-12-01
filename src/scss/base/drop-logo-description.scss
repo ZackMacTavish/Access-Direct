@@ -6,6 +6,8 @@
 
  .content{
    .description-header{
+     text-align: center;
+
      p{
        @include paragraph-n4;
        text-align: center;

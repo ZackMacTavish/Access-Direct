@@ -3,8 +3,7 @@ import '../../scss/layout/layout.scss';
 import Header from "../base/Header";
 import OrderContainer from "../containers/OrderContainer";
 import EditContainer from "../containers/EditContainer";
-import ConfirmDialogContainer from "../containers/ConfirmDialogContainer";
-import {lang} from "../../i18/en/lang";
+
 
 class Layout extends React.Component {
     render() {

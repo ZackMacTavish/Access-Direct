@@ -1,0 +1,41 @@
+@import './main';
+
+.media-share-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(48, 52, 255, 0.28);
+  padding: 5px;
+
+  .button {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: #c4c8d236;
+    border: 1px solid #dfe2e8;
+
+    p {
+      padding: 0;
+      margin: 0 10px 0;
+    }
+  }
+
+  .button:hover {
+    cursor: pointer;
+    border: 1px solid #bdbec1;
+    background-color: #fbfbfb;
+  }
+
+  .facebook-share-button {
+
+  }
+
+  .twitter-share-button {
+
+  }
+
+  .linkedin-share-button {
+
+  }
+}
