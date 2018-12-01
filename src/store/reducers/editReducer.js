@@ -9,7 +9,7 @@ import {
     SAVE_STATE,
     SET_ADD_TEXT_SIZE,
     SET_ADD_TEXT_VALUE,
-    SET_BASE_IMG,
+    SET_BASE_IMG, SET_FACILITY_CODE, SET_FORMAT,
     SET_LOGO_POSITION,
     SET_LOGO_PROPERTIES,
     SET_TEXT,
@@ -41,6 +41,8 @@ const initialState = {
         userLogoX: 0,
         userLogoY: 0,
         rotation: 0,
+        facilityCode: false,
+        format: false,
     }
 };
 
@@ -197,6 +199,26 @@ const editReducer = (state = initialState, action) => {
 
         case SAVE_STATE: {
             return saveState(state);
+        }
+
+        case SET_FACILITY_CODE: {
+            return {
+                ...state,
+                buildLogoProperties: {
+                    ...state.buildLogoProperties,
+                    facilityCode: action.value,
+                }
+            }
+        }
+
+        case SET_FORMAT: {
+            return {
+                ...state,
+                buildLogoProperties: {
+                    ...state.buildLogoProperties,
+                    format: action.value,
+                }
+            }
         }
 
         default:

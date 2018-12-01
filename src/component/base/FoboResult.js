@@ -63,8 +63,8 @@ class FoboResult extends React.Component {
                     </div>
                     <div className="fobo-id">
                         <div className="option-w">
-                            <Section classes="option id-v" visible={this.props.productOrder.facilityCodeDisplay}>FC255</Section>
-                            <Section classes="option id-v" visible={this.props.productOrder.formatDisplay}>HD26</Section>
+                            <Section classes="option id-v" visible={this.props.buildLogoProperties.facilityCode}>FC255</Section>
+                            <Section classes="option id-v" visible={this.props.buildLogoProperties.format}>HD26</Section>
                         </div>
                         <div className="mandatory id-v">12345</div>
                     </div>

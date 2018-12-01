@@ -7,7 +7,7 @@ import {
     ROTATE_LEFT,
     ROTATE_RIGHT,
     SAVE_STATE, SET_ADD_TEXT_SIZE, SET_ADD_TEXT_VALUE,
-    SET_BASE_IMG, SET_FONT_SIZE,
+    SET_BASE_IMG, SET_FACILITY_CODE, SET_FONT_SIZE, SET_FORMAT,
     SET_LOGO_POSITION,
     SET_LOGO_PROPERTIES,
     SET_TEXT,
@@ -138,5 +138,19 @@ export const setAddTextValue = (value) => {
     return {
         type: SET_ADD_TEXT_VALUE,
         value: value,
+    }
+};
+
+export const setFacilityCode = (value) => {
+    return {
+        type: SET_FACILITY_CODE,
+        value: value
+    }
+};
+
+export const setFormat = (value) => {
+    return {
+        type: SET_FORMAT,
+        value: value
     }
 };

@@ -11,7 +11,7 @@ class ShowIdPicker extends React.Component {
                     control={
                         <Checkbox
                             checked={this.props.facilityCodeDisplay}
-                            onChange={this.props.handleFieldChange('facilityCodeDisplay')}
+                            onChange={this.props.setFacilityCode}
                             color="primary"
                         />
                     }
@@ -21,7 +21,7 @@ class ShowIdPicker extends React.Component {
                     control={
                         <Checkbox
                             checked={this.props.formatDisplay}
-                            onChange={this.props.handleFieldChange('formatDisplay')}
+                            onChange={this.props.setFormat}
                             color="primary"
                             label="Test"
                         />

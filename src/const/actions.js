@@ -19,6 +19,8 @@ export const TOGGLE_SLIDE = 'TOGGLE_SLIDE';
 export const SAVE_STATE = 'SAVE_STATE';
 export const SET_ADD_TEXT_SIZE = 'SET_ADD_TEXT_SIZE';
 export const SET_ADD_TEXT_VALUE = 'SET_ADD_TEXT_VALUE';
+export const SET_FACILITY_CODE = 'SET_FACILITY_CODE';
+export const SET_FORMAT = 'SET_FORMAT';
 
 // Order Actions
 export const FIELD_CHANGE = 'FIELD_CHANGE';

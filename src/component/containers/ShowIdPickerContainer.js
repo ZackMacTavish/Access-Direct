@@ -2,29 +2,28 @@ import React from "react";
 import ShowIdPicker from "../base/ShowIdPicker";
 import {connect} from "react-redux";
 import {fieldChange} from "../../store/actions/orderActions";
+import {SET_FACILITY_CODE, SET_FORMAT} from "../../const/actions";
+import {setFacilityCode, setFormat} from "../../store/actions/editActions";
 
 class ShowIdPickerContainer extends React.Component{
     render(){
         return(
-            <ShowIdPicker facilityCodeDisplay={this.props.facilityCodeDisplay}
-                          formatDisplay={this.props.formatDisplay}
-                          handleFieldChange={this.props.handleFieldChange}/>
+            <ShowIdPicker {...this.props}/>
         )
     }
-
-
 }
 
 const mapStateToProps = (state) => {
     return {
-        facilityCodeDisplay: state.order.productOrder.facilityCodeDisplay,
-        formatDisplay: state.order.productOrder.formatDisplay,
+        facilityCodeDisplay: state.edit.buildLogoProperties.facilityCode,
+        formatDisplay: state.edit.buildLogoProperties.format,
     }
 };
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        handleFieldChange: (name) => (e) => dispatch(fieldChange(name, e.target.checked)),
+        setFacilityCode: (e) => dispatch(setFacilityCode(e.target.checked)),
+        setFormat: (e) => dispatch(setFormat(e.target.checked))
     }
 };
 

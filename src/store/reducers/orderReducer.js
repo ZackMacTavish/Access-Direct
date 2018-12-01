@@ -15,8 +15,8 @@ const initialState = {
         startingNumber: '',
         quantity: '',
         additionalInfo: '',
-        facilityCodeDisplay: true,
-        formatDisplay: true,
+        // facilityCodeDisplay: true,
+        // formatDisplay: true,
     },
 };
 
