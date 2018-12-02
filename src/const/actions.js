@@ -17,6 +17,7 @@ export const ROTATE_RIGHT = 'ROTATE_RIGHT';
 export const HIDE_SLIDE = 'HIDE_SLIDE';
 export const TOGGLE_SLIDE = 'TOGGLE_SLIDE';
 export const SAVE_STATE = 'SAVE_STATE';
+export const SET_ROTATION = 'SET_ROTATION';
 export const SET_ADD_TEXT_SIZE = 'SET_ADD_TEXT_SIZE';
 export const SET_ADD_TEXT_VALUE = 'SET_ADD_TEXT_VALUE';
 export const SET_FACILITY_CODE = 'SET_FACILITY_CODE';

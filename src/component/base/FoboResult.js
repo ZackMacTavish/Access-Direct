@@ -29,6 +29,8 @@ class FoboResult extends React.Component {
 
     render() {
         const width = this.props.buildLogoProperties.userLogoWidth;
+        const height = this.props.buildLogoProperties.userLogoHeight;
+
         var imgStyle = null;
 
         if (width == 0 || width == null) {

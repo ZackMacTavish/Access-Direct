@@ -9,7 +9,7 @@ import {
     SAVE_STATE, SET_ADD_TEXT_SIZE, SET_ADD_TEXT_VALUE,
     SET_BASE_IMG, SET_FACILITY_CODE, SET_FONT_SIZE, SET_FORMAT,
     SET_LOGO_POSITION,
-    SET_LOGO_PROPERTIES,
+    SET_LOGO_PROPERTIES, SET_ROTATION,
     SET_TEXT,
     TOGGLE_SLIDE,
     UNDO,
@@ -125,6 +125,13 @@ export const saveState = () => {
     return {
         type: SAVE_STATE,
     }
+};
+
+export const setRotation = (value) => {
+  return {
+      type: SET_ROTATION,
+      value: value
+  }
 };
 
 export const setAddTextSize = (value) => {

@@ -9,7 +9,6 @@ const initialState = {
 };
 
 const pageReducer = (state = initialState, action) => {
-    console.log('Page reducer recived: ', action.type);
     switch (action.type) {
         case DISPLAY_EDIT_PAGE: {
             console.log('REDUCER_DISPLAY_EDIT_PAGE');

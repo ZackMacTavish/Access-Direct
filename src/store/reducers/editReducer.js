@@ -11,7 +11,7 @@ import {
     SET_ADD_TEXT_VALUE,
     SET_BASE_IMG, SET_FACILITY_CODE, SET_FORMAT,
     SET_LOGO_POSITION,
-    SET_LOGO_PROPERTIES,
+    SET_LOGO_PROPERTIES, SET_ROTATION,
     SET_TEXT,
     TOGGLE_SLIDE,
     UNDO,
@@ -47,9 +47,9 @@ const initialState = {
 };
 
 const editReducer = (state = initialState, action) => {
-    console.log('Edit reducer recived: ' + action.type);
     switch (action.type) {
         case INIT_BASE:
+            console.log(`Action: ${action.type}`);
             return {
                 ...state,
                 buildLogoProperties: {
@@ -59,8 +59,10 @@ const editReducer = (state = initialState, action) => {
                 }
             };
         case INIT_LOGO: {
+            console.log(`Action: ${action.type}`);
             if (!state.userLogoImgInitialized) {
-
+                console.log('test23');
+                console.log(state);
                 const newState = {
                     ...state,
                     userLogoImgInitialized: true,
@@ -83,6 +85,7 @@ const editReducer = (state = initialState, action) => {
         }
 
         case SET_BASE_IMG: {
+            console.log(`Action: ${action.type}`);
             const newState = {
                 ...state,
                 buildLogoProperties: {
@@ -96,12 +99,15 @@ const editReducer = (state = initialState, action) => {
         }
 
         case UPLOAD_LOGO: {
+            console.log(`Action: ${action.type}`);
             const newState = {
-                ...state,
+                ...initialState,
                 userLogoImgUrl: action.userLogoImgUrl,
                 buildLogoProperties: {
-                    ...state.buildLogoProperties,
+                    ...initialState.buildLogoProperties,
                     userLogoImg: action.userLogoImg,
+                    baseImgWidth: state.buildLogoProperties.baseImgWidth,
+                    baseImgHeight: state.buildLogoProperties.baseImgHeight,
                 },
             };
 
@@ -109,6 +115,7 @@ const editReducer = (state = initialState, action) => {
         }
 
         case SET_LOGO_POSITION: {
+            console.log(`Action: ${action.type}`);
             const newState = {
                 ...state,
                 buildLogoProperties: {
@@ -122,6 +129,7 @@ const editReducer = (state = initialState, action) => {
         }
 
         case CENTER_LOGO: {
+            console.log(`Action: ${action.type}`);
             const newState = {
                 ...state,
                 buildLogoProperties: {
@@ -135,6 +143,7 @@ const editReducer = (state = initialState, action) => {
         }
 
         case SET_LOGO_PROPERTIES: {
+            console.log(`Action: ${action.type}`);
             return {
                 ...state,
                 buildLogoProperties: {
@@ -146,6 +155,7 @@ const editReducer = (state = initialState, action) => {
         }
 
         case ROTATE_LEFT:
+            console.log(`Action: ${action.type}`);
             return {
                 ...state,
                 buildLogoProperties: {
@@ -155,6 +165,7 @@ const editReducer = (state = initialState, action) => {
             };
 
         case ROTATE_RIGHT: {
+            console.log(`Action: ${action.type}`);
             const newState = {
                 ...state,
                 buildLogoProperties: {
@@ -167,6 +178,7 @@ const editReducer = (state = initialState, action) => {
         }
 
         case ZOOM_LOGO: {
+            console.log(`Action: ${action.type}`);
             return {
                 ...state,
                 zoomRates: action.zoomRates,
@@ -178,30 +190,47 @@ const editReducer = (state = initialState, action) => {
             };
         }
         case HIDE_SLIDE:
+            console.log(`Action: ${action.type}`);
             return {
                 ...state,
                 slideVisibility: false,
             };
 
         case TOGGLE_SLIDE: {
+            console.log(`Action: ${action.type}`);
             return {
                 ...state,
                 slideVisibility: !state.slideVisibility,
             };
         }
         case UNDO: {
+            console.log(`Action: ${action.type}`);
             return getPrevState(state);
         }
 
         case REDO: {
+            console.log(`Action: ${action.type}`);
             return getNextState(state);
         }
 
         case SAVE_STATE: {
+            console.log(`Action: ${action.type}`);
             return saveState(state);
         }
 
+        case SET_ROTATION: {
+            console.log(`Action: ${action.type}`);
+            return {
+                ...state,
+                buildLogoProperties: {
+                    ...state.buildLogoProperties,
+                    rotation: action.value
+                }
+            }
+        }
+
         case SET_FACILITY_CODE: {
+            console.log(`Action: ${action.type}`);
             return {
                 ...state,
                 buildLogoProperties: {
@@ -212,6 +241,7 @@ const editReducer = (state = initialState, action) => {
         }
 
         case SET_FORMAT: {
+            console.log(`Action: ${action.type}`);
             return {
                 ...state,
                 buildLogoProperties: {

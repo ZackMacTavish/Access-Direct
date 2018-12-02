@@ -24,4 +24,5 @@ class EditLogoWrapper extends React.Component{
     }
 }
 
+
 export default EditLogoWrapper;
