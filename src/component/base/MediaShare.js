@@ -16,7 +16,7 @@ class MediaShare extends React.Component {
 
         return (
             <div className="media-share-wrapper">
-                <FacebookShareButton url={url} quote={"Naslov"} className="facebook-share-button button" onShareWindowClose={onClose}>
+                <FacebookShareButton url={url} className="facebook-share-button button" onShareWindowClose={onClose}>
                     <FacebookIcon
                         size={32}
                         round={true} />

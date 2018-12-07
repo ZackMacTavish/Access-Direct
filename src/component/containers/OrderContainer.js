@@ -8,6 +8,7 @@ import * as Validator from "../../validation/FormValidation";
 import {lang} from "../../i18/en/lang";
 import ADDialog from "../base/ADDialog";
 import {submitOrder} from "../../store/actions/orderActions";
+import {resetState} from "../../store/actions/editActions";
 
 
 class OrderContainer extends React.Component {
@@ -192,7 +193,9 @@ class OrderContainer extends React.Component {
             };
 
             console.log(order);
-            submitOrder(order);
+            submitOrder(order).then(()=> {
+                this.props.resetState();
+            });
         }
     };
 
@@ -239,6 +242,9 @@ const mapDispatchToProps = (dispatch) => {
             window.scrollTo(0, 0);
             dispatch(displayEditPage());
         },
+        resetState: () => {
+            dispatch(resetState())
+        }
     }
 };
 

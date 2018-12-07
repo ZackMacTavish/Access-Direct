@@ -41,10 +41,12 @@ class EditToolsN2 extends React.Component {
     }
 
     getDesign = () => {
+        ADUtil.wait();
         const userLogoImg = this.props.buildLogoProperties.userLogoImg;
 
         if(userLogoImg === null){
             this.openDialog();
+            ADUtil.unWait()
         } else {
             console.log("Api call started: " + API_LOGO_DOWNLOAD_DESIGN);
             axios.post(API_LOGO_DOWNLOAD_DESIGN, this.props.buildLogoProperties)
@@ -55,7 +57,10 @@ class EditToolsN2 extends React.Component {
                     downloadBase64File(data.file, data.fileName);
                 })
                 .catch(e => console.log(e))
-                .then(() => console.log("Api call end: " + API_LOGO_DOWNLOAD_DESIGN));
+                .then(() => {
+                    ADUtil.unWait();
+                    console.log("Api call end: " + API_LOGO_DOWNLOAD_DESIGN)
+                });
         }
     };
 

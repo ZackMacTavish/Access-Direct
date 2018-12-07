@@ -3,7 +3,7 @@ import {
     HIDE_SLIDE,
     INIT_BASE,
     INIT_LOGO,
-    REDO,
+    REDO, RESET_STATE,
     ROTATE_LEFT,
     ROTATE_RIGHT,
     SAVE_STATE,
@@ -33,8 +33,8 @@ const initialState = {
     buildLogoProperties: {
         baseImgName: BLACK_FOBO_IMG_NAME,
         baseCoverImgName: BLACK_FOBO_COVER_IMG_NAME,
-        baseImgWidth: 0,
-        baseImgHeight: 0,
+        baseImgWidth: 416,
+        baseImgHeight: 416,
         userLogoImg: null,
         userLogoWidth: null,
         userLogoHeight: null,
@@ -248,6 +248,11 @@ const editReducer = (state = initialState, action) => {
                     ...state.buildLogoProperties,
                     format: action.value,
                 }
+            }
+        }
+        case RESET_STATE: {
+            return {
+                ...initialState
             }
         }
 

@@ -3,7 +3,7 @@ import {
     HIDE_SLIDE,
     INIT_BASE,
     INIT_LOGO,
-    REDO,
+    REDO, RESET_STATE,
     ROTATE_LEFT,
     ROTATE_RIGHT,
     SAVE_STATE, SET_ADD_TEXT_SIZE, SET_ADD_TEXT_VALUE,
@@ -159,5 +159,11 @@ export const setFormat = (value) => {
     return {
         type: SET_FORMAT,
         value: value
+    }
+};
+
+export const resetState = () => {
+    return {
+        type: RESET_STATE
     }
 };
