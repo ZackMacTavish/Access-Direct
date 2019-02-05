@@ -2,13 +2,14 @@
 
 .order-wrapper {
 
-  .MuiFormLabel-root-1{
+  .MuiFormLabel-root-1 {
     text-align: left;
   }
 
 
   form {
     width: 760px;
+
     .company-info {
       .fields {
         display: flex;
@@ -32,19 +33,25 @@
     }
 
     .formatting {
+      display: flex;
+      flex-direction: column;
+
       .radio-group {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
         flex-wrap: wrap;
-        height: 250px;
+        justify-content: space-between;
         margin-top: 20px;
+        height: 270px;
+      }
 
-        .radio-section {
-          display: flex;
-          flex-direction: column;
-        }
+
+      .radio-button {
+        height: 25px;
+      }
+
+      .MuiSvgIcon-root-38 {
+        font-size: 16px !important;
       }
     }
 
