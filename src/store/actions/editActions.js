@@ -1,4 +1,5 @@
 import {
+    SET_TEMPLATE,
     CENTER_LOGO,
     HIDE_SLIDE,
     INIT_BASE,
@@ -16,10 +17,6 @@ import {
     UPLOAD_LOGO,
     ZOOM_LOGO
 } from "../../const/actions";
-import * as base64Img from "base64-img";
-import {API_LOGO_DOWNLOAD_DESIGN} from "../../const/api";
-import axios from "axios/index";
-import {downloadBase64File} from "../../util/fileUtils";
 
 export const initBase = (width, height) => {
     return {
@@ -37,9 +34,9 @@ export const initLogo = (width, height) => {
     }
 };
 
-export const setBaseImg = (baseImg, baseCoverImg) => {
+export const setTemplate = (baseImg, baseCoverImg) => {
     return {
-        type: SET_BASE_IMG,
+        type: SET_TEMPLATE,
         baseImg: baseImg,
         baseCoverImg: baseCoverImg,
     }

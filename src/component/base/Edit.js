@@ -1,13 +1,9 @@
 import React from "react";
 import {lang} from "../../i18/en/lang";
 import ResultContainer from "../containers/ResultContainer";
-import EditStateWrapper from "../layout/EditStateWrapper";
-import FoboColorPickerContainer from "../containers/FoboColorPickerContainer";
 import DropLogoContainer from "../containers/DropLogoContainer";
 import EditLogoWrapper from "../layout/EditLogoWrapper";
-import '../../scss/layout/edit-wrapper.scss';
-import SeePricingContainer from "../containers/SeePricingContainer";
-import AdvertisementWrapper from "../layout/AdvertisementWrapper";
+import '../../scss/containers/Edit.scss';
 import ShowIdPickerContainer from "../containers/ShowIdPickerContainer";
 import Section from "./Section";
 import EditToolsN2 from "./EditToolsN2";
@@ -23,13 +19,6 @@ class Edit extends React.Component {
             nextStepDialogVisible: false,
         }
     }
-
-    openModalUploadLogo = () => {
-        this.setState({
-            ...this.state,
-            uploadLogoDialogVisible: true,
-        })
-    };
 
     closeModalUploadLogo = () => {
         this.setState({
@@ -53,12 +42,7 @@ class Edit extends React.Component {
     };
 
     handleNextStep = () => {
-        const isLogoUploaded = this.props.buildLogoProperties.userLogoImg;
-        if (isLogoUploaded) {
-            this.openModalNextStep();
-        } else {
-            this.openModalUploadLogo();
-        }
+        this.openModalNextStep();
     };
 
     goToOrderScreen = () => {
@@ -70,9 +54,6 @@ class Edit extends React.Component {
     render() {
         return (
             <Section visible={this.props.visible} classes='edit-wrapper'>
-                <div className="template">
-                    <FoboColorPickerContainer visible={this.props.visible}/>
-                </div>
                 <div className="edit-content">
                     <div className="edit-body">
                         <div className="left">
@@ -99,7 +80,29 @@ class Edit extends React.Component {
                         </div>
                     </div>
                 </div>
-                <AdvertisementWrapper/>
+                <div className="adv">
+                    <div className="adv-logo">
+                        <img src='/img/LatestLogo-10.png'/>
+                    </div>
+                    <div className="adv-title">{lang.en.advertisement.title}</div>
+                    <div className="adv-content">
+                        <div className="adv-picture">
+                            <a href="https://www.access-direct.net/highpowerone"
+                               target="_blank">
+                                <img className="pointer" src='/img/Highpoweronehomepage.png'/>
+                                <p>{lang.en.advertisement.highpower}</p>
+                            </a>
+                        </div>
+                        <div className="adv-picture">
+                            <a href="https://www.access-direct.net/pneumaticswitches"
+                               target="_blank">
+                                <img className="pointer" src='/img/PneumaticSwitches.png'/>
+                                <p>{lang.en.advertisement.switches}</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <ADDialog title={lang.en.dialog.please_upload_your_logo}
                           open={this.state.uploadLogoDialogVisible}
                           onClose={() => this.closeModalUploadLogo()}/>

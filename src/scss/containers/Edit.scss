@@ -4,6 +4,8 @@
   display: flex;
   flex-grow: 1;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .edit-content{
     display: flex;
@@ -43,5 +45,41 @@
         }
       }
     }
+  }
+
+  .adv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .adv-logo {
+    margin: 60px;
+  }
+
+  .adv-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #636161;
+  }
+
+  .adv-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .adv-picture {
+    max-width: 260px;
+      margin: 50px;
+  }
+
+  .adv-picture img {
+    width: 100%;
+  }
+
+  .adv-picture p {
+    font-size: 13px;
+    text-align: center;
   }
 }

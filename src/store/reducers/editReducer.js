@@ -3,13 +3,14 @@ import {
     HIDE_SLIDE,
     INIT_BASE,
     INIT_LOGO,
+    SET_TEMPLATE,
     REDO, RESET_STATE,
     ROTATE_LEFT,
     ROTATE_RIGHT,
     SAVE_STATE,
     SET_ADD_TEXT_SIZE,
     SET_ADD_TEXT_VALUE,
-    SET_BASE_IMG, SET_FACILITY_CODE, SET_FORMAT,
+    SET_FACILITY_CODE, SET_FORMAT,
     SET_LOGO_POSITION,
     SET_LOGO_PROPERTIES, SET_ROTATION,
     SET_TEXT,
@@ -20,7 +21,7 @@ import {
 } from "../../const/actions";
 
 import {getNextState, getPrevState, saveState} from './stateVersions';
-import {BLACK_FOBO_COVER_IMG_NAME, BLACK_FOBO_IMG_NAME} from "../../const/images";
+import {BLACK_FOB_TEMPLATE_BASE_1, BLACK_FOB_TEMPLATE_COVER} from "../../const/images";
 
 const initialState = {
     stateId: 0,
@@ -31,8 +32,8 @@ const initialState = {
     slideVisibility: false,
     userLogoImgUrl: null,
     buildLogoProperties: {
-        baseImgName: BLACK_FOBO_IMG_NAME,
-        baseCoverImgName: BLACK_FOBO_COVER_IMG_NAME,
+        baseImgName: BLACK_FOB_TEMPLATE_BASE_1,
+        baseCoverImgName: BLACK_FOB_TEMPLATE_COVER,
         baseImgWidth: 416,
         baseImgHeight: 416,
         userLogoImg: null,
@@ -84,7 +85,7 @@ const editReducer = (state = initialState, action) => {
             }
         }
 
-        case SET_BASE_IMG: {
+        case SET_TEMPLATE: {
             console.log(`Action: ${action.type}`);
             const newState = {
                 ...state,
@@ -108,6 +109,8 @@ const editReducer = (state = initialState, action) => {
                     userLogoImg: action.userLogoImg,
                     baseImgWidth: state.buildLogoProperties.baseImgWidth,
                     baseImgHeight: state.buildLogoProperties.baseImgHeight,
+                    baseImgName: state.buildLogoProperties.baseImgName,
+                    baseCoverImgName: state.buildLogoProperties.baseCoverImgName,
                 },
             };
 

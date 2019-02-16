@@ -80,6 +80,11 @@ class OrderContainer extends React.Component {
                     isValid: true,
                     message: '',
                 },
+                additionalPrintProperty: {
+                    value: '',
+                    isValid: true,
+                    message: '',
+                },
                 additionalInfo: {
                     value: '',
                     isValid: true,

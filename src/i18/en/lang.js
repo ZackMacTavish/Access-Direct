@@ -61,6 +61,9 @@ export const lang = {
             no: 'No',
             yes: 'Yes',
             yes_proceed: 'Yes, proceed',
+            fob_template_picker: {
+                note: 'Black fob templates with white frames are used for logos with dark color outlines to maximize the logo visibility.'
+            }
 
         }
 };

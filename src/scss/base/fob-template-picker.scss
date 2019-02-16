@@ -1,0 +1,52 @@
+.FobTemplatePicker-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-top: 40px solid #16216a;
+
+  .FobTemplatePicker-content {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    z-index: 3;
+    background-color: #ffffff;
+    border: 1px solid rgba(132, 132, 132, 0.25);
+  }
+
+  .FobTemplatePicker-header {
+    display: flex;
+  }
+
+  .FobTemplatePicker-note {
+    padding: 10px;
+    max-width: 450px;
+    font-size: 14px;
+    color: #2f2f2f;
+  }
+
+  .FobTemplatePicker-templates {
+    margin-top: 10px;
+  }
+
+  .FobTemplatePicker-templates img {
+    width: 130px;
+  }
+
+  .FobTemplatePicker-templates img:hover {
+    cursor: pointer;
+  }
+
+  .FobTemplatePicker-button {
+    display: flex;
+    text-align: center;
+    background-color: #981b1b;
+    color: #ffffff;
+    padding: 10px;
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .FobTemplatePicker-button:hover {
+    cursor: pointer;
+  }
+}

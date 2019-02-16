@@ -1,5 +1,5 @@
 // Edit Actions
-export const SET_BASE_IMG = 'SET_BASE_IMG';
+export const SET_TEMPLATE = 'SET_TEMPLATE';
 export const UNDO = 'UNDO';
 export const REDO = 'REDO';
 export const SAVE_DESIGN = 'SAVE_DESIGN';
@@ -38,4 +38,3 @@ export const DISPLAY_DIALOG = "DISPLAY_DIALOG";
 export const TOGGLE_ADD_TEXT_DISPLAY = 'TOGGLE_ADD_TEXT_DISPLAY';
 // export const DISPLAY_FACILITY_CODE = 'DISPLAY_FACILITY_CODE';
 // export const DISPLAY_FORMAT= 'DISPLAY_FORMAT';
-

@@ -9,7 +9,7 @@ class Header extends React.Component {
             <div className="header-wrapper">
                 <div className="header">
                     <div className="header-logo">
-                        <img src="/img/logo-ad.png" alt="Logo"/>
+                        <img src="/img/logo.jpg" alt="Logo"/>
                     </div>
                     <div className="header-nav">
                         <ul>

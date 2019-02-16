@@ -4,7 +4,7 @@ import pageReducer from "../reducers/pageReducer";
 import editReducer from "../reducers/editReducer";
 import orderReducer from "../reducers/orderReducer";
 import Provider from "react-redux/es/components/Provider";
-import App from "../../App";
+import App from "../../component/containers/App";
 
 const reducer = combineReducers({
     edit: editReducer,

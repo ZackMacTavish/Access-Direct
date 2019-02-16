@@ -220,10 +220,23 @@ const OrderForm = (props) => {
                     <TextField
                         className="text-field"
                         id="standard-uncontrolled"
+                        label="Optional: Other information to include in the custom printing (business name, website, phone number)"
+                        fullWidth
+                        multiline
+                        rows="2"
+                        margin="normal"
+                        name="additionalPrintProperty"
+                        value={props.object.additionalPrintProperty.value}
+                        onChange={(e) => props.handleChange('additionalPrintProperty', e.target.value)}
+                        onBlur={(e) => props.validateField('additionalPrintProperty', e.target.value)}
+                    />
+                    <TextField
+                        className="text-field"
+                        id="standard-uncontrolled"
                         label="Optional: Any additional questions/information about the order"
                         fullWidth
                         multiline
-                        rows="4"
+                        rows="2"
                         margin="normal"
                         name="additionalInfo"
                         value={props.object.additionalInfo.value}

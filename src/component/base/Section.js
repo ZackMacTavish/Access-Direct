@@ -1,8 +1,7 @@
 import React from "react";
 
-class Section extends React.Component{
-    render(){
-        let {visible, classes} = this.props;
+const Section = (props) => {
+        let {visible, classes} = props;
 
         if(visible === false){
             classes += ' hidden';
@@ -10,10 +9,9 @@ class Section extends React.Component{
 
         return (
             <div className = {classes}>
-                {this.props.children}
+                {props.children}
             </div>
         )
-    }
-}
+};
 
 export default Section;

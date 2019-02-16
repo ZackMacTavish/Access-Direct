@@ -3,26 +3,24 @@ import '../../scss/layout/layout.scss';
 import Header from "../base/Header";
 import OrderContainer from "../containers/OrderContainer";
 import EditContainer from "../containers/EditContainer";
-
+import FobTemplatePicker from "../containers/FobTemplatePicker";
 
 class Layout extends React.Component {
     render() {
         return (
-            <div className="layout-wrapper">
-                <div className="top">
+            <div>
+                <div>
                     <Header/>
+                    <FobTemplatePicker/>
                 </div>
                 <div className="middle">
                     <EditContainer/>
                     <OrderContainer/>
                 </div>
-                <div className="bottom">
-                    {/*<Footer/>*/}
-                </div>
+
                 <div>
                     {/*<ConfirmDialogContainer title={lang.en.dialog.is_design_finished_title}/>*/}
                 </div>
-                {/*<FoboColorPickerContainer/>*/}
             </div>
         )
     }
