@@ -9,6 +9,7 @@ import {lang} from "../../i18/en/lang";
 import ADDialog from "../base/ADDialog";
 import {submitOrder} from "../../store/actions/orderActions";
 import {resetState} from "../../store/actions/editActions";
+import {uploadFile, uploadFiles} from "../../rest/StorageRest";
 
 
 class OrderContainer extends React.Component {
@@ -18,6 +19,7 @@ class OrderContainer extends React.Component {
 
         this.state = {
             thanksDialogVisible: false,
+            dropZoneLoading: false,
             order: {
                 isValid: false,
                 name: {
@@ -80,7 +82,7 @@ class OrderContainer extends React.Component {
                     isValid: true,
                     message: '',
                 },
-                additionalPrintProperty: {
+                infoToIncludeInPrint: {
                     value: '',
                     isValid: true,
                     message: '',
@@ -93,6 +95,7 @@ class OrderContainer extends React.Component {
                 facilityCodeDisplay: true,
                 formatDisplay: true,
             },
+            attachments: [],
         }
     }
 
@@ -173,12 +176,14 @@ class OrderContainer extends React.Component {
         this.setState(newState);
     };
 
-    buildOrderObject = () => {
+    buildOrderDetailsObject = () => {
         let result = {};
 
         for (const [key, value] of Object.entries(this.state.order)) {
             result[key] = value.value;
         }
+
+        result.resourceKeys = [...this.state.attachments];
 
         return result;
     };
@@ -190,11 +195,11 @@ class OrderContainer extends React.Component {
         if (isFormValid) {
             this.openThanksDialog();
             this.props.displayEditPage();
-            const buildOrder = this.buildOrderObject();
+            const orderDetails = this.buildOrderDetailsObject();
 
             let order = {
-                productOrder: buildOrder,
-                buildLogoProperties: this.props.buildLogoProperties,
+                orderDetails: orderDetails,
+                buildLogoSpecification: this.props.buildLogoProperties,
             };
 
             console.log(order);
@@ -218,6 +223,44 @@ class OrderContainer extends React.Component {
         })
     };
 
+    onDropHandler = async (files) => {
+        this.setState({dropZoneLoading: true});
+        let attachments = [...this.state.attachments];
+
+        const resourceKeys = await uploadFiles(files);
+
+        if (resourceKeys) {
+            resourceKeys.forEach(resourceKeys => {
+                attachments.push({
+                    originalName: resourceKeys.originalName,
+                    uniqueName: resourceKeys.uniqueName
+                });
+            });
+        }
+
+        let newState = {
+            ...this.state,
+            attachments,
+            dropZoneLoading: false
+        };
+
+        this.setState(newState);
+    };
+
+    onDeleteAttachmentHandler = (uniqueFileName) => {
+        let attachments = [...this.state.attachments];
+
+        attachments.forEach((e, index) => {
+           if(e.uniqueName === uniqueFileName) {
+               attachments.splice(index, 1);
+           }
+        });
+
+        this.setState({
+            attachments: attachments
+        })
+    };
+
     render() {
         return (
             <Section visible={this.props.visible}>
@@ -225,7 +268,11 @@ class OrderContainer extends React.Component {
                            handleChange={this.handleFieldChange}
                            displayEditPage={this.props.displayEditPage}
                            submitOrder={this.submitOrder}
-                           validateField={this.validateField}/>
+                           validateField={this.validateField}
+                           onDrop={this.onDropHandler}
+                           onDeleteAttachment={this.onDeleteAttachmentHandler}
+                           fileNames={this.state.attachments}
+                           dropZoneLoading={this.state.dropZoneLoading}/>
                 <ADDialog title={lang.en.dialog.thanks_for_filling_form}
                           open={this.state.thanksDialogVisible}
                           onClose={() => this.closeThanksDialog()}/>

@@ -1,6 +1,6 @@
 import React from "react";
 import TextField from '@material-ui/core/TextField';
-import '../../scss/layout/order-wrapper.scss';
+import '../../scss/base/OrderForm.scss';
 import Button from "@material-ui/core/Button/Button";
 import RadioGroup from "@material-ui/core/RadioGroup/RadioGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel/FormControlLabel";
@@ -8,6 +8,7 @@ import Radio from "@material-ui/core/Radio/Radio";
 import FormLabel from "@material-ui/core/FormLabel/FormLabel";
 import Section from "./Section";
 import * as Formatting from "../../const/formating";
+import DropZone from "./DropZone";
 
 
 const OrderForm = (props) => {
@@ -225,10 +226,10 @@ const OrderForm = (props) => {
                         multiline
                         rows="2"
                         margin="normal"
-                        name="additionalPrintProperty"
-                        value={props.object.additionalPrintProperty.value}
-                        onChange={(e) => props.handleChange('additionalPrintProperty', e.target.value)}
-                        onBlur={(e) => props.validateField('additionalPrintProperty', e.target.value)}
+                        name="infoToIncludeInPrint"
+                        value={props.object.infoToIncludeInPrint.value}
+                        onChange={(e) => props.handleChange('infoToIncludeInPrint', e.target.value)}
+                        onBlur={(e) => props.validateField('infoToIncludeInPrint', e.target.value)}
                     />
                     <TextField
                         className="text-field"
@@ -243,6 +244,10 @@ const OrderForm = (props) => {
                         onChange={(e) => props.handleChange('additionalInfo', e.target.value)}
                         onBlur={(e) => props.validateField('additionalInfo', e.target.value)}
                     />
+                </div>
+
+                <div>
+                    <DropZone onDrop={props.onDrop} fileNames={props.fileNames} onDelete={props.onDeleteAttachment} loading={props.dropZoneLoading}/>
                 </div>
 
                 <div className="bottom">

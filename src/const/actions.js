@@ -20,7 +20,6 @@ export const SAVE_STATE = 'SAVE_STATE';
 export const SET_ROTATION = 'SET_ROTATION';
 export const SET_ADD_TEXT_SIZE = 'SET_ADD_TEXT_SIZE';
 export const SET_ADD_TEXT_VALUE = 'SET_ADD_TEXT_VALUE';
-export const SET_FACILITY_CODE = 'SET_FACILITY_CODE';
 export const SET_FORMAT = 'SET_FORMAT';
 export const RESET_STATE = 'RESET_STATE';
 

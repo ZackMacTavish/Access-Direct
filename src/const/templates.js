@@ -1,0 +1,9 @@
+export const BLACK_FOB_BASE_1 = "https://s3.eu-west-3.amazonaws.com/access-direct-resources/template/black_fob_1.png";
+export const BLACK_FOB_BASE_2 = "https://s3.eu-west-3.amazonaws.com/access-direct-resources/template/black_fob_2.png";
+export const BLACK_FOB_BASE_3 = "https://s3.eu-west-3.amazonaws.com/access-direct-resources/template/black_fob_3.png";
+export const BLACK_FOB_BASE_4 = "https://s3.eu-west-3.amazonaws.com/access-direct-resources/template/black_fob_4.png";
+export const BLACK_FOB_COVER = "https://s3.eu-west-3.amazonaws.com/access-direct-resources/template/black_fob_cover.png";
+export const RED_FOB_BASE = "https://s3.eu-west-3.amazonaws.com/access-direct-resources/template/red_fob.png";
+export const RED_FOB_COVER = "https://s3.eu-west-3.amazonaws.com/access-direct-resources/template/red_fob_cover.png";
+export const GRAY_FOB_BASE = "https://s3.eu-west-3.amazonaws.com/access-direct-resources/template/gray_fob.png";
+export const GRAY_FOB_COVER = "https://s3.eu-west-3.amazonaws.com/access-direct-resources/template/gray_fob_cover.png";

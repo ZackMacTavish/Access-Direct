@@ -8,7 +8,7 @@ import {
     ROTATE_LEFT,
     ROTATE_RIGHT,
     SAVE_STATE, SET_ADD_TEXT_SIZE, SET_ADD_TEXT_VALUE,
-    SET_BASE_IMG, SET_FACILITY_CODE, SET_FONT_SIZE, SET_FORMAT,
+    SET_BASE_IMG, SET_FONT_SIZE, SET_FORMAT,
     SET_LOGO_POSITION,
     SET_LOGO_PROPERTIES, SET_ROTATION,
     SET_TEXT,
@@ -17,6 +17,7 @@ import {
     UPLOAD_LOGO,
     ZOOM_LOGO
 } from "../../const/actions";
+
 
 export const initBase = (width, height) => {
     return {
@@ -142,13 +143,6 @@ export const setAddTextValue = (value) => {
     return {
         type: SET_ADD_TEXT_VALUE,
         value: value,
-    }
-};
-
-export const setFacilityCode = (value) => {
-    return {
-        type: SET_FACILITY_CODE,
-        value: value
     }
 };
 

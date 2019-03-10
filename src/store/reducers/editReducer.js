@@ -8,12 +8,9 @@ import {
     ROTATE_LEFT,
     ROTATE_RIGHT,
     SAVE_STATE,
-    SET_ADD_TEXT_SIZE,
-    SET_ADD_TEXT_VALUE,
-    SET_FACILITY_CODE, SET_FORMAT,
+    SET_FORMAT,
     SET_LOGO_POSITION,
     SET_LOGO_PROPERTIES, SET_ROTATION,
-    SET_TEXT,
     TOGGLE_SLIDE,
     UNDO,
     UPLOAD_LOGO,
@@ -21,7 +18,7 @@ import {
 } from "../../const/actions";
 
 import {getNextState, getPrevState, saveState} from './stateVersions';
-import {BLACK_FOB_TEMPLATE_BASE_1, BLACK_FOB_TEMPLATE_COVER} from "../../const/images";
+import {BLACK_FOB_BASE_1, BLACK_FOB_COVER} from "../../const/templates";
 
 const initialState = {
     stateId: 0,
@@ -32,8 +29,8 @@ const initialState = {
     slideVisibility: false,
     userLogoImgUrl: null,
     buildLogoProperties: {
-        baseImgName: BLACK_FOB_TEMPLATE_BASE_1,
-        baseCoverImgName: BLACK_FOB_TEMPLATE_COVER,
+        baseImgUrl: BLACK_FOB_BASE_1,
+        baseCoverImgUrl: BLACK_FOB_COVER,
         baseImgWidth: 416,
         baseImgHeight: 416,
         userLogoImg: null,
@@ -42,7 +39,6 @@ const initialState = {
         userLogoX: 0,
         userLogoY: 0,
         rotation: 0,
-        facilityCode: false,
         format: false,
     }
 };
@@ -91,8 +87,8 @@ const editReducer = (state = initialState, action) => {
                 ...state,
                 buildLogoProperties: {
                     ...state.buildLogoProperties,
-                    baseImgName: action.baseImg,
-                    baseCoverImgName: action.baseCoverImg,
+                    baseImgUrl: action.baseImg,
+                    baseCoverImgUrl: action.baseCoverImg,
                 },
             };
 
@@ -109,8 +105,8 @@ const editReducer = (state = initialState, action) => {
                     userLogoImg: action.userLogoImg,
                     baseImgWidth: state.buildLogoProperties.baseImgWidth,
                     baseImgHeight: state.buildLogoProperties.baseImgHeight,
-                    baseImgName: state.buildLogoProperties.baseImgName,
-                    baseCoverImgName: state.buildLogoProperties.baseCoverImgName,
+                    baseImgUrl: state.buildLogoProperties.baseImgUrl,
+                    baseCoverImgUrl: state.buildLogoProperties.baseCoverImgUrl,
                 },
             };
 
@@ -228,17 +224,6 @@ const editReducer = (state = initialState, action) => {
                 buildLogoProperties: {
                     ...state.buildLogoProperties,
                     rotation: action.value
-                }
-            }
-        }
-
-        case SET_FACILITY_CODE: {
-            console.log(`Action: ${action.type}`);
-            return {
-                ...state,
-                buildLogoProperties: {
-                    ...state.buildLogoProperties,
-                    facilityCode: action.value,
                 }
             }
         }

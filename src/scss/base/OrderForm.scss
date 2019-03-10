@@ -1,4 +1,4 @@
-@import '../base/main';
+@import 'main';
 
 .order-wrapper {
 
@@ -76,4 +76,12 @@
   form > div {
     margin-top: 50px;
   }
+}
+
+.DropZone-wrapper > div:nth-of-type(2) {
+  width: 100% !important;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

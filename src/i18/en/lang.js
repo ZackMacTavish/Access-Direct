@@ -17,9 +17,8 @@ export const lang = {
                 next_step: 'Next step',
             },
             result_title: '2 inch Custom Fob with programming Options',
-            result_info: 'Please note our artists can fix any minor issues with your artwork. You can\n' +
-            '                            also request a proof to approve before we ship your order. Occasional\n' +
-            '                            wear and tear may occur while carrying the fob with keys.',
+            result_info: '*In case your format is not displaying on template, please send your logo and a brief description to <b>avasic@access-direct.net</b> and we will send you back mockup. Formats accepted are: *EPS.eps, Vector.pdf, *PSD.psd.',
+            result_info2: 'Please note our artists can fix any minor issues with your artwork. You can also request a proof to approve before we ship your order.',
 
             form_order: {
                 radio_buttons: {
@@ -41,10 +40,9 @@ export const lang = {
                     red_fobo: 'RED FOBO',
             },
             drop_info: {
-                for_best_result: 'For best results we prefer vector image files:',
-                for_best_result_format: '*Ai.ai *EPS.eps *Vector.pdf *PSD.psd',
-                alternatively: 'Alternatively, we also accept high resolution raster files:',
-                alternatively_format: '*JPEG.jpg *PDF.pdf *PNG.png *GIF.gif',
+                accepted_formats_heading: 'Currently we accept these formats:',
+                accepted_formats: '*JPEG.jpeg, *PNG.png, *GIF.gif',
+                additional_details: 'For more formats, please look section (*)',
                 warning_1: 'Warning: Text and logo must not overlap. Actual product may look different than the mockup.',
                 warning_2: 'Occasional wear and tear may occur over time if the fob/card is held in the pocket next to keys, loose change, and other sharp metal objects.',
             },

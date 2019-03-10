@@ -1,0 +1,34 @@
+
+.DropZone-files {
+  display: flex;
+
+  .DropZone-file {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d2cdcd;
+    margin: 5px;
+    border-radius: 5px;
+    color: #5f5d5d;
+    padding: 4px 20px;
+  }
+
+  img {
+    margin-left: 5px;
+    width: 17px;
+  }
+}
+
+.DropZone-background {
+  text-align: center;
+  p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #696767;
+  }
+
+  img {
+    width: 70px;
+  }
+}

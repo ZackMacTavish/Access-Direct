@@ -3,8 +3,8 @@ import '../../scss/base/fob-template-picker.scss';
 import {lang} from "../../i18/en/lang";
 import Section from "../base/Section";
 import {setTemplate} from '../../store/actions/editActions';
-import * as Template from '../../const/images';
 import {connect} from 'react-redux';
+import * as Image from '../../const/templates';
 
 class FobTemplatePicker extends React.Component {
 
@@ -32,24 +32,30 @@ class FobTemplatePicker extends React.Component {
     render() {
         return (
             <Section visible={this.props.visible} classes='FobTemplatePicker-wrapper'>
-                <div className="FobTemplatePicker-content">
+                <div className={this.state.displayTemplates ? 'FobTemplatePicker-content border' : 'FobTemplatePicker-content'}>
                     <div className="FobTemplatePicker-header">
-                        <div onClick={this.toggleTemplatesDisplay} className="FobTemplatePicker-button">Pick your fob template</div>
+                        <div onClick={this.toggleTemplatesDisplay} className="FobTemplatePicker-button">
+                            <div className="FobTemplatePicker-angle"><div className="FobTemplatePicker-angle-left"></div></div>
+                            <div className="FobTemplatePicker-button-text">
+                                Pick your fob template
+                            </div>
+                            <div className="FobTemplatePicker-angle"><div className="FobTemplatePicker-angle-right"></div></div>
+                        </div>
                         <Section classes="FobTemplatePicker-note" visible={this.state.displayTemplates}>{lang.en.fob_template_picker.note}</Section>
                     </div>
                     <Section visible={this.state.displayTemplates} classes="FobTemplatePicker-templates">
-                        <img onClick={() => this.userSelectedFobHandler(Template.BLACK_FOB_TEMPLATE_BASE_1, Template.BLACK_FOB_TEMPLATE_COVER)}
-                          src="/img/template/black_fob_1.png" alt=""/>
-                        <img onClick={() => this.userSelectedFobHandler(Template.BLACK_FOB_TEMPLATE_BASE_2, Template.BLACK_FOB_TEMPLATE_COVER)}
-                          src="/img/template/black_fob_2.png" alt=""/>
-                        <img onClick={() => this.userSelectedFobHandler(Template.BLACK_FOB_TEMPLATE_BASE_3, Template.BLACK_FOB_TEMPLATE_COVER)}
-                          src="/img/template/black_fob_3.png" alt=""/>
-                        <img onClick={() => this.userSelectedFobHandler(Template.BLACK_FOB_TEMPLATE_BASE_4, Template.BLACK_FOB_TEMPLATE_COVER)}
-                          src="/img/template/black_fob_4.png" alt=""/>
-                        <img onClick={() => this.userSelectedFobHandler(Template.GRAY_FOB_TEMPLATE_BASE, Template.GRAY_FOB_TEMPLATE_COVER)}
-                          src="/img/template/gray_fob.png" alt=""/>
-                        <img onClick={() => this.userSelectedFobHandler(Template.RED_FOB_TEMPLATE_BASE, Template.RED_FOB_TEMPLATE_COVER)}
-                          src="/img/template/red_fob.png" alt=""/>
+                        <img onClick={() => this.userSelectedFobHandler(Image.BLACK_FOB_BASE_1, Image.BLACK_FOB_COVER)}
+                          src={Image.BLACK_FOB_BASE_1} alt=""/>
+                        <img onClick={() => this.userSelectedFobHandler(Image.BLACK_FOB_BASE_2, Image.BLACK_FOB_COVER)}
+                          src={Image.BLACK_FOB_BASE_2} alt=""/>
+                        <img onClick={() => this.userSelectedFobHandler(Image.BLACK_FOB_BASE_3, Image.BLACK_FOB_COVER)}
+                          src={Image.BLACK_FOB_BASE_3} alt=""/>
+                        <img onClick={() => this.userSelectedFobHandler(Image.BLACK_FOB_BASE_4, Image.BLACK_FOB_COVER)}
+                          src={Image.BLACK_FOB_BASE_4} alt=""/>
+                        <img onClick={() => this.userSelectedFobHandler(Image.GRAY_FOB_BASE, Image.GRAY_FOB_COVER)}
+                          src={Image.GRAY_FOB_BASE} alt=""/>
+                        <img onClick={() => this.userSelectedFobHandler(Image.RED_FOB_BASE, Image.RED_FOB_COVER)}
+                          src={Image.RED_FOB_BASE} alt=""/>
                     </Section>
                 </div>
             </Section>

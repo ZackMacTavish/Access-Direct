@@ -2,7 +2,6 @@ import React from 'react';
 import Draggable from 'react-draggable';
 import '../../scss/base/fobo-result.scss';
 import Section from "./Section";
-import {IMG_SOURCE_PATH} from "../../const/images";
 
 
 class FoboResult extends React.Component {
@@ -51,7 +50,7 @@ class FoboResult extends React.Component {
             <div className="fobo-result-wrapper">
                 <div className="fobo-result">
                     <div className="base-img">
-                        <img ref={this.baseImgRef} onLoad={() => this.initBase()} src={IMG_SOURCE_PATH + this.props.buildLogoProperties.baseImgName}/>
+                        <img ref={this.baseImgRef} onLoad={() => this.initBase()} src={this.props.buildLogoProperties.baseImgUrl}/>
                     </div>
                     <Draggable position={{x: x, y: y}}
                                onStop={(event, dragElement) => this.props.setLogoPosition(dragElement.x, dragElement.y)}>
@@ -61,12 +60,11 @@ class FoboResult extends React.Component {
                         </div>
                     </Draggable>
                     <div>
-                        <img className="base-cover-img" src={IMG_SOURCE_PATH + this.props.buildLogoProperties.baseCoverImgName}/>
+                        <img className="base-cover-img" src={this.props.buildLogoProperties.baseCoverImgUrl}/>
                     </div>
                     <div className="fobo-id">
                         <div className="option-w">
-                            <Section classes="option id-v" visible={this.props.buildLogoProperties.facilityCode}>FC255</Section>
-                            <Section classes="option id-v" visible={this.props.buildLogoProperties.format}>HD26</Section>
+                            <Section classes="option id-v" visible={this.props.buildLogoProperties.format}>FC255 HD26</Section>
                         </div>
                         <div className="mandatory id-v">12345</div>
                     </div>

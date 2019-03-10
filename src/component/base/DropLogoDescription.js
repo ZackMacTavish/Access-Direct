@@ -13,12 +13,11 @@ class DropLogoDescription extends React.Component {
                         <p>Drop Logo Here</p>
                     </div>
                     <div className="info">
-                        <p>{lang.en.drop_info.for_best_result}</p>
-                        <p>{lang.en.drop_info.for_best_result_format}</p>
+                        <p>{lang.en.drop_info.accepted_formats_heading}</p>
+                        <p>{lang.en.drop_info.accepted_formats}</p>
                     </div>
                     <div className="info">
-                        <p>{lang.en.drop_info.alternatively}</p>
-                        <p>{lang.en.drop_info.alternatively_format}</p>
+                        <p>{lang.en.drop_info.additional_details}</p>
                     </div>
                     <div className="warning">
                         <p>{lang.en.drop_info.warning_1}</p>

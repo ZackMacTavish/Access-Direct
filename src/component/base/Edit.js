@@ -4,7 +4,7 @@ import ResultContainer from "../containers/ResultContainer";
 import DropLogoContainer from "../containers/DropLogoContainer";
 import EditLogoWrapper from "../layout/EditLogoWrapper";
 import '../../scss/containers/Edit.scss';
-import ShowIdPickerContainer from "../containers/ShowIdPickerContainer";
+import ShowIdPickerContainer from "../containers/FacilityCodeDisplayButtonContainer";
 import Section from "./Section";
 import EditToolsN2 from "./EditToolsN2";
 import ADButton from "./ADButton";
@@ -61,7 +61,10 @@ class Edit extends React.Component {
                             <ResultContainer/>
                             {/*<EditStateWrapper/>*/}
                             <EditToolsN2/>
-                            <p className="info">{lang.en.result_info}</p>
+                            <p className="info">
+                                <b style={{fontSize: 18}}>*</b> In case your format is not displaying on template, please send your logo and a brief description to <b>avasic@access-direct.net</b> and we will send you back mockup. Formats accepted are: *EPS.eps, Vector.pdf, *PSD.psd.
+                            </p>
+                            <p className="info">{lang.en.result_info2}</p>
                         </div>
                         <div className="right">
                             {/*<AddText visible={this.props.addTextVisible}*/}
