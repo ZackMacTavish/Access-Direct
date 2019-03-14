@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b16c4df1-2ba1-4e2e-abfd-b3dc462fd9ef" name="Default" comment="New field added in order form, refactoring, template picker created....">
-      <change afterPath="$PROJECT_DIR$/public/img/backspace-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/drag-and-drop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/base/DropZone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/base/FacilityCodeDisplayButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/const/templates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rest/StorageRest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/base/DropZone.scss" afterDir="false" />
+    <list default="true" id="b16c4df1-2ba1-4e2e-abfd-b3dc462fd9ef" name="Default" comment="Upload logo added to form submit...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/base/DropLogoDescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/base/DropLogoDescription.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/base/Edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/base/Edit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/base/FoboResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/base/FoboResult.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/base/OrderForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/base/OrderForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/base/ShowIdPicker.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/containers/FobTemplatePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/containers/FobTemplatePicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/containers/OrderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/containers/OrderContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/containers/ShowIdPickerContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/containers/FacilityCodeDisplayButtonContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/const/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/const/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/const/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/const/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/const/images.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18/en/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18/en/lang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/const/templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/const/templates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/OrderForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/OrderForm.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/base/fob-template-picker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/fob-template-picker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/order-wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/OrderForm.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/editActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/editActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/orderActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/orderActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/editReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/editReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,10 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/base/DropZone.js">
+        <entry file="file://$PROJECT_DIR$/src/component/containers/FobTemplatePicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="389">
+              <caret line="54" column="82" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -66,46 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/const/api.js">
+        <entry file="file://$PROJECT_DIR$/src/const/templates.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/base/OrderForm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/containers/OrderContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="245" lean-forward="true" selection-start-line="245" selection-end-line="245" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rest/StorageRest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="118" lean-forward="true" selection-start-line="3" selection-start-column="118" selection-end-line="3" selection-end-column="118" />
             </state>
           </provider>
         </entry>
@@ -121,11 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>template-choice-content</find>
-      <find>displayPicker</find>
-      <find>bt-template-pick</find>
-      <find>ad-button-wrapper</find>
-      <find>lang.en.drop_info.for_best_result</find>
       <find>for_best_result</find>
       <find>facilityCode</find>
       <find>EDITREDUCER</find>
@@ -151,6 +88,11 @@
       <find>drop fil</find>
       <find>header-wrapper</find>
       <find>DropZone-background pointer</find>
+      <find>and we will send you back mockup.</find>
+      <find>fobtemplatepicker-no</find>
+      <find>company</find>
+      <find>text-field</find>
+      <find>FobTemplatePicker-templates</find>
     </findStrings>
     <replaceStrings>
       <replace>object</replace>
@@ -211,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/component/containers/App.js" />
         <option value="$PROJECT_DIR$/src/component/base/DropLogoDescription.js" />
         <option value="$PROJECT_DIR$/src/i18/en/lang.js" />
-        <option value="$PROJECT_DIR$/src/component/base/Edit.js" />
         <option value="$PROJECT_DIR$/src/const/actions.js" />
         <option value="$PROJECT_DIR$/src/component/containers/ShowIdPickerContainer.js" />
         <option value="$PROJECT_DIR$/src/component/base/ShowIdPicker.js" />
@@ -223,14 +164,10 @@
         <option value="$PROJECT_DIR$/src/component/containers/DropZoneContainer.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/orderReducer.js" />
         <option value="$PROJECT_DIR$/src/store/actions/orderActions.js" />
-        <option value="$PROJECT_DIR$/src/scss/base/OrderForm.scss" />
-        <option value="$PROJECT_DIR$/src/const/templates.js" />
         <option value="$PROJECT_DIR$/src/service/OrderDetails.js" />
         <option value="$PROJECT_DIR$/src/service/BuildLogoSpecification.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/editReducer.js" />
         <option value="$PROJECT_DIR$/src/component/base/FoboResult.js" />
-        <option value="$PROJECT_DIR$/src/component/containers/FobTemplatePicker.js" />
-        <option value="$PROJECT_DIR$/src/scss/base/fob-template-picker.scss" />
         <option value="$PROJECT_DIR$/src/scss/base/DropZone.scss" />
         <option value="$PROJECT_DIR$/src/scss/base/header.scss" />
         <option value="$PROJECT_DIR$/src/component/base/OrderForm.js" />
@@ -238,6 +175,11 @@
         <option value="$PROJECT_DIR$/src/component/containers/OrderContainer.js" />
         <option value="$PROJECT_DIR$/src/component/base/DropZone.js" />
         <option value="$PROJECT_DIR$/src/const/api.js" />
+        <option value="$PROJECT_DIR$/src/component/base/Edit.js" />
+        <option value="$PROJECT_DIR$/src/scss/base/fob-template-picker.scss" />
+        <option value="$PROJECT_DIR$/src/scss/base/OrderForm.scss" />
+        <option value="$PROJECT_DIR$/src/component/containers/FobTemplatePicker.js" />
+        <option value="$PROJECT_DIR$/src/const/templates.js" />
       </list>
     </option>
   </component>
@@ -264,13 +206,7 @@
             <path>
               <item name="access-direct-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="access-direct-web" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="access-direct-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="access-direct-web" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="access-direct-web" type="b2602c69:ProjectViewProjectNode" />
@@ -487,7 +423,9 @@
       <workItem from="1550949569155" duration="2031000" />
       <workItem from="1550956472732" duration="10572000" />
       <workItem from="1551209110262" duration="12220000" />
-      <workItem from="1551556897680" duration="20962000" />
+      <workItem from="1551556897680" duration="22290000" />
+      <workItem from="1552517134416" duration="1583000" />
+      <workItem from="1552603141302" duration="1169000" />
     </task>
     <task id="LOCAL-00001" summary="Share button functionality added">
       <created>1543676237510</created>
@@ -524,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550275267275</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Upload logo added to form submit...">
+      <created>1552206502914</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552206502914</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="588759000" />
+    <option name="totallyTimeSpent" value="592839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,7 +488,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2297155" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23024236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -559,8 +504,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30552545" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.63596964" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20585048" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.2340195" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3296875" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3291536" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -623,7 +568,8 @@
     <MESSAGE value="Upload logo state changes bug fix" />
     <MESSAGE value="Form Changes - Formatting added new formats" />
     <MESSAGE value="New field added in order form, refactoring, template picker created...." />
-    <option name="LAST_COMMIT_MESSAGE" value="New field added in order form, refactoring, template picker created...." />
+    <MESSAGE value="Upload logo added to form submit..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload logo added to form submit..." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -786,21 +732,7 @@
     <entry file="file://$PROJECT_DIR$/public/img/template/BlackFoboCover.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/base/OrderForm.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/const/images.js" />
-    <entry file="file://$PROJECT_DIR$/src/component/base/Edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="74" column="48" lean-forward="true" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/containers/EditContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -819,13 +751,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/OrderDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/OrderDetails.js" />
     <entry file="file://$PROJECT_DIR$/src/store/actions/orderActions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -836,20 +762,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/BuildLogoSpecification.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/const/templates.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/BuildLogoSpecification.js" />
     <entry file="file://$PROJECT_DIR$/src/store/reducers/editReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -874,23 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/containers/FobTemplatePicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="95" selection-start-line="34" selection-start-column="95" selection-end-line="34" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/base/fob-template-picker.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -922,20 +818,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/base/OrderForm.js">
+    <entry file="file://$PROJECT_DIR$/src/component/base/DropZone.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="15" />
+        <state relative-caret-position="17">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/StorageRest.js">
+    <entry file="file://$PROJECT_DIR$/src/const/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/base/OrderForm.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/base/Edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="76" column="52" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/base/fob-template-picker.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/base/OrderForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="15" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -945,27 +869,37 @@
     <entry file="file://$PROJECT_DIR$/src/component/containers/OrderContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
-          <caret line="245" lean-forward="true" selection-start-line="245" selection-end-line="245" />
+          <caret line="245" selection-start-line="245" selection-end-line="245" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/base/DropZone.js">
+    <entry file="file://$PROJECT_DIR$/src/rest/StorageRest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="425">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/const/api.js">
+    <entry file="file://$PROJECT_DIR$/src/component/containers/FobTemplatePicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="389">
+          <caret line="54" column="82" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/const/templates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="118" lean-forward="true" selection-start-line="3" selection-start-column="118" selection-end-line="3" selection-end-column="118" />
         </state>
       </provider>
     </entry>

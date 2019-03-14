@@ -20,13 +20,15 @@
           display: flex;
           justify-content: space-between;
           flex-direction: column;
-          flex-grow: 1;
-          max-width: 320px;
+          //flex-grow: 1;
+          //max-width: 320px;
+          width: 320px;
 
           .text-field {
             margin-top: 7px !important;
             margin-bottom: 0px !important;
             width: 100%;
+            overflow: auto;
           }
         }
       }

@@ -52,6 +52,10 @@ class FobTemplatePicker extends React.Component {
                           src={Image.BLACK_FOB_BASE_3} alt=""/>
                         <img onClick={() => this.userSelectedFobHandler(Image.BLACK_FOB_BASE_4, Image.BLACK_FOB_COVER)}
                           src={Image.BLACK_FOB_BASE_4} alt=""/>
+                        <img onClick={() => this.userSelectedFobHandler(Image.BLACK_FOB_BASE_5, Image.BLACK_FOB_COVER)}
+                             src={Image.BLACK_FOB_BASE_5} alt=""/>
+                        <img onClick={() => this.userSelectedFobHandler(Image.BLACK_FOB_BASE_6, Image.BLACK_FOB_COVER)}
+                             src={Image.BLACK_FOB_BASE_6} alt=""/>
                         <img onClick={() => this.userSelectedFobHandler(Image.GRAY_FOB_BASE, Image.GRAY_FOB_COVER)}
                           src={Image.GRAY_FOB_BASE} alt=""/>
                         <img onClick={() => this.userSelectedFobHandler(Image.RED_FOB_BASE, Image.RED_FOB_COVER)}

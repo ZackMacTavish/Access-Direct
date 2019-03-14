@@ -62,7 +62,7 @@ class Edit extends React.Component {
                             {/*<EditStateWrapper/>*/}
                             <EditToolsN2/>
                             <p className="info">
-                                <b style={{fontSize: 18}}>*</b> In case your format is not displaying on template, please send your logo and a brief description to <b>avasic@access-direct.net</b> and we will send you back mockup. Formats accepted are: *EPS.eps, Vector.pdf, *PSD.psd.
+                                <b style={{fontSize: 18}}>*</b> In case your format is not displaying on template, please send your logo and a brief description to <b>avasic@access-direct.net</b> and we will send you back a mockup. Formats accepted are: *EPS.eps, Vector.pdf, *PSD.psd.
                             </p>
                             <p className="info">{lang.en.result_info2}</p>
                         </div>
