@@ -1,22 +1,25 @@
 import React, {Component} from 'react';
 import '../../scss/containers/App.scss';
 
-import FobTemplatePicker from "./FobTemplatePicker";
-import Header from "../base/Header";
-import EditContainer from "./EditContainer";
-import OrderContainer from "./OrderContainer";
 import {connect} from 'react-redux';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import fobPage from './FobPage';
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <Header/>
-                <FobTemplatePicker visible={this.props.displayFobTemplatePicker}/>
-                <div className="flex-center">
-                    <EditContainer/>
-                    <OrderContainer/>
-                </div>
+
+            <BrowserRouter>
+            <Switch>
+               
+            <Route exact path='/' component={fobPage} />
+
+           
+
+                </Switch>
+                </BrowserRouter>
+               
             </div>
         );
     }

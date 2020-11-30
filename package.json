@@ -8,7 +8,7 @@
     "@material-ui/lab": "^3.0.0-alpha.16",
     "ajv": "^6.5.3",
     "autoprefixer": "7.1.6",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
@@ -46,6 +46,7 @@
     "react-draggable": "^3.0.5",
     "react-dropzone": "^5.1.0",
     "react-redux": "^5.0.7",
+    "react-router-dom": "^5.2.0",
     "react-scroll-to-component": "^1.0.2",
     "react-share": "^2.4.0",
     "redux": "^4.0.0",
@@ -66,7 +67,7 @@
     "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.14.1",
     "sass-loader": "^7.1.0"
   },
   "jest": {
