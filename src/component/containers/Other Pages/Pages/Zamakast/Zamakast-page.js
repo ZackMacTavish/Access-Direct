@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './zamakastpage.scss'
 
+import '../../../../../scss/containers/App.scss';
+
 import heroimage1 from './Group 195.png';
 
 

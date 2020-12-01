@@ -1,3 +1,29 @@
+@font-face {
+  font-family: 'AvenirBook';
+  font-weight: normal;
+  src: url("./AvenirLTStd-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'AvenirMedium';
+  font-weight: normal;
+  src: url("./AvenirLTStd-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'AvenirRoman';
+  font-weight: normal;
+  src: url("./AvenirLTStd-Roman.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'AvenirBold';
+  font-weight: normal;
+  src: url("./AvenirLTStd-Black.otf") format("opentype");
+}
+
+
+
 .App {
   .pointer:hover {
     cursor: pointer;
