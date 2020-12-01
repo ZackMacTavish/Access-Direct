@@ -1,0 +1,35 @@
+.zamakast-page{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    
+}
+
+.zamakast-header{
+    padding: 20vh 0 0 10vw;
+    font-size: 50px;
+    color: #696A86;
+}
+
+.paragraph-text-zamakast{
+    color: grey;
+    width: 40vw;
+    padding-left: 10vw;
+}
+
+
+.zamakast-hero-flex-container{
+    display: flex;
+    padding-top: 5vh;
+    justify-content: space-between;
+    
+}
+
+.zamakast-hero-image{
+    display: flex;
+}
+
+.image-2-alfalock{
+    height: 59vh;
+    padding-top: 8vh;
+}
