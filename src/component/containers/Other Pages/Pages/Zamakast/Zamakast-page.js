@@ -12,6 +12,8 @@ import lockers from './Lockers.png';
 import furniture from './Furniture.png';
 import storage from './Storage.png';
 import alfavertical from './AlfaLock-Vertical.png';
+import alfahorizontal from './AlfaLock-Horizontal.png';
+import securityicon from './Security-icon.svg';
 
 import Header from "../../../../base/Header";
 
@@ -94,11 +96,63 @@ class zamakastPage extends Component {
 
 
                             <div className="Alfa-lock-vertical-breakdown-container-section">
+
                                 <img className="alfa-vertical-lock-breakdown" src={alfavertical} alt="Zamakast's alfa lock" />
+                                
+                                <img className="security-icon1" src={securityicon} alt="Zamakast's alfa lock" />
+
+                                    <h3 className="secure-header-text">Secure</h3>
+
+                                    <p className="secure-text-paragraph">Built in interface and integrated touchscreen which makes
+                                     it ready to use as soon as plugged in. Log of entries and audit </p>
+
+                                     <img className="security-icon2" src={securityicon} alt="Zamakast's alfa lock" />
+
+                                     <h3 className="EasyInstallation-header-text">Easy Installation</h3>
+
+                                     <p className="easyinstallation-text-paragraph">The Alfa lock is easily installed on metal or wood by just screwing 
+                                     it in. Lorem Ipsum Doler imight alfa lock for everyone. </p>
+
+                                     <img className="security-icon3" src={securityicon} alt="Zamakast's alfa lock" />
+
+                                     <h3 className="Adaptable-header-text">Adaptable</h3>
+
+                                     <p className="adaptable-text-paragraph">The Alfa lock is easily installed on metal or wood by just screwing 
+                                     it in. Lorem Ipsum Doler imight alfa lock for everyone. </p>
+
+                                     <img className="security-icon4" src={securityicon} alt="Zamakast's alfa lock" />
+
+                                     <h3 className="Easyuse-header-text">Easy Use</h3>
+
+                                     <p className="Easyuse-text-paragraph">The Alfa lock is easily installed on metal or wood by just screwing 
+                                     it in. Lorem Ipsum Doler imight alfa lock for everyone. </p>
 
                             
                             
                             
+                            </div>
+
+
+                            <div className="Alfalock-horizontal-vertical-container">
+
+
+
+                                                <div className="grid-text-container">
+                                                    <div className="horizontal-vertical-text-container-flex">
+                                                        <h3 className="horizontal-vertical-header-text">Available as a Vertical<br/> & Horizontal lock.</h3>
+                                                        
+                                                        <p className="horizontal-vertical-paragraph-text">Depending on the specific use case. Alfa’s Zamakast lock is available for vertical and horizonal installation. 
+                                                        Locks for your office furniture, storage cabinets, and lockers. 
+                                                        Learn about Zamakast's Electronic locks and security. Access Direct carries this lock and is ready to ship worldwide.</p>
+
+                                                    </div>
+
+                                            </div>
+
+                                            
+                                            <img className="alfa-vertical-lock-vertical-horizontal-section" src={alfavertical} alt="Zamakast's alfa lock" />
+
+                                            <img className="alfa-horizontal-lock-vertical-horizontal-section" src={alfahorizontal} alt="Zamakast's alfa lock" />
                             </div>
 
                        
