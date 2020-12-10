@@ -117,7 +117,7 @@
 
                     .use-cases-flex-container{
                         display: grid;
-                        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                        grid-template-columns: 10vw 1fr 1fr 1fr 10vw;
                         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
                         height: 25vh;
                        
@@ -125,6 +125,7 @@
                             display: grid;
                             grid-column-start: 2;
                           margin-bottom: 1.5vh;
+                          justify-self: center;
                         }
                     
 
@@ -136,6 +137,7 @@
                             color: white;
                             font-family: 'AvenirBold';
                             font-size: 1.2rem;
+                            justify-self: center;
                             
                         }
 
@@ -148,6 +150,8 @@
                             font-family: 'AvenirMedium';
                             line-height: 1.6;
                             width: 15vw;
+                            justify-self: center;
+                            padding-left: 4vw;
                             
                         }
 
@@ -156,6 +160,7 @@
                             display: grid;
                             grid-column-start: 3;
                             padding-top: 2.5vh;
+                            justify-self: center;
                             align-items: center;
                         }
 
@@ -163,6 +168,7 @@
                             display: grid;
                             grid-column-start: 4;
                             padding-top: 2.5vh;
+                            justify-self: center;
                         }
 
                         .storage-header-text{
@@ -172,6 +178,7 @@
                             color: white;
                             font-family: 'AvenirBold';
                             font-size: 1.2rem;
+                            justify-self: center;
                            
                         }
 
@@ -183,6 +190,8 @@
                             color: white;
                             font-family: 'AvenirMedium';
                             line-height: 1.6;
+                            justify-self: center;
+                            padding-left: 4vw;
                             width: 15vw;
                         }
 
@@ -193,6 +202,8 @@
                             color: white;
                             font-family: 'AvenirBold';
                             font-size: 1.2rem;
+                            justify-self: center;
+
                            
                         }
 
@@ -200,11 +211,13 @@
                             display: grid;
                             grid-column-start: 3;
                             padding-top: 4vh;
+                            justify-self: center;
                             grid-row-start:2;
                             color: white;
                             font-family: 'AvenirMedium';
                             line-height: 1.6;
                             width: 15vw;
+                            padding-left: 4vw;
                         }
                         
                     }

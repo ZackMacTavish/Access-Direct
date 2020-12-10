@@ -5,6 +5,7 @@ import FobTemplatePicker from "./FobTemplatePicker";
 import Header from "../base/Header";
 import EditContainer from "./EditContainer";
 import OrderContainer from "./OrderContainer";
+import Footer from '../../component/containers/Other Pages/Components/Footer/Footer.component';
 
 class fobPage extends Component {
     render() {
@@ -16,6 +17,7 @@ class fobPage extends Component {
                     <EditContainer/>
                     <OrderContainer/>
                 </div>
+                <Footer />
             </div>
         );
     }

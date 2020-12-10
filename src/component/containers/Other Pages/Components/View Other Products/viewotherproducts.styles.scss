@@ -1,0 +1,185 @@
+.otherproducts-container-component{
+    display: grid;
+    grid-template-columns: 12vw 1fr 1fr 1fr 12vw;
+    grid-template-rows: 15vh 1fr 4vh 15vh 10vh 15vh;
+    height: 80vh;
+    width: 100vw;
+
+
+    .otherproducts-header-text{
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        align-self: center;
+        font-family: 'AvenirBold';
+        color: #696A86;
+        font-size: 2.1rem;
+        width: 35vw;
+        
+    }
+
+    .pneumatic-icon-otherproducts{
+        display: grid;
+        grid-column-start: 2;
+        grid-row-start: 2;
+        justify-self: center;
+        
+    }
+
+    .highpower-icon-otherproducts{
+        display: grid;
+        grid-column-start: 3;
+        grid-row-start: 2;
+        justify-self: center;
+    }
+
+    .customfob-icon-otherproducts{
+        display: grid;
+        grid-column-start: 4;
+        grid-row-start: 2;
+        justify-self: center;
+    }
+
+    .pneumatic-switches-header-text{
+        display: grid;
+        grid-column-start: 2;
+        grid-row-start: 3;
+        align-self: flex-start;
+        justify-self: center;
+        font-family: 'AvenirBold';
+        color: #1F56BA;
+        font-size: 1.6rem;
+    }
+
+    .pneumatic-switches-otherproducts-p-text{
+        display: grid;
+        grid-column-start: 2;
+        grid-row-start: 4;
+        align-self: flex-start;
+        padding-top: 1vh;
+        justify-self: center;
+        font-family: 'AvenirBold';
+        color: #696A86;
+        width: 17vw;
+
+    }
+
+    .pneumatic-switches-page{
+        display: grid;
+        grid-column-start: 2;
+        grid-row-start: 5;
+        align-self: center;
+        align-items: center;
+        justify-self: center;
+        color: white;
+        background-color: #0400B9;
+        width: 15vw;
+        height: 5vh;
+        border: none;
+        font-family: 'AvenirBold';
+        font-size: 1rem;
+        border-radius: 20px;
+
+        &:hover{
+            opacity: 85%;
+            cursor: pointer;
+        }
+    }
+
+    .highpower-one-header-text{
+        display: grid;
+        grid-column-start: 3;
+        grid-row-start: 3;
+        align-self: flex-start;
+        justify-self: center;
+        font-family: 'AvenirBold';
+        color: #1F56BA;
+        font-size: 1.6rem;
+    }
+
+    .highpowerone-otherproducts-p-text{
+        display: grid;
+        grid-column-start: 3;
+        grid-row-start: 4;
+        align-self: flex-start;
+        padding-top: 1vh;
+        justify-self: center;
+        font-family: 'AvenirBold';
+        color: #696A86;
+        width: 17vw;
+
+    }
+
+
+
+    .highpowerone-page{
+        display: grid;
+        grid-column-start: 3;
+        grid-row-start: 5;
+        align-self: center;
+        align-items: center;
+        justify-self: center;
+        color: white;
+        background-color: #0400B9;
+        width: 15vw;
+        height: 5vh;
+        border: none;
+        font-family: 'AvenirBold';
+        font-size: 1rem;
+        border-radius: 20px;
+
+        &:hover{
+            opacity: 85%;
+            cursor: pointer;
+        }
+    }
+
+    .custom-fobgenerator-header-text{
+        display: grid;
+        grid-column-start: 4;
+        grid-row-start: 3;
+        align-self: flex-start;
+        justify-self: center;
+        font-family: 'AvenirBold';
+        color: #1F56BA;
+        font-size: 1.6rem;
+    }
+
+    .custom-fobgenerator-otherproducts-p-text{
+        display: grid;
+        grid-column-start: 4;
+        grid-row-start: 4;
+        align-self: flex-start;
+        padding-top: 1vh;
+        justify-self: center;
+        font-family: 'AvenirBold';
+        color: #696A86;
+        width: 17vw;
+
+    }
+
+
+    .custom-fobgenerator-page{
+        display: grid;
+        grid-column-start: 4;
+        grid-row-start: 5;
+        align-self: center;
+        align-items: center;
+        justify-self: center;
+        color: white;
+        background-color: #0400B9;
+        width: 15vw;
+        height: 5vh;
+        border: none;
+        font-family: 'AvenirBold';
+        font-size: 1rem;
+        border-radius: 20px;
+
+        &:hover{
+            opacity: 85%;
+            cursor: pointer;
+        }
+    }
+
+
+}

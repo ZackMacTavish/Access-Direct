@@ -4,7 +4,6 @@ import './zamakastpage.scss'
 import '../../../../../scss/containers/App.scss';
 
 import heroimage1 from './Group 195.png';
-
 import cabinet1 from './Cabinet1.png';
 import cabinet2 from './Cabinet2.png';
 import blueshape from './BlueShape.svg';
@@ -16,6 +15,10 @@ import alfahorizontal from './AlfaLock-Horizontal.png';
 import securityicon from './Security-icon.svg';
 
 import Header from "../../../../base/Header";
+import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
+import Footer from '../../Components/Footer/Footer.component';
+
+
 
 class zamakastPage extends Component {
     render() {
@@ -155,6 +158,11 @@ class zamakastPage extends Component {
                                             <img className="alfa-horizontal-lock-vertical-horizontal-section" src={alfahorizontal} alt="Zamakast's alfa lock" />
                             </div>
 
+
+                            <OtherProducts />
+
+
+                            <Footer />
                        
 
             </div>
