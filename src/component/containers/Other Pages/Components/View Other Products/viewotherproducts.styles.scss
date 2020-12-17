@@ -5,6 +5,13 @@
     height: 80vh;
     width: 100vw;
 
+    @media screen and (max-width: 750px) {
+       grid-template-columns: 5vw 1fr 5vw;
+       grid-template-rows: 15vh 25vh 4vh 35vh 25vh 35vh 8vh 25vh 15vh 10vh 15vh;
+       height: 205vh;
+        
+        }
+
 
     .otherproducts-header-text{
         display: grid;
@@ -15,6 +22,10 @@
         color: #696A86;
         font-size: 2.1rem;
         width: 35vw;
+        @media screen and (max-width: 750px) {
+           grid-column-start: 2;
+           grid-column-end: 2;
+             }
         
     }
 
@@ -31,6 +42,11 @@
         grid-column-start: 3;
         grid-row-start: 2;
         justify-self: center;
+        @media screen and (max-width: 750px) {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 5;
+              }
     }
 
     .customfob-icon-otherproducts{
@@ -38,6 +54,11 @@
         grid-column-start: 4;
         grid-row-start: 2;
         justify-self: center;
+        @media screen and (max-width: 750px) {
+            grid-column-start: 2;
+            grid-row-start: 8;
+            grid-column-end: 2;
+              }
     }
 
     .pneumatic-switches-header-text{
@@ -49,6 +70,8 @@
         font-family: 'AvenirBold';
         color: #1F56BA;
         font-size: 1.6rem;
+       
+        
     }
 
     .pneumatic-switches-otherproducts-p-text{
@@ -61,6 +84,11 @@
         font-family: 'AvenirBold';
         color: #696A86;
         width: 17vw;
+        @media screen and (max-width: 750px) {
+            grid-column-start: 2;
+            width: 35vw;
+            grid-column-end: 2;
+              }
 
     }
 
@@ -79,6 +107,13 @@
         font-family: 'AvenirBold';
         font-size: 1rem;
         border-radius: 20px;
+        @media screen and (max-width: 750px) {
+            grid-column-start: 2;
+            grid-row-start: 4;
+            grid-column-end: 2;
+            
+            width: 25vw;
+              }
 
         &:hover{
             opacity: 85%;
@@ -95,6 +130,11 @@
         font-family: 'AvenirBold';
         color: #1F56BA;
         font-size: 1.6rem;
+        @media screen and (max-width: 750px) {
+            grid-column-start: 2;
+            grid-row-start: 6;
+            grid-column-end: 2;
+              }
     }
 
     .highpowerone-otherproducts-p-text{
@@ -107,6 +147,13 @@
         font-family: 'AvenirBold';
         color: #696A86;
         width: 17vw;
+        @media screen and (max-width: 750px) {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 6;
+            padding-top: 5vh;
+            width: 35vw;
+              }
 
     }
 
@@ -127,6 +174,14 @@
         font-family: 'AvenirBold';
         font-size: 1rem;
         border-radius: 20px;
+        @media screen and (max-width: 750px) {
+            grid-column-start: 2;
+            grid-row-start: 6;
+           
+            margin-top: 8vh;
+            width: 25vw;
+            grid-column-end: 2;
+              }
 
         &:hover{
             opacity: 85%;
@@ -143,6 +198,13 @@
         font-family: 'AvenirBold';
         color: #1F56BA;
         font-size: 1.6rem;
+        @media screen and (max-width: 750px) {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 7;
+            align-self: center;
+            
+              }
     }
 
     .custom-fobgenerator-otherproducts-p-text{
@@ -155,6 +217,13 @@
         font-family: 'AvenirBold';
         color: #696A86;
         width: 17vw;
+        @media screen and (max-width: 750px) {
+            grid-column-start: 2;
+            grid-row-start: 9;
+            grid-column-end: 2;
+            
+            width: 35vw;
+              }
 
     }
 
@@ -174,6 +243,12 @@
         font-family: 'AvenirBold';
         font-size: 1rem;
         border-radius: 20px;
+        @media screen and (max-width: 750px) {
+            grid-column-start: 2;
+            grid-row-start: 10;
+            grid-column-end: 2;
+            width: 30vw;
+              }
 
         &:hover{
             opacity: 85%;

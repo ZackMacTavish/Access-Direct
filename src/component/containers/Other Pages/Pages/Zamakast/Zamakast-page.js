@@ -15,16 +15,22 @@ import alfahorizontal from './AlfaLock-Horizontal.png';
 import securityicon from './Security-icon.svg';
 
 import Header from "../../../../base/Header";
+import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
 import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
 import Footer from '../../Components/Footer/Footer.component';
 
 
 
+
+
 class zamakastPage extends Component {
     render() {
+        
+        
         return (
             <div className="zamakast-page">
-                <Header/>
+                {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
+               
                         <div className="zamakast-hero-flex-container">
                             <div className="header-paragraph-container">
                                     <h1 className="zamakast-header">

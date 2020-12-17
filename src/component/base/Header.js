@@ -2,6 +2,7 @@ import React from 'react';
 import '../../scss/base/header.scss';
 import {AD_COMPANY, AD_CONTACT, AD_HOME, AD_OUR_PRODUCT, AD_TERMS} from "../../const/links";
 
+
 class Header extends React.Component {
 
     render() {
@@ -19,6 +20,8 @@ class Header extends React.Component {
                             <li><a href={AD_TERMS}>TERMS</a></li>
                             <li><a href={AD_CONTACT}>CONTACT</a></li>
                         </ul>
+
+                         
                     </div>
                 </div>
             </div>
