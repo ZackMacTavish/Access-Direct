@@ -1,11 +1,11 @@
 .otherproducts-container-component{
     display: grid;
-    grid-template-columns: 12vw 1fr 1fr 1fr 12vw;
+    grid-template-columns: 4vw 1fr 1fr 1fr 4vw;
     grid-template-rows: 15vh 1fr 4vh 15vh 10vh 15vh;
     height: 80vh;
     width: 100vw;
 
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 950px) {
        grid-template-columns: 5vw 1fr 5vw;
        grid-template-rows: 15vh 25vh 4vh 35vh 25vh 35vh 8vh 25vh 15vh 10vh 15vh;
        height: 205vh;
@@ -22,10 +22,18 @@
         color: #696A86;
         font-size: 2.1rem;
         width: 35vw;
-        @media screen and (max-width: 750px) {
+        padding-left: 6vw;
+        @media screen and (max-width: 950px) {
            grid-column-start: 2;
            grid-column-end: 2;
+           width: 65vw;
              }
+
+             @media screen and (max-width: 650px) {
+                width: 75vw;
+                margin-top: 1vh;
+               
+                }
         
     }
 
@@ -34,6 +42,10 @@
         grid-column-start: 2;
         grid-row-start: 2;
         justify-self: center;
+        @media screen and (max-width: 950px) {
+            
+           height: 25vh;
+              }
         
     }
 
@@ -42,10 +54,11 @@
         grid-column-start: 3;
         grid-row-start: 2;
         justify-self: center;
-        @media screen and (max-width: 750px) {
+        @media screen and (max-width: 950px) {
             grid-column-start: 2;
             grid-column-end: 2;
             grid-row-start: 5;
+           height: 25vh;
               }
     }
 
@@ -54,10 +67,11 @@
         grid-column-start: 4;
         grid-row-start: 2;
         justify-self: center;
-        @media screen and (max-width: 750px) {
+        @media screen and (max-width: 950px) {
             grid-column-start: 2;
             grid-row-start: 8;
             grid-column-end: 2;
+            height: 25vh;
               }
     }
 
@@ -70,6 +84,10 @@
         font-family: 'AvenirBold';
         color: #1F56BA;
         font-size: 1.6rem;
+
+        @media screen and (max-width: 950px) {
+           margin-top: 1vh;
+              }
        
         
     }
@@ -83,12 +101,25 @@
         justify-self: center;
         font-family: 'AvenirBold';
         color: #696A86;
-        width: 17vw;
-        @media screen and (max-width: 750px) {
-            grid-column-start: 2;
-            width: 35vw;
-            grid-column-end: 2;
+        width: 20vw;
+
+        @media screen and (max-width: 1150px) {
+           width: 22vw;
               }
+
+        @media screen and (max-width: 950px) {
+            grid-column-start: 2;
+            width: 45vw;
+            grid-column-end: 2;
+            margin-top: 2vh;
+              }
+              @media screen and (max-width: 650px) {
+                width: 65vw;
+                text-align: center;
+                }
+                @media screen and (max-width: 550px) {
+                    width: 85vw;
+                    }
 
     }
 
@@ -107,13 +138,30 @@
         font-family: 'AvenirBold';
         font-size: 1rem;
         border-radius: 20px;
-        @media screen and (max-width: 750px) {
+
+        @media screen and (max-width: 1350px) {
+            width: 20vw;
+            margin-top: 4vh;
+              }
+              @media screen and (max-width: 1250px) {
+               margin-top: 8vh;
+                  }
+                  @media screen and (max-width: 1150px) {
+                    margin-top: 7vh;
+                       }
+
+                       
+        @media screen and (max-width: 950px) {
             grid-column-start: 2;
             grid-row-start: 4;
             grid-column-end: 2;
-            
             width: 25vw;
+            margin-top: 2vh;
               }
+
+              @media screen and (max-width: 650px) {
+                width: 55vw;
+                }
 
         &:hover{
             opacity: 85%;
@@ -130,7 +178,7 @@
         font-family: 'AvenirBold';
         color: #1F56BA;
         font-size: 1.6rem;
-        @media screen and (max-width: 750px) {
+        @media screen and (max-width: 950px) {
             grid-column-start: 2;
             grid-row-start: 6;
             grid-column-end: 2;
@@ -146,14 +194,27 @@
         justify-self: center;
         font-family: 'AvenirBold';
         color: #696A86;
-        width: 17vw;
-        @media screen and (max-width: 750px) {
+        width: 20vw;
+
+        @media screen and (max-width: 1150px) {
+            width: 22vw;
+               }
+        @media screen and (max-width: 950px) {
             grid-column-start: 2;
             grid-column-end: 2;
             grid-row-start: 6;
             padding-top: 5vh;
-            width: 35vw;
+            width: 45vw;
               }
+
+              @media screen and (max-width: 650px) {
+                width: 65vw;
+                text-align: center;
+                }
+
+                @media screen and (max-width: 550px) {
+                    width: 85vw;
+                    }
 
     }
 
@@ -174,14 +235,29 @@
         font-family: 'AvenirBold';
         font-size: 1rem;
         border-radius: 20px;
-        @media screen and (max-width: 750px) {
+
+        @media screen and (max-width: 1350px) {
+            width: 20vw;
+            margin-top: 4vh;
+              }
+              @media screen and (max-width: 1250px) {
+                margin-top: 8vh;
+                   }
+                   @media screen and (max-width: 1150px) {
+                    margin-top: 7vh;
+                       }
+        @media screen and (max-width: 950px) {
             grid-column-start: 2;
             grid-row-start: 6;
-           
-            margin-top: 8vh;
+           margin-top: 8vh;
             width: 25vw;
             grid-column-end: 2;
+            margin-top: 2vh;
               }
+
+              @media screen and (max-width: 650px) {
+                width: 55vw;
+                }
 
         &:hover{
             opacity: 85%;
@@ -198,13 +274,16 @@
         font-family: 'AvenirBold';
         color: #1F56BA;
         font-size: 1.6rem;
-        @media screen and (max-width: 750px) {
+
+        
+
+
+        @media screen and (max-width: 950px) {
             grid-column-start: 2;
             grid-column-end: 2;
             grid-row-start: 7;
             align-self: center;
-            
-              }
+            }
     }
 
     .custom-fobgenerator-otherproducts-p-text{
@@ -216,14 +295,25 @@
         justify-self: center;
         font-family: 'AvenirBold';
         color: #696A86;
-        width: 17vw;
-        @media screen and (max-width: 750px) {
+        width: 20vw;
+
+        @media screen and (max-width: 1150px) {
+            width: 22vw;
+               }
+        @media screen and (max-width: 950px) {
             grid-column-start: 2;
             grid-row-start: 9;
             grid-column-end: 2;
-            
-            width: 35vw;
+            width: 45vw;
               }
+              @media screen and (max-width: 650px) {
+                width: 65vw;
+                text-align: center;
+                }
+
+                @media screen and (max-width: 550px) {
+                    width: 85vw;
+                    }
 
     }
 
@@ -243,12 +333,29 @@
         font-family: 'AvenirBold';
         font-size: 1rem;
         border-radius: 20px;
-        @media screen and (max-width: 750px) {
+        @media screen and (max-width: 1350px) {
+            margin-top: 4vh;
+            width: 20vw;
+              }
+              @media screen and (max-width: 1250px) {
+                margin-top: 8vh;
+                   }
+
+                   @media screen and (max-width: 1150px) {
+                    margin-top: 7vh;
+                       }
+        @media screen and (max-width: 950px) {
             grid-column-start: 2;
             grid-row-start: 10;
             grid-column-end: 2;
             width: 30vw;
+            margin-top: 0vh;
               }
+
+              @media screen and (max-width: 650px) {
+                width: 55vw;
+                
+                }
 
         &:hover{
             opacity: 85%;

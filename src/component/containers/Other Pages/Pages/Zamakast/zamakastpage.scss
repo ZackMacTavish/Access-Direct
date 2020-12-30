@@ -19,6 +19,7 @@
         padding-top: 5vh;
         width: 100vw;
         height: 80vh;
+        
         justify-content: space-between;
 
         @media screen and (max-width: 750px) {
@@ -29,7 +30,8 @@
         }
 
         @media screen and (max-width: 505px) {
-        
+           margin-top: 1.5vh;
+           margin-bottom: 8vh;
            height: 70vh;
         }
 
@@ -230,7 +232,9 @@
                         height: 25vh;
 
                         
-
+                        @media screen and (max-width: 1260px) {
+                            grid-template-columns: 5vw 1fr 1fr 1fr 10vw;
+                          }
                         @media screen and (max-width: 750px) {
                             display: grid;
                             
@@ -267,6 +271,8 @@
                             font-family: 'AvenirBold';
                             font-size: 1.2rem;
                             justify-self: center;
+
+                           
                             @media screen and (max-width: 750px) {
                                 display: grid;
                               grid-column-start: 3;
@@ -286,13 +292,26 @@
                             width: 15vw;
                             justify-self: center;
                             padding-left: 4vw;
+
+                            @media screen and (max-width: 1260px) {
+                                width: 25vw;
+                              }
                             @media screen and (max-width: 750px) {
                                 display: grid;
                               grid-column-start: 3;
                               grid-row-start: 2;
-                              width: 35vw;
+                              width: 40vw;
                               padding-bottom: 0;
                               }
+                              @media screen and (max-width: 650px) {
+                                width: 50vw;
+                                }
+
+                                @media screen and (max-width: 550px) {
+                                    width: 90vw;
+                                    padding-left: 0;
+                                   text-align: center;
+                                    }
                             
                         }
 
@@ -338,6 +357,7 @@
                               grid-row-start: 6;
                               padding-top: 0;
                               }
+                              
                            
                         }
 
@@ -352,13 +372,25 @@
                             justify-self: center;
                             padding-left: 4vw;
                             width: 15vw;
+
+                            @media screen and (max-width: 1260px) {
+                                width: 25vw;
+                              }
                               @media screen and (max-width: 750px) {
                                 display: grid;
                               grid-column-start: 3;
                               grid-row-start: 6;
-                              width: 35vw;
+                              width: 40vw;
                               
                               }
+                              @media screen and (max-width: 650px) {
+                                width: 50vw;
+                                }
+                                @media screen and (max-width: 550px) {
+                                    width: 90vw;
+                                    padding-left: 0;
+                                   text-align: center;
+                                    }
                         }
 
                         .furniture-header-text{
@@ -375,6 +407,8 @@
                               grid-row-start: 4;
                               }
 
+                              
+
                            
                         }
 
@@ -389,12 +423,25 @@
                             line-height: 1.6;
                             width: 15vw;
                             padding-left: 4vw;
+
+                            @media screen and (max-width: 1260px) {
+                                width: 25vw;
+                              }
                             @media screen and (max-width: 750px) {
                                 display: grid;
                               grid-column-start: 3;
                               grid-row-start: 4;
-                              width: 35vw;
+                              width: 40vw;
                               }
+
+                              @media screen and (max-width: 650px) {
+                              width: 50vw;
+                              }
+                              @media screen and (max-width: 550px) {
+                                width: 90vw;
+                                padding-left: 0;
+                               text-align: center;
+                                }
                         }
                         
                     }
@@ -419,9 +466,19 @@
             height: 105vh;
 
             @media screen and (max-width: 750px) {
-                margin-top: 135vh;
+                padding-top: 135vh;
                 grid-template-columns: 1vw 1fr 1fr 1fr 1vw;
+                grid-template-rows: 150px 1fr 1fr 1fr 1fr 1fr;
                 }
+
+                @media screen and (max-width: 650px) {
+                    grid-template-rows: 105px 25vh 45vh 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 39vh;
+                    grid-template-columns: 1vw 1fr 1fr 1fr 1fr 1vw;
+                    height: 170vh;
+                    }
+                    @media screen and (max-width: 550px) {
+                      height: 180vh;
+                         }
             
 
 
@@ -437,8 +494,16 @@
                     grid-row-start: 3;
                     align-self: center;
                     height: 75vh;
-                    padding-top: 5vh;
+                    padding-top: 10vh;
                     }
+                    @media screen and (max-width: 650px) {
+                        justify-self: center;
+                        grid-row-start: 1;
+                        grid-row-end: 4;
+                        align-self: center;
+                        height: 75vh;
+                        
+                        }
             }
 
             .security-icon1{
@@ -447,6 +512,13 @@
                 grid-row-start: 2;
                 align-self: flex-end;
                 justify-self: flex-end;
+                @media screen and (max-width: 650px) {
+                   grid-column-start: 3;
+                   grid-row-start: 5;
+                   justify-self: flex-start;
+                   margin: 0;
+                   padding: 0;
+                   }
             }
 
             .secure-header-text{
@@ -455,6 +527,19 @@
                 grid-row-start: 3;
                 justify-self: flex-end;
                 font-family: 'AvenirBold';
+                @media screen and (max-width: 650px) {
+                    grid-column-start: 3;
+                    grid-row-start: 5;
+                    justify-self: flex-start;
+                    padding-bottom: 2vh;
+                    padding-left: 8vw;
+                    align-self: flex-end;
+                    }
+
+                    @media screen and (max-width: 550px) {
+                       padding-left: 13vw;
+                        }
+                
             }
 
             .secure-text-paragraph{
@@ -466,10 +551,25 @@
                 padding-top: 3.5vh;
                 text-align: right;
                 color: #696A86;
+               justify-self: flex-end;
+                width: 25vw;
+                
                 @media screen and (max-width: 750px) {
                     font-size: 1rem;
-                    padding-left: 2.2vw;
+                    
                     }
+
+                    @media screen and (max-width: 650px) {
+                        grid-column-start: 3;
+                        grid-row-start: 6;
+                        justify-self: flex-start;
+                        padding-bottom: 2vh;
+                        padding-left: 2vw;
+                        align-self: flex-start;
+                        width: 65vw;
+                        text-align: left;
+                        padding-top: 0;
+                        }
                 
                 
             }
@@ -481,13 +581,34 @@
                 font-family: 'AvenirMedium';
                 line-height: 1.6;
                 padding-top: 3.5vh;
+                width: 25vw;
                 text-align: left;
                 color: #696A86;
+
+                @media screen and (max-width: 875px) {
+                    font-size: 1rem;
+                    
+                    padding-right: 2.2vw;
+                    
+                    }
+
                 @media screen and (max-width: 750px) {
                     font-size: 1rem;
                     padding-right: 2.2vw;
                     
                     }
+
+                    @media screen and (max-width: 650px) {
+                        grid-column-start: 3;
+                        grid-row-start: 8;
+                        justify-self: flex-start;
+                        padding-bottom: 2vh;
+                        padding-left: 2vw;
+                        align-self: flex-start;
+                        width: 65vw;
+                        text-align: left;
+                        padding-top: 0;
+                        } 
             }
 
              .security-icon2{
@@ -496,6 +617,15 @@
                 grid-row-start: 2;
                 align-self: flex-end;
                 justify-self: flex-start;
+
+                @media screen and (max-width: 650px) {
+                    grid-column-start: 3;
+                    grid-row-start: 7;
+                    justify-self: flex-start;
+                    margin: 0;
+                    padding: 0;
+                    }
+               
             }
 
             .EasyInstallation-header-text{
@@ -504,6 +634,19 @@
                 grid-row-start: 3;
                 justify-self: flex-start;
                 font-family: 'AvenirBold';
+                @media screen and (max-width: 650px) {
+                    grid-column-start: 3;
+                    grid-row-start: 7;
+                    justify-self: flex-start;
+                    padding-bottom: 2vh;
+                    padding-left: 8vw;
+                    align-self: flex-end;
+                    }
+                    @media screen and (max-width: 550px) {
+                        padding-left: 13vw;
+                         }
+
+              
             }
 
 
@@ -513,6 +656,14 @@
                 grid-row-start: 4;
                 align-self: flex-end;
                 justify-self: flex-end;
+
+                @media screen and (max-width: 650px) {
+                    grid-column-start: 3;
+                    grid-row-start: 9;
+                    justify-self: flex-start;
+                    margin: 0;
+                    padding: 0;
+                    }
             }
 
             .Adaptable-header-text{
@@ -521,6 +672,17 @@
                 grid-row-start: 5;
                 justify-self: flex-end;
                 font-family: 'AvenirBold';
+                @media screen and (max-width: 650px) {
+                    grid-column-start: 3;
+                    grid-row-start: 9;
+                    justify-self: flex-start;
+                    padding-bottom: 2vh;
+                    padding-left: 8vw;
+                    align-self: flex-end;
+                    }
+                    @media screen and (max-width: 550px) {
+                        padding-left: 13vw;
+                         }
             }
 
             .adaptable-text-paragraph{
@@ -536,6 +698,18 @@
                     font-size: 1rem;
                     padding-left: 2.2vw;
                     }
+
+                    @media screen and (max-width: 650px) {
+                        grid-column-start: 3;
+                        grid-row-start: 10;
+                        justify-self: flex-start;
+                        padding-bottom: 2vh;
+                        padding-left: 2vw;
+                        align-self: flex-start;
+                        width: 65vw;
+                        text-align: left;
+                        padding-top: 0;
+                        } 
             }
 
             .security-icon4{
@@ -544,6 +718,14 @@
                 grid-row-start: 4;
                 align-self: flex-end;
                 justify-self: flex-start;
+
+                @media screen and (max-width: 650px) {
+                    grid-column-start: 3;
+                    grid-row-start: 11;
+                    justify-self: flex-start;
+                    margin: 0;
+                    padding: 0;
+                    }
             }
 
             .Easyuse-header-text{
@@ -552,6 +734,17 @@
                 grid-row-start: 5;
                 justify-self: flex-start;
                 font-family: 'AvenirBold';
+                @media screen and (max-width: 650px) {
+                    grid-column-start: 3;
+                    grid-row-start: 11;
+                    justify-self: flex-start;
+                    padding-bottom: 2vh;
+                    padding-left: 8vw;
+                    align-self: flex-end;
+                    }
+                    @media screen and (max-width: 550px) {
+                        padding-left: 13vw;
+                         }
             }
 
             .Easyuse-text-paragraph{
@@ -568,6 +761,18 @@
                     padding-right: 2.2vw;
                     
                     }
+
+                    @media screen and (max-width: 650px) {
+                        grid-column-start: 3;
+                        grid-row-start: 12;
+                        justify-self: flex-start;
+                        padding-bottom: 2vh;
+                        padding-left: 2vw;
+                        align-self: flex-start;
+                        width: 65vw;
+                        text-align: left;
+                        padding-top: 0;
+                        } 
             }
         }
 
@@ -581,6 +786,25 @@
             height: 90vh;
             width: 100vw;
 
+            @media screen and (max-width: 850px) {
+                height: 100vh;
+                
+                }
+
+                @media screen and (max-width: 450px) {
+                    grid-template-rows: 0 1fr 1fr;
+                    height: 110vh;
+                    }
+
+                    @media screen and (max-width: 365px) {
+                        grid-template-rows: 0 1fr 55vh;
+                        }
+
+                        @media screen and (max-width: 345px) {
+                            grid-template-rows: 2vh 1fr 95vh;
+                            height: 115vh;
+                            }
+
 
 
             .grid-text-container{
@@ -592,6 +816,7 @@
                 grid-row-end: 3;
                 justify-content: center;
                 align-items: center;
+                
 
 
                 .horizontal-vertical-text-container-flex{
@@ -599,6 +824,13 @@
                     display: flex;
                     flex-direction: column;
                     padding-left: 2vw;
+
+                    @media screen and (max-width: 450px) {
+                       padding-top: 1vh;
+                       height: 35vh;
+                       padding-left: 0;
+                       margin-left: -4vw;
+                        }
     
     
                     .horizontal-vertical-header-text{
@@ -607,6 +839,14 @@
                         color: white;
                         font-family: 'AvenirBold';
                         font-size: 2.1rem;
+
+                        @media screen and (max-width: 750px) {
+                            padding-left: 0;
+                            }
+                            @media screen and (max-width: 450px) {
+                                padding-bottom: 2vh;
+                                 }
+                           
                         
                     }
         
@@ -616,6 +856,17 @@
                         color: white;
                         font-family: 'AvenirMedium';
                         line-height: 1.6;
+
+                        @media screen and (max-width: 850px) {
+                            width: 50vw;
+                            }
+
+                            @media screen and (max-width: 750px) {
+                                padding-left: 0;
+                                }
+                                @media screen and (max-width: 450px) {
+                                    width: 80vw;
+                                    }
                         
                     }
     
@@ -633,8 +884,29 @@
                 grid-row-start: 1;
                 grid-row-end: 4;
                 align-self: center;
-                height: 80vh;
+                height: 70vh;
                 padding-right: 10vw;
+
+                @media screen and (max-width: 850px) {
+                    height: 60vh;
+                    padding-right: 3vw;
+                    
+                    }
+
+                    @media screen and (max-width: 650px) {
+                        height: 50vh;
+                        padding-right: 0vw;
+                        }
+                        @media screen and (max-width: 450px) {
+                            height: 35vh;
+                            grid-column-start: 1;
+                            grid-row-start: 3;
+                            }
+                            @media screen and (max-width: 365px) {
+                               grid-column-end: 4;
+                               align-self: flex-end;
+                                }
+                
             }
 
             .alfa-horizontal-lock-vertical-horizontal-section{
@@ -643,7 +915,24 @@
                 grid-column-start: 2;
                 grid-column-end: 4;
                 padding-left: 8vw;
-                width: 40vw;
+                
+                width: 35vw;
+
+                @media screen and (max-width: 850px) {
+                    width: 45vw;
+                    }
+                    @media screen and (max-width: 750px) {
+                       width: 55vw;
+                       align-self: center;
+                       padding-left: 0;
+                       }
+                       @media screen and (max-width: 450px) {
+                        align-self: flex-end;
+                        grid-column-end: 5;
+                        justify-self: flex-end;
+                        grid-column-start: 1;
+                        width: 65vw;
+                        }
                
             }
 

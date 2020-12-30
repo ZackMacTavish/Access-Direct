@@ -169,6 +169,9 @@ class zamakastPage extends Component {
 
 
                             <Footer />
+                            
+                           
+                            
                        
 
             </div>
