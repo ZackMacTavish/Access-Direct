@@ -18,6 +18,8 @@ import OtherProducts from "../../Components/View Other Products/viewotherproduct
 import Footer from '../../Components/Footer/Footer.component';
 
 
+
+
 class highpowerPage extends Component {
     render() {
         
@@ -67,7 +69,7 @@ class highpowerPage extends Component {
                     <div className="cellphone-section-flex">
                                                 <div>
                                                     <h5 className="cabinet-locks-header">HighPower One Mobile App</h5>
-                                                    <p className="zamakast-paragraph-text">
+                                                    <p className="highpower-paragraph-text">
                                                     The Highpower One App allows control to all of your access points from your phone. 
                                                     Scan the qr code below to be directed to the app in Google Play, or the App Store.</p>
                                                     <div className="google-apple-flexcontainer">
@@ -161,21 +163,18 @@ class highpowerPage extends Component {
 
                        
 
-               
+                           
                        
                    
-
+                        
                         <div className="highpower-one-spacing">
                         <OtherProducts />
                         </div>
                             
 
-
-                            <Footer />
-                            
                            
                             
-                       
+                       <Footer />
 
             </div>
         );

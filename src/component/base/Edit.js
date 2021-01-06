@@ -90,14 +90,14 @@ class Edit extends React.Component {
                     <div className="adv-title">{lang.en.advertisement.title}</div>
                     <div className="adv-content">
                         <div className="adv-picture">
-                            <a href="https://www.access-direct.net/highpowerone"
+                            <a className="links-buttons" href="https://www.access-direct.net/highpower-one"
                                target="_blank">
                                 <img className="pointer" src='/img/Highpoweronehomepage.png'/>
                                 <p>{lang.en.advertisement.highpower}</p>
                             </a>
                         </div>
                         <div className="adv-picture">
-                            <a href="https://www.access-direct.net/pneumaticswitches"
+                            <a className="links-buttons" href="https://www.access-direct.net/pneumatic-switches"
                                target="_blank">
                                 <img className="pointer" src='/img/PneumaticSwitches.png'/>
                                 <p>{lang.en.advertisement.switches}</p>
