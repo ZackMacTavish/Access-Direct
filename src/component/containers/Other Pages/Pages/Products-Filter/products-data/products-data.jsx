@@ -260,4 +260,200 @@ export const PRODUCT_DATA =
         id: '31'
     },
 
+    {
+        company: 'Mont Hard',
+        name: '1079',
+        image: require('../product photos/1079.png'),
+        description: 'Non ball bearing 5 knuckle standard weight hinge (available with 3 knuckle) - paint grade - 4 1/2 x 4 1/2' ,
+        id: '32'
+    },
+
+    {
+        company: 'Mont Hard',
+        name: 'BB 1048',
+        image: require('../product photos/BB 1048.png'),
+        description: 'Swing clear ball bearing standard weight hinge 4 ½ x – to help a door opening become ADA compliant.' ,
+        id: '33'
+    },
+
+    {
+        company: 'Mont Hard',
+        name: 'BB 1079',
+        image: require('../product photos/BB1079.jpg'),
+        description: 'Standard weight Round-cornered BB non-removable pin hinge (2 variations of round corners) can be grinded by locksmith.' ,
+        id: '34'
+    },
+
+    {
+        company: 'Mont Hard',
+        name: 'CB 1379',
+        image: require('../product photos/CB1379.jpg'),
+        description: 'Square edge 3 knuckle standard weight ball bearing hinge – non-rising pin is for an exterior door. Screw pack allows to mount metal to metal, or wood door/metal frame.' ,
+        id: '35'
+    },
+
+    {
+        company: 'MS Sedco',
+        name: 'CTP-H',
+        image: require('../product photos/CTp-h.jpg'),
+        description: 'Wireless handicap operator – comes with transmitter – has a dipswitch to channel frequency (can come as a kit).' ,
+        id: '36'
+    },
+
+    {
+        company: 'MS Sedco',
+        name: 'CP/TX-HH1',
+        image: require('../product photos/CP:TX-HH1.png'),
+        description: 'Single door remote handheld transmitter.' ,
+        id: '37'
+    },
+
+    {
+        company: 'MS Sedco',
+        name: 'CP/TX-HH2',
+        image: require('../product photos/CP:TX-HH2.png'),
+        description: 'Double door remote handheld transmitter.' ,
+        id: '38'
+    },
+
+    {
+        company: 'MS Sedco',
+        name: 'Remote Control Receiver',
+        image: require('../product photos/CP:TX-HH2.png'),
+        description: 'Double door remote handheld transmitter.' ,
+        id: '39'
+    },
+
+    {
+        company: 'Power Patrol',
+        name: 'FAS 1055',
+        image: require('../product photos/batteryfinal.png'),
+        description: '12 volt battery -5ah/20HR - Max. charge current 1.5 amps.' ,
+        id: '40'
+    },
+
+    {
+        company: 'RCI',
+        name: '6514',
+        image: require('../product photos/6514.png'),
+        description: 'A recommended Access Direct Product' ,
+        id: '41'
+    },
+
+    {
+        company: 'RCI',
+        name: '8310',
+        image: require('../product photos/8310-smaller.png'),
+        description: 'RCI 8310(Single)/8320(Double) magnetic lock with 1200lb holding force and optional DPS' ,
+        id: '42'
+    },
+
+    {
+        company: 'RCI',
+        name: 'Split Armature',
+        image: require('../product photos/RCI- Split Armature-smaller.png'),
+        description: 'A recommended Access Direct Product' ,
+        id: '43'
+    },
+
+    {
+        company: 'RCI',
+        name: '265',
+        image: require('../product photos/RCI - 265-NoBG.png'),
+        description: 'A recommended Access Direct Product' ,
+        id: '44'
+    },
+
+    {
+        company: 'Record',
+        name: 'Programmer',
+        image: require('../product photos/programmer.jpg'),
+        description: 'A recommended Access Direct Product' ,
+        id: '45'
+    },
+
+    {
+        company: 'Record',
+        name: 'Swinging Door',
+        image: require('../product photos/swinging-door.jpeg'),
+        description: 'A recommended Access Direct Product' ,
+        id: '46'
+    },
+
+    {
+        company: 'Regent',
+        name: 'Face plates',
+        image: require('../product photos/Faceplates.png'),
+        description: 'A recommended Access Direct Product' ,
+        id: '47'
+    },
+
+    {
+        company: 'Regent',
+        name: '5V0A4809',
+        image: require('../product photos/5V0A4809.jpeg'),
+        description: 'A recommended Access Direct Product' ,
+        id: '48'
+    },
+
+    {
+        company: 'Regent',
+        name: '5V0A4837',
+        image: require('../product photos/5V0A4837.jpeg'),
+        description: 'A recommended Access Direct Product' ,
+        id: '49'
+    },
+
+    {
+        company: 'Regent',
+        name: '5V0A4810',
+        image: require('../product photos/5V0A4810.jpeg'),
+        description: 'A recommended Access Direct Product' ,
+        id: '50'
+    },
+
+    {
+        company: 'Regent',
+        name: '2322 Series',
+        image: require('../product photos/5V0A4792.jpeg'),
+        description: 'A recommended Access Direct Product' ,
+        id: '51'
+    },
+
+    {
+        company: 'Regent',
+        name: '2333-36',
+        image: require('../product photos/5V0A4804.jpeg'),
+        description: 'A recommended Access Direct Product' ,
+        id: '52'
+    },
+
+    {
+        company: 'Southwire',
+        name: 'Power Supply Cord',
+        image: require('../product photos/powersupplycord.jpg'),
+        description: 'A recommended Access Direct Product' ,
+        id: '53'
+    },
+
+    {
+        company: 'Wikk',
+        name: 'Bollard',
+        image: require('../product photos/Bollard copy.jpg'),
+        description: 'A recommended Access Direct Product' ,
+        id: '54'
+    },
+
+    {
+        company: 'Wikk',
+        name: 'Bollard 2',
+        image: require('../product photos/Bollard2.jpg'),
+        description: 'A recommended Access Direct Product' ,
+        id: '55'
+    },
+
+
+
+
+
     ]
