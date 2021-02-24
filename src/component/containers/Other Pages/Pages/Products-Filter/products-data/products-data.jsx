@@ -7,7 +7,7 @@ export const PRODUCT_DATA =
     {
         company: 'RCI',
         name: '0563',
-        image: require('../product photos/0563.png'),
+        image: require('../product photos/0563-min.png'),
         description: 'A recommended Access Direct Product' ,
         id: '0'
     },
@@ -15,7 +15,7 @@ export const PRODUCT_DATA =
     {
         company: 'RCI',
         name: '6508',
-        image: require('../product photos/6508-NoBG.png'),
+        image: require('../product photos/6508-min.png'),
         description: 'A recommended Access Direct Product' ,
         id: '1'
     },
@@ -23,7 +23,7 @@ export const PRODUCT_DATA =
     {
         company: 'RCI',
         name: 'Electromagnetic Lock',
-        image: require('../product photos/RCI - ElectroMagnetic LockNoBG.png'),
+        image: require('../product photos/RCI-ElectromagneticLock-min.png'),
         description: 'A recommended Access Direct Product' ,
         id: '2'
     },
@@ -31,7 +31,7 @@ export const PRODUCT_DATA =
     {
         company: 'Access Direct',
         name: 'H200',
-        image: require('../product photos/H200.png'),
+        image: require('../product photos/H200-min.png'),
         description: 'A recommended Access Direct Product' ,
         id: '3'
     },
@@ -39,7 +39,7 @@ export const PRODUCT_DATA =
     {
         company: 'Highpower',
         name: 'Terminal Blocks',
-        image: require('../product photos/TerminalBlocks.png'),
+        image: require('../product photos/TerminalBlocks-min.png'),
         description: 'Terminal blocks for Citi Bank power supply' ,
         id: '4'
     },
@@ -47,7 +47,7 @@ export const PRODUCT_DATA =
     {
         company: 'Bosch',
         name: 'DS160',
-        image: require('../product photos/DS160.png'),
+        image: require('../product photos/DS160-min.png'),
         description: 'Request-to-exit detector PIR' ,
         id: '5'
     },
@@ -55,7 +55,7 @@ export const PRODUCT_DATA =
     {
         company: 'Cal Royal',
         name: '65-20',
-        image: require('../product photos/65-20.png'),
+        image: require('../product photos/65-20-min.png'),
         description: 'Privacy set knob' ,
         id: '6'
     },
@@ -63,7 +63,7 @@ export const PRODUCT_DATA =
     {
         company: 'Cal Royal',
         name: 'SL-05 Storeroom',
-        image: require('../product photos/SL-05 Storeroom.png'),
+        image: require('../product photos/SL-05 Storeroom-min.png'),
         description: 'Grade 2, Schlage keyway, available as IC/Non-IC with these functions: classroom/storeroom/privacy/passage/asylum. Other functions available with lead time.' ,
         id: '7'
     },
@@ -71,7 +71,7 @@ export const PRODUCT_DATA =
     {
         company: 'Cal Royal',
         name: 'SL-05',
-        image: require('../product photos/SL-05.png'),
+        image: require('../product photos/SL-05-min.png'),
         description: 'Grade 2, Schlage keyway, available as IC/Non-IC with these functions: classroom/storeroom/privacy/passage/asylum. Other functions available with lead time.' ,
         id: '8'
     },
@@ -79,7 +79,7 @@ export const PRODUCT_DATA =
     {
         company: 'Cal Royal',
         name: 'SL-05',
-        image: require('../product photos/SL-05-IC.png'),
+        image: require('../product photos/SL-05-IC-min.png'),
         description: 'IC version (Interchangeable core) Access Direct can provide combinated(master keying system) cores. Large format and RC are supplied with lead time.' ,
         id: '9'
     },
@@ -87,7 +87,7 @@ export const PRODUCT_DATA =
     {
         company: 'Cal Royal',
         name: 'SL-05',
-        image: require('../product photos/SL-05-Entry.png'),
+        image: require('../product photos/SL-05-Entry-min.png'),
         description: 'Entry set, (Inside side)' ,
         id: '10'
     },
@@ -95,7 +95,7 @@ export const PRODUCT_DATA =
     {
         company: 'Cal Royal',
         name: 'Bolts',
-        image: require('../product photos/Bolts.png'),
+        image: require('../product photos/Bolts-min.png'),
         description: 'A Drive in bolt, Corrogated Bolt, and a Drive in deadlocking latch (standard latch)' ,
         id: '11'
     },
@@ -103,7 +103,7 @@ export const PRODUCT_DATA =
     {
         company: 'Cal Royal',
         name: 'Latches',
-        image: require('../product photos/Latches.png'),
+        image: require('../product photos/Latches-min.png'),
         description: '2 3/8 deadlocking latch, 2 3/4 backset latch. Can use it for any locking lockset, classroom, or storage room' ,
         id: '12'
     },
@@ -111,7 +111,7 @@ export const PRODUCT_DATA =
     {
         company: 'Cal Royal',
         name: 'Tailpiece',
-        image: require('../product photos/5V0A4847.png'),
+        image: require('../product photos/5V0A4847-min.png'),
         description: 'Used for an Alarm Lock, or Cal Royal entry or storeroom function. Goes into the back of an IC core to make the lock work.' ,
         id: '13'
     },
@@ -119,7 +119,7 @@ export const PRODUCT_DATA =
     {
         company: 'Cal Royal',
         name: '7500',
-        image: require('../product photos/7500.jpg'),
+        image: require('../product photos/7500-min.jpg'),
         description: 'A recommended Access Direct Product.' ,
         id: '14'
     },
@@ -127,7 +127,7 @@ export const PRODUCT_DATA =
     {
         company: 'Cal Royal',
         name: 'Spring Hinge',
-        image: require('../product photos/Hinge.png'),
+        image: require('../product photos/Hinge-min.png'),
         description: 'A recommended Access Direct Product.' ,
         id: '15'
     },
@@ -135,7 +135,7 @@ export const PRODUCT_DATA =
     {
         company: 'Camden',
         name: 'CX-ED1259L',
-        image: require('../product photos/CX-ED1259L-wide.jpg'),
+        image: require('../product photos/CX-ED1259L-wide-min.jpg'),
         description: 'A Rim panic strike that is surface mounted.' ,
         id: '16'
     },
@@ -143,7 +143,7 @@ export const PRODUCT_DATA =
     {
         company: 'CRP',
         name: 'BB31',
-        image: require('../product photos/BB31.png'),
+        image: require('../product photos/BB31-min.png'),
         description: '26D 4 1/2 x 4 1/2 Non-NRP Non-ball-bearing Hinge. Screws come with 2 sets (One for metal and one for wood)' ,
         id: '17'
     },
@@ -151,7 +151,7 @@ export const PRODUCT_DATA =
     {
         company: 'CRP',
         name: 'BB5200',
-        image: require('../product photos/BB5200.jpg'),
+        image: require('../product photos/BB5200-min.png'),
         description: 'Commercial Standard weight 4 ½ x 4 ½ NRP Ball-bearing 26D (Brass/Steel chrome plated) Hinge. Available in Residential/Standard/Heavy Weights.' ,
         id: '18'
     },
@@ -159,7 +159,7 @@ export const PRODUCT_DATA =
     {
         company: 'GMS/KSP',
         name: 'Collars',
-        image: require('../product photos/Collars.jpg'),
+        image: require('../product photos/Collars-min.jpg'),
         description: 'Collars for different length of housing. Left collar is a security collar, and has a 7 pin housing. The middle collar is 6 pin, and the end piece is for varying use.' ,
         id: '19'
     },
@@ -167,7 +167,7 @@ export const PRODUCT_DATA =
     {
         company: 'GMS/KSP',
         name: 'D6',
-        image: require('../product photos/D6.jpg'),
+        image: require('../product photos/D6-min.png'),
         description: 'Small format 6 pin IC core. Available as a 20 pack or individual.' ,
         id: '20'
     },
@@ -175,7 +175,7 @@ export const PRODUCT_DATA =
     {
         company: 'GMS/KSP',
         name: 'D7',
-        image: require('../product photos/D7.jpg'),
+        image: require('../product photos/D7-min.jpg'),
         description: '7 pin IC core. Pins are placed in the top to set the lock. Key is placed into slot in the front.' ,
         id: '21'
     },
@@ -183,7 +183,7 @@ export const PRODUCT_DATA =
     {
         company: 'GMS/KSP',
         name: 'DQA',
-        image: require('../product photos/DQA.jpg'),
+        image: require('../product photos/DQA-min.jpg'),
         description: 'IC nicket silver. Color determines hardness of the key.' ,
         id: '22'
     },
@@ -191,7 +191,7 @@ export const PRODUCT_DATA =
     {
         company: 'GMS/KSP',
         name: 'ICM-7-26D-AR',
-        image: require('../product photos/ICM-7-26D-AR.jpg'),
+        image: require('../product photos/ICM-7-26D-AR-min.jpg'),
         description: 'IC housing, screw secures housing in place.' ,
         id: '23'
     },
@@ -199,7 +199,7 @@ export const PRODUCT_DATA =
     {
         company: 'GMS/KSP',
         name: 'ICM-7-26D-ST',
-        image: require('../product photos/ICM-7-26D-ST.png'),
+        image: require('../product photos/ICM-7-26D-ST-min.jpg'),
         description: 'Small format IC standard cam.' ,
         id: '24'
     },
@@ -207,7 +207,7 @@ export const PRODUCT_DATA =
     {
         company: 'GMS/KSP',
         name: 'ICR-7-26D',
-        image: require('../product photos/ICR-7-26D.jpg'),
+        image: require('../product photos/ICR-7-26D-min.jpg'),
         description: 'IC small format 7 pin, mortise housing that can pair with multiple lock sets. Can work with multiple collars. This is used for a panic device, mortise lock, or an Adams Rite latch.' ,
         id: '25'
     },
@@ -215,7 +215,7 @@ export const PRODUCT_DATA =
     {
         company: 'GMS/KSP',
         name: 'Tailpiece-IC',
-        image: require('../product photos/Tailpiece-IC.png'),
+        image: require('../product photos/Tailpiece-IC-min.png'),
         description: 'Yale is top left, Sargent is top right, Adams Rite is bottom left, and Falcon is bottom right.' ,
         id: '26'
     },
@@ -223,7 +223,7 @@ export const PRODUCT_DATA =
     {
         company: 'GMS/KSP',
         name: 'Tailpiece-Non-IC',
-        image: require('../product photos/Non-IC.png'),
+        image: require('../product photos/Non-IC-min.png'),
         description: 'Tailpiece for housing. Tailpieces for Adams Rite, Yale, Falcon, and Schlage keyway.' ,
         id: '27'
     },
@@ -231,7 +231,7 @@ export const PRODUCT_DATA =
     {
         company: 'Hager',
         name: '1751 REV.P',
-        image: require('../product photos/1751-REV.png'),
+        image: require('../product photos/1751-REV.-min.png'),
         description: 'Hager Spring Hinge Round-Cornered Residential weight.' ,
         id: '28'
     },
@@ -239,7 +239,7 @@ export const PRODUCT_DATA =
     {
         company: 'Hager',
         name: '10196',
-        image: require('../product photos/10196.jpg'),
+        image: require('../product photos/10196-min.jpg'),
         description: 'Electrified 2 ball bearing hinge - 4 1/2 x 4 1/2 inch square edge. US3 hinge - bright brass.' ,
         id: '29'
     },
@@ -255,7 +255,7 @@ export const PRODUCT_DATA =
     {
         company: 'Highpower',
         name: 'Medeco Key Switch (Narrow)',
-        image: require('../product photos/Narrow-singlegang.png'),
+        image: require('../product photos/Narrow-singlegang-min.png'),
         description: 'Narrow single gang keyswitch.' ,
         id: '31'
     },
@@ -263,7 +263,7 @@ export const PRODUCT_DATA =
     {
         company: 'Mont Hard',
         name: '1079',
-        image: require('../product photos/1079.png'),
+        image: require('../product photos/1079-min.png'),
         description: 'Non ball bearing 5 knuckle standard weight hinge (available with 3 knuckle) - paint grade - 4 1/2 x 4 1/2' ,
         id: '32'
     },
@@ -271,7 +271,7 @@ export const PRODUCT_DATA =
     {
         company: 'Mont Hard',
         name: 'BB 1048',
-        image: require('../product photos/BB 1048.png'),
+        image: require('../product photos/BB-1048-min.png'),
         description: 'Swing clear ball bearing standard weight hinge 4 ½ x – to help a door opening become ADA compliant.' ,
         id: '33'
     },
@@ -279,7 +279,7 @@ export const PRODUCT_DATA =
     {
         company: 'Mont Hard',
         name: 'BB 1079',
-        image: require('../product photos/BB1079.jpg'),
+        image: require('../product photos/BB1079-min.jpg'),
         description: 'Standard weight Round-cornered BB non-removable pin hinge (2 variations of round corners) can be grinded by locksmith.' ,
         id: '34'
     },
@@ -287,7 +287,7 @@ export const PRODUCT_DATA =
     {
         company: 'Mont Hard',
         name: 'CB 1379',
-        image: require('../product photos/CB1379.jpg'),
+        image: require('../product photos/CB1379-min.jpg'),
         description: 'Square edge 3 knuckle standard weight ball bearing hinge – non-rising pin is for an exterior door. Screw pack allows to mount metal to metal, or wood door/metal frame.' ,
         id: '35'
     },
@@ -303,7 +303,7 @@ export const PRODUCT_DATA =
     {
         company: 'MS Sedco',
         name: 'CP/TX-HH1',
-        image: require('../product photos/CP:TX-HH1.png'),
+        image: require('../product photos/CP-TX-HH1-min.png'),
         description: 'Single door remote handheld transmitter.' ,
         id: '37'
     },
@@ -311,7 +311,7 @@ export const PRODUCT_DATA =
     {
         company: 'MS Sedco',
         name: 'CP/TX-HH2',
-        image: require('../product photos/CP:TX-HH2.png'),
+        image: require('../product photos/CP-TX-HH2-min.png'),
         description: 'Double door remote handheld transmitter.' ,
         id: '38'
     },
@@ -319,7 +319,7 @@ export const PRODUCT_DATA =
     {
         company: 'MS Sedco',
         name: 'Remote Control Receiver',
-        image: require('../product photos/CP:TX-HH2.png'),
+        image: require('../product photos/CP-TX-HH2-min.png'),
         description: 'Double door remote handheld transmitter.' ,
         id: '39'
     },
@@ -327,7 +327,7 @@ export const PRODUCT_DATA =
     {
         company: 'Power Patrol',
         name: 'FAS 1055',
-        image: require('../product photos/batteryfinal.png'),
+        image: require('../product photos/batteryfinal-min.png'),
         description: '12 volt battery -5ah/20HR - Max. charge current 1.5 amps.' ,
         id: '40'
     },
@@ -335,7 +335,7 @@ export const PRODUCT_DATA =
     {
         company: 'RCI',
         name: '6514',
-        image: require('../product photos/6514.png'),
+        image: require('../product photos/6514-min.png'),
         description: 'A recommended Access Direct Product' ,
         id: '41'
     },
@@ -343,7 +343,7 @@ export const PRODUCT_DATA =
     {
         company: 'RCI',
         name: '8310',
-        image: require('../product photos/8310-smaller.png'),
+        image: require('../product photos/8310-min.png'),
         description: 'RCI 8310(Single)/8320(Double) magnetic lock with 1200lb holding force and optional DPS' ,
         id: '42'
     },
@@ -351,7 +351,7 @@ export const PRODUCT_DATA =
     {
         company: 'RCI',
         name: 'Split Armature',
-        image: require('../product photos/RCI- Split Armature-smaller.png'),
+        image: require('../product photos/SplitArmature-min.png'),
         description: 'A recommended Access Direct Product' ,
         id: '43'
     },
@@ -359,7 +359,7 @@ export const PRODUCT_DATA =
     {
         company: 'RCI',
         name: '265',
-        image: require('../product photos/RCI - 265-NoBG.png'),
+        image: require('../product photos/RCI-265-min.png'),
         description: 'A recommended Access Direct Product' ,
         id: '44'
     },
@@ -383,7 +383,7 @@ export const PRODUCT_DATA =
     {
         company: 'Regent',
         name: 'Face plates',
-        image: require('../product photos/Faceplates.png'),
+        image: require('../product photos/Faceplates-min.png'),
         description: 'A recommended Access Direct Product' ,
         id: '47'
     },
@@ -431,7 +431,7 @@ export const PRODUCT_DATA =
     {
         company: 'Southwire',
         name: 'Power Supply Cord',
-        image: require('../product photos/powersupplycord.jpg'),
+        image: require('../product photos/powersupplycord-min.jpg'),
         description: 'A recommended Access Direct Product' ,
         id: '53'
     },

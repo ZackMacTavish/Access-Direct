@@ -30,7 +30,10 @@ class productsFilter extends Component {
     render() {
         const { products, searchField} = this.state;
         const filteredProducts = products.filter(product =>
-            product.name.toLowerCase().includes(searchField.toLowerCase()))
+            product.name.toLowerCase().includes(searchField.toLowerCase() )||
+            product.company.toLowerCase().includes(searchField.toLowerCase()))
+            
+            
        
         return (
             <div className="products-filter-page">
