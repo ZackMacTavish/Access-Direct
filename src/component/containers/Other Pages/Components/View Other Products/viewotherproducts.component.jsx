@@ -23,7 +23,9 @@ class OtherProducts extends Component {
             <p className="pneumatic-switches-otherproducts-p-text">Our door hardware experts match the perfect set of 
             pneumatic switches for your needs. We carry a selection from many brands.</p>
 
-            <button className="pneumatic-switches-page">Pneumatic Switches</button>
+           
+
+            <a className="pneumatic-switches-page" href="https://www.access-direct.net/pneumatic-switches">Pneumatic Switches</a>
 
             <img className="highpower-icon-otherproducts" src={Highpoweroneicon} alt="Highpower Graphic" />
 
@@ -37,7 +39,9 @@ class OtherProducts extends Component {
             Allowing you to control the doors from you phone. 
             </p>
 
-            <button className="highpowerone-page">Highpower One</button>
+           
+
+            <a className="highpowerone-page" href="https://www.access-direct.net/pneumatic-switches">Highpower One</a>
 
             <h3 className="custom-fobgenerator-header-text">Custom Fob Generator</h3>
 
@@ -46,7 +50,9 @@ class OtherProducts extends Component {
             First time users of the fob layout designer get 30 free fobs added to their order.
             </p>
 
+           
             <button className="custom-fobgenerator-page">Custom Fob Generator</button>
+            
 
        
 

@@ -122,6 +122,11 @@
                     }
 
     }
+ a{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+ }
 
     .pneumatic-switches-page{
         display: grid;
@@ -130,6 +135,7 @@
         align-self: center;
         align-items: center;
         justify-self: center;
+        text-decoration: none;
         color: white;
         background-color: #0400B9;
         width: 15vw;
@@ -227,6 +233,7 @@
         align-self: center;
         align-items: center;
         justify-self: center;
+        text-decoration: none;
         color: white;
         background-color: #0400B9;
         width: 15vw;
