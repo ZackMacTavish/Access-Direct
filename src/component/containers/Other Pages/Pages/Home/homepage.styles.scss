@@ -190,3 +190,41 @@ cursor:pointer;
 .wholesale-box-icon {
     margin-bottom: 2vh;
 }
+
+.product-large-images-button-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+}
+
+.pneumatic-button-image-flex{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    
+}
+
+.left-button-3 {
+    
+  
+    background-color: #1F56BA;
+    border: none;
+    padding: 1.5vh 2vw;
+    color: white;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    margin-top: 0.5vh;
+}
+
+.left-button-3:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    padding-bottom:-5vh;
+}

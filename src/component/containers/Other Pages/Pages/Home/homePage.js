@@ -3,10 +3,17 @@ import "./homepage.styles.scss";
 import wholesalebox from './wholesalers.png'
 import highpowerbox from './Asset 1@4x 1.png'
 import nationalicon from './NationalProjects-icon.png';
-
+import pneumaticsection from './PneumaticSwitch-Container 1 (1).png';
+import fobcustomizersection from './AD-Web-CustomizeFob-Container 1.png';
+import fobssection from './AD-Web-Fob-Container 1.png'
+import alfasection from './alfalock2 1 (1).png';
+import doorsection from './Record-Container-01 2.png';
 import Header from "../../../../base/Header";
 import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
+import allproducts from './AllProducts-01 1.png';
 import Footer from '../../Components/Footer/Footer.component';
+
+
 
 
 
@@ -65,7 +72,50 @@ class homePage extends Component {
                                 </div>
                     </div>
                    
-                           
+                           <div className="product-large-images-button-section" >
+                           <div className="row">
+                                    
+                                        <div className="pneumatic-button-image-flex">
+                                            <img src={pneumaticsection} />
+                                            <button className="left-button-3">Pneumatic Switches</button>
+                                        </div>
+
+                                        <div className="pneumatic-button-image-flex">
+                                        <img src={fobssection} />
+                                        <button className="left-button-3">Fobs &
+                                        Prox Cards</button>
+                                    </div>
+
+                                    <div className="pneumatic-button-image-flex">
+                                    <img src={fobcustomizersection} />
+                                    <button className="left-button-3">Custom Fob Logo</button>
+                                </div>
+
+                                </div>
+
+                                <div className="row">
+
+                                <div className="pneumatic-button-image-flex">
+                                            <img src={alfasection} />
+                                            <button className="left-button-3">Alfa Lock</button>
+                                        </div>
+
+                                        <div className="pneumatic-button-image-flex">
+                                        <img src={doorsection} />
+                                        <button className="left-button-3">Door Operators</button>
+                                    </div>
+
+                                    <div className="pneumatic-button-image-flex">
+                                    <img src={allproducts} />
+                                    <button className="left-button-3">All Products</button>
+                                </div>
+
+                                </div>
+                              
+                                    
+                           </div>
+
+                          
                             
                        <Footer />
 
