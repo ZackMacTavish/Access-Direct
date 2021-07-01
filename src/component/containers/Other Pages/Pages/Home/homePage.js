@@ -73,39 +73,35 @@ class homePage extends Component {
                     </div>
                    
                            <div className="product-large-images-button-section" >
-                           <div className="row">
+                          
                                     
-                                        <div className="pneumatic-button-image-flex">
+                                        <div className="pneumatic-button-image-flex grid-1">
                                             <img src={pneumaticsection} />
                                             <button className="left-button-3">Pneumatic Switches</button>
                                         </div>
 
-                                        <div className="pneumatic-button-image-flex">
+                                        <div className="pneumatic-button-image-flex grid-2">
                                         <img src={fobssection} />
                                         <button className="left-button-3">Fobs &
                                         Prox Cards</button>
                                     </div>
 
-                                    <div className="pneumatic-button-image-flex">
+                                    <div className="pneumatic-button-image-flex grid-3">
                                     <img src={fobcustomizersection} />
                                     <button className="left-button-3">Custom Fob Logo</button>
                                 </div>
 
-                                </div>
-
-                                <div className="row">
-
-                                <div className="pneumatic-button-image-flex">
+                              <div className="pneumatic-button-image-flex grid-4">
                                             <img src={alfasection} />
                                             <button className="left-button-3">Alfa Lock</button>
                                         </div>
 
-                                        <div className="pneumatic-button-image-flex">
+                                        <div className="pneumatic-button-image-flex grid-5">
                                         <img src={doorsection} />
                                         <button className="left-button-3">Door Operators</button>
                                     </div>
 
-                                    <div className="pneumatic-button-image-flex">
+                                    <div className="pneumatic-button-image-flex grid-6">
                                     <img src={allproducts} />
                                     <button className="left-button-3">All Products</button>
                                 </div>
@@ -113,8 +109,7 @@ class homePage extends Component {
                                 </div>
                               
                                     
-                           </div>
-
+                      
                           
                             
                        <Footer />
