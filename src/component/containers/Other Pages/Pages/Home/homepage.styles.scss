@@ -450,3 +450,40 @@ cursor:pointer;
     }
     }
     
+    .brands-we-carry-section{
+        padding-bottom: 8vh;
+    }
+
+    .header-brands{
+        padding-left: 12vw;
+        padding-bottom: 5vh;
+        color: #696A86;
+        font-weight: 700;
+    }
+
+ .logos-brands-we-carry {
+     padding-left: 3vw;
+     padding-right: 3vw;
+    align-self: center;
+ }
+
+ @media (max-width: 1050px) {
+        .logos-brands-we-carry{
+           
+        
+        }
+
+    }
+
+
+    .row-one-section-brands{
+        display: flex;
+        justify-content: center;
+        }
+
+        .row-two-section-brands{
+            display: flex;
+            justify-content: center;
+            padding-top: 4vh;
+        
+            }

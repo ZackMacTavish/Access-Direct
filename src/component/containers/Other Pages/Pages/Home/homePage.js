@@ -12,6 +12,16 @@ import Header from "../../../../base/Header";
 import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
 import allproducts from './AllProducts-01 1.png';
 import Footer from '../../Components/Footer/Footer.component';
+import calroyal from './cal-royal-logo-blue 1.png';
+import abh from './ABH (1) 1.png';
+import dormakaba from './DormaKaba 1.png';
+import camden from './Camden 1.png';
+import highpower from './Highpowerlogo-01 1.png';
+import farpointe from './fp_logo_hr 1.png';
+import record from './record_logo 1.png';
+import donjo from './DONJO-LOGO 1.png';
+import westpenn from './West Penn 1.png';
+import zamakast from './zamakast-logo 1.png';
 
 
 
@@ -106,7 +116,30 @@ class homePage extends Component {
                                     <button className="left-button-3">All Products</button>
                                 </div>
 
-                                </div>
+                            </div>
+
+                            <div class="brands-we-carry-section">
+                            <h2 className="header-brands">Brands we carry</h2>
+
+                            <div className="row-one-section-brands">
+                            <img className="logos-brands-we-carry" src={calroyal} />
+                            <img className="logos-brands-we-carry" src={dormakaba} />
+                            <img className="logos-brands-we-carry" src={abh} />
+                            <img className="logos-brands-we-carry" src={camden} />
+                            <img className="logos-brands-we-carry" src={highpower} />
+                            </div>
+
+                            <div className="row-two-section-brands">
+                            <img className="logos-brands-we-carry" src={farpointe} />
+                            <img className="logos-brands-we-carry" src={record} />
+                            <img className="logos-brands-we-carry" src={donjo} />
+                            <img className="logos-brands-we-carry" src={westpenn} />
+                            <img className="logos-brands-we-carry" src={zamakast} />
+                            </div>
+                            
+                            </div>
+
+
                               
                                     
                       
