@@ -43,6 +43,7 @@
       flex-direction: column;
       justify-content: center;
       padding: 20px;
+      
     }
 
     a{
@@ -50,6 +51,7 @@
       font-family:'AvenirBold';
       font-size: 1rem;
       text-decoration: none;
+    
 
       &:active{
         color: grey;
@@ -62,5 +64,32 @@
      
     }
   }
+
+  ul li ul {
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    
+    margin-top: 1rem;
+    right: 13vw;
+    top: 5vh;
+    display: none;
+  }
+
+  ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
 
 }
