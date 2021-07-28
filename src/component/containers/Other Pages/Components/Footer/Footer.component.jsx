@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { useHistory } from 'react-router-dom';
 
 import './footer.styles.scss';
 
@@ -9,6 +10,8 @@ import YoutubeIcon from './Youtube.svg';
 
 
 class Footer extends Component {
+
+    
     render() {
         return (
 
@@ -27,7 +30,7 @@ class Footer extends Component {
 
                 <div className="social-media-icons">
                     <img className="social-media-icon-styling" src={InstagramIcon} alt="instagram-icon" />
-                    <img  className="social-media-icon-styling" src={LinkedInIcon} alt="instagram-icon" />
+                    <img  className="social-media-icon-styling" onClick={this.redirectlinkedIn} src={LinkedInIcon} alt="instagram-icon" />
                     <img className="social-media-icon-styling" src={YoutubeIcon} alt="instagram-icon" />
                 
                 
