@@ -110,7 +110,7 @@ class homePage extends Component {
                                     <div className="pneumatic-button-image-flex grid-3">
                                     <img src={fobcustomizersection} />
                                     <button 
-                                    onClick={event =>  window.location.href='http://access-direct-development.s3-website.us-east-2.amazonaws.com/'}
+                                    onClick={event =>  window.location.href='http://access-direct-development.s3-website.us-east-2.amazonaws.com/fob'}
                                     className="left-button-3">Custom Fob Logo</button>
                                 </div>
 
