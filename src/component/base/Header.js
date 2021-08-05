@@ -26,6 +26,7 @@ class Header extends React.Component {
                                 <li><a href="/Zamakast">Zamakast</a></li>
                                 </ul>                            
                             </li>
+                            <li><a href="https://www.access-direct.net/news-1">NEWS</a></li>
                             <li><a href={AD_TERMS}>TERMS</a></li>
                             <li><a href={AD_CONTACT}>CONTACT</a></li>
                         </ul>

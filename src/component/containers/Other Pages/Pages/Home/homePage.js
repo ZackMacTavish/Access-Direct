@@ -40,8 +40,8 @@ class homePage extends Component {
 
                <div className="container-landing">
                     <h1 className="text-landing">Access Direct will work with you to figure out security solutions ranging from products to installation.</h1>
-                    <button className="left-button">Browse our products</button>
-                    <button className="right-button">Schedule a call with us</button>
+                    <button onClick={event =>  window.location.href='http://access-direct-development.s3-website.us-east-2.amazonaws.com/products'} className="left-button">Browse our products</button>
+                   {/*   <button className="right-button">Schedule a call with us</button> */}
                 
                     <div className="gradient-section" > </div>
 
@@ -53,7 +53,9 @@ class homePage extends Component {
                     <div className="text-button-container">
                         <h2 className="highpower-one-header">The Highpower One</h2>
                         <h3 className="highpower-one-landing-text">The Highpower One is an 8 Door controller with an integrated touchscreen. Log of entries and audit trail available on screen and via software or USB memory stick. Audit trail can be pulled onto the USB as an Excel file. Unit runs as stand-alone or connected to software, which allows two or more units to communicate. Wi/Fi and Ethernet connections included, as well as USB connection for standalone mode. ​​</h3>
-                        <button className="left-button-2">Learn More</button>
+                        <button 
+                        onClick={event =>  window.location.href='http://access-direct-development.s3-website.us-east-2.amazonaws.com/highpower'}
+                        className="left-button-2">Learn More</button>
                     </div>
                  </div>
 
@@ -68,14 +70,18 @@ class homePage extends Component {
                                     <img className="wholesale-box-icon" src={wholesalebox} />
                                     <h3 className="wholesaling-header-text">Wholesaling and Distribution</h3>
                                     <h4 className="wholesaling-text-section">Access Direct offers a variety of products and our team is ready to work with you on the best solution for you.   </h4>
-                                    <button className="right-button-2">Learn More</button>
+                                    <button 
+                                    onClick={event =>  window.location.href='https://www.access-direct.net/company'}
+                                    className="right-button-2">Learn More</button>
                                     </div>
 
                                     <div className="nationalprojects-section">
                                     <img className="wholesale-box-icon" src={nationalicon} />
                                     <h3 className="nationalprojects-header-text">National Project Managers</h3>
                                     <h4 className="national-text-section">Access Direct is ready to assist you directly with your project. We employ a national team of installers who are ready to assist.</h4>
-                                    <button className="right-button-2">Learn More</button>
+                                    <button 
+                                    onClick={event =>  window.location.href='https://www.access-direct.net/company'}
+                                    className="right-button-2">Learn More</button>
                                     </div>
                                 
                                 
@@ -87,33 +93,47 @@ class homePage extends Component {
                                     
                                         <div className="pneumatic-button-image-flex grid-1">
                                             <img src={pneumaticsection} />
-                                            <button className="left-button-3">Pneumatic Switches</button>
+                                            <button 
+                                            onClick={event =>  window.location.href='https://www.access-direct.net/pneumatic-switches'}
+                                            className="left-button-3">Pneumatic Switches</button>
+                                            
                                         </div>
 
                                         <div className="pneumatic-button-image-flex grid-2">
                                         <img src={fobssection} />
-                                        <button className="left-button-3">Fobs &
+                                        <button 
+                                        onClick={event =>  window.location.href='https://www.access-direct.net/fobs-prox-cards'}
+                                        className="left-button-3">Fobs &
                                         Prox Cards</button>
                                     </div>
 
                                     <div className="pneumatic-button-image-flex grid-3">
                                     <img src={fobcustomizersection} />
-                                    <button className="left-button-3">Custom Fob Logo</button>
+                                    <button 
+                                    onClick={event =>  window.location.href='http://access-direct-development.s3-website.us-east-2.amazonaws.com/'}
+                                    className="left-button-3">Custom Fob Logo</button>
                                 </div>
 
                               <div className="pneumatic-button-image-flex grid-4">
                                             <img src={alfasection} />
-                                            <button className="left-button-3">Alfa Lock</button>
+                                            <button 
+                                            onClick={event =>  window.location.href='http://access-direct-development.s3-website.us-east-2.amazonaws.com/Zamakast'}
+                                            className="left-button-3">Alfa Lock</button>
                                         </div>
 
                                         <div className="pneumatic-button-image-flex grid-5">
                                         <img src={doorsection} />
-                                        <button className="left-button-3">Door Operators</button>
+                                        <button 
+                                        onClick={event =>  window.location.href='https://www.access-direct.net/record'}
+                                       
+                                        className="left-button-3">Door Operators</button>
                                     </div>
 
                                     <div className="pneumatic-button-image-flex grid-6">
                                     <img src={allproducts} />
-                                    <button className="left-button-3">All Products</button>
+                                    <button 
+                                    onClick={event =>  window.location.href='http://access-direct-development.s3-website.us-east-2.amazonaws.com/products'}
+                                    className="left-button-3">All Products</button>
                                 </div>
 
                             </div>
@@ -126,7 +146,11 @@ class homePage extends Component {
                             <img className="logos-brands-we-carry" src={dormakaba} />
                             <img className="logos-brands-we-carry" src={abh} />
                             <img className="logos-brands-we-carry" src={camden} />
+
+                            <a 
+                            href="http://access-direct-development.s3-website.us-east-2.amazonaws.com/highpower">
                             <img className="logos-brands-we-carry" src={highpower} />
+                            </a>
                             </div>
 
                             <div className="row-two-section-brands">
