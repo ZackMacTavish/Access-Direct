@@ -22,7 +22,7 @@ class Header extends React.Component {
                                 <li><a href="/Highpower">Highpower</a></li>
                                 <li><a href="https://www.access-direct.net/pneumatic-switches">Pneumatic Switches</a></li>
                                 <li><a href="https://www.access-direct.net/fobs-prox-cards">Fobs/Cards</a></li>
-                                <li><a href="https://www.access-direct.net/copy-of-highpower">Record Usa</a></li>
+                                <li><a href="https://www.access-direct.net/record">Record Usa</a></li>
                                 <li><a href="/Zamakast">Zamakast</a></li>
                                 </ul>                            
                             </li>
