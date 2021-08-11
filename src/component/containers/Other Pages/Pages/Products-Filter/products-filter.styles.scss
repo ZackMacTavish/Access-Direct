@@ -89,3 +89,22 @@
 textarea:focus, input:focus{
     outline: none;
 }
+ 
+.a-link-click-through {
+    text-decoration: none;
+    padding-top: -5vh;
+    
+}
+.images-products-url {
+display: flex;
+justify-content: center;
+margin-top: -5vh;
+margin-bottom: 2vh;
+color:#1F56BA;
+width: 5vw;
+}
+
+.images-products-url:hover {
+   opacity: 0.8;
+   cursor: pointer;
+}

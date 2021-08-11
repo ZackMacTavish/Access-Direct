@@ -29,10 +29,10 @@ export const PRODUCT_DATA =
     },
 
     {
-        company: 'Access Direct',
+        company: 'Highpower Security',
         name: 'H200',
         image: require('../product photos/H200-min.png'),
-        description: 'A recommended Access Direct Product' ,
+        description: 'Highpower Security pushplate exit release comes with or without pneumatic timers. Buttons are engraved with messages that include: Push to exit, Push to unlock, Blank(no text) or custom engraved with your message. H200 is Double-wide, with two-gang electrical box.' ,
         id: '3'
     },
 
@@ -41,6 +41,7 @@ export const PRODUCT_DATA =
         name: 'Terminal Blocks',
         image: require('../product photos/TerminalBlocks-min.png'),
         description: 'Terminal blocks for Citi Bank power supply' ,
+        click:'',
         id: '4'
     },
 
@@ -48,7 +49,9 @@ export const PRODUCT_DATA =
         company: 'Bosch',
         name: 'DS160',
         image: require('../product photos/DS160-min.png'),
-        description: 'Request-to-exit detector PIR' ,
+        description: 'This detector is designed for Request-to-exit detector PIR applications. It features times, door monitor with sound alert, and pointable coverage.' ,
+        click: 'See more',
+        url:'https://resources-boschsecurity-cdn.azureedge.net/public/documents/DS160_DS161_Data_sheet_enUS_9007201890365835.pdf' ,
         id: '5'
     },
 
