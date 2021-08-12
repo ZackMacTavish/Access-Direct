@@ -69,6 +69,7 @@
         grid-column-start: 1;
         grid-row-start: 2;
         padding-top: 6.75vh;
+        
         color: #414141; 
         font-size: 0.775rem;
     }
@@ -92,14 +93,13 @@ textarea:focus, input:focus{
  
 .a-link-click-through {
     text-decoration: none;
-    padding-top: -5vh;
+    
     
 }
 .images-products-url {
-display: flex;
-justify-content: center;
-margin-top: -5vh;
-margin-bottom: 2vh;
+
+margin-top: -2vh;
+padding-bottom: 3vh;
 color:#1F56BA;
 width: 5vw;
 }

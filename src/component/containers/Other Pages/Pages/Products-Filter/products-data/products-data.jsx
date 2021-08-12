@@ -4,6 +4,18 @@ import React from 'react';
 export const PRODUCT_DATA = 
 
 [ 
+
+
+    {
+        company: 'Zamakast',
+        name: 'Alfalock',
+        image: require('../product photos/Alfa-Vertical.png'),
+        description: 'Zamakast Alfalock is perfect for lockers, or storage units.' ,
+        click: 'See more',
+        url: '/Zamakast',
+        id: '56'
+    },
+
     {
         company: 'RCI',
         name: '0563',
@@ -36,14 +48,14 @@ export const PRODUCT_DATA =
         id: '3'
     },
 
-    {
+    /*{
         company: 'Highpower',
         name: 'Terminal Blocks',
         image: require('../product photos/TerminalBlocks-min.png'),
         description: 'Terminal blocks for Citi Bank power supply' ,
         click:'',
         id: '4'
-    },
+    }, */
 
     {
         company: 'Bosch',
@@ -123,7 +135,7 @@ export const PRODUCT_DATA =
         company: 'Cal Royal',
         name: '7500',
         image: require('../product photos/7500-min.jpg'),
-        description: 'A recommended Access Direct Product.' ,
+        description: 'Cal-Royal 7500 Series Grade 3 residential cylindrical knob.' ,
         id: '14'
     },
 
@@ -454,6 +466,17 @@ export const PRODUCT_DATA =
         description: 'A recommended Access Direct Product' ,
         id: '55'
     },
+
+    {
+        company: 'Dortronics',
+        name: '1110 Series Electro-magnetic lock',
+        image: require('../product photos/Dortronics.png'),
+        description: 'A recommended Access Direct Product' ,
+        click: 'See more',
+        url:'https://dortronics.com/wp-content/uploads/1110-1120-LOCKS-14_Brochure.pdf ',
+        id: '57'
+    },
+
 
 
 
