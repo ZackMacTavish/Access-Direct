@@ -12,28 +12,30 @@ import homePage from './Other Pages/Pages/Home/homePage';
 class App extends Component {
     render() {
         return (
+            <BrowserRouter>
             <div className="App">
 
-            <BrowserRouter>
+           
             <Switch>
 
              <Route exact path='/' component={homePage} />
                
-            <Route exact path='/fob' component={fobPage} />
+            <Route path='/fob' component={fobPage} />
 
-            <Route exact path='/zamakast' component={zamakastPage} />
+            <Route path='/zamakast' component={zamakastPage} />
 
 
-            <Route exact path='/products' component={productsFilter} />
+            <Route path='/products' component={productsFilter} />
 
-            <Route exact path='/highpower' component={highpowerPage} />
+            <Route  path='/highpower' component={highpowerPage} />
 
            
 
                 </Switch>
-                </BrowserRouter>
+           
                
             </div>
+            </BrowserRouter>
         );
     }
 }

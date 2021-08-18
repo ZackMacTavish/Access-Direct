@@ -20,9 +20,9 @@ class Header extends React.Component {
                                 <ul className="our-products-dropdown">
                                 <li><a href="/products">All Products</a></li>
                                 <li><a href="/Highpower">Highpower</a></li>
-                                <li><a href="https://www.access-direct.net/pneumatic-switches">Pneumatic Switches</a></li>
-                                <li><a href="https://www.access-direct.net/fobs-prox-cards">Fobs/Cards</a></li>
-                                <li><a href="https://www.access-direct.net/record">Record Usa</a></li>
+                                <li><a href="https://www.info.access-direct.net/pneumatic-switches">Pneumatic Switches</a></li>
+                                <li><a href="https://www.info.access-direct.net/fobs-prox-cards">Fobs/Cards</a></li>
+                                <li><a href="https://www.info.access-direct.net/record">Record Usa</a></li>
                                 <li><a href="/Zamakast">Zamakast</a></li>
                                 </ul>                            
                             </li>
