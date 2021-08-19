@@ -71,12 +71,43 @@
     opacity: 0;
     min-width: 5rem;
     position: absolute;
-    
     margin-top: 1rem;
-    right: 19vw;
+    right: 15vw;
     top: 5vh;
     display: none;
   }
+
+  @media (max-width: 1560px) {
+    ul li ul{
+       right: 18vw;
+    }
+}
+@media (max-width: 1415px) {
+  ul li ul{
+     right: 20vw;
+  }
+}
+@media (max-width: 1255px) {
+  ul li ul{
+     right: 22vw;
+  }
+}
+@media (max-width: 1140px) {
+  ul li ul{
+     right: 24vw;
+  }
+}
+@media (max-width: 1050px) {
+  ul li ul{
+     right: 26vw;
+  }
+}
+
+@media (max-width: 780px) {
+  ul li ul{
+     right: 23vw;
+  }
+}
 
   ul li:hover > ul,
 ul li:focus-within > ul,

@@ -40,7 +40,7 @@ class homePage extends Component {
 
                <div className="container-landing">
                     <h1 className="text-landing">Access Direct will work with you to figure out security solutions ranging from products to installation.</h1>
-                    <button onClick={event =>  window.location.href='http://access-direct-development.s3-website.us-east-2.amazonaws.com/products'} className="left-button">Browse our products</button>
+                    <button onClick={event =>  window.location.href='/products'} className="left-button">Browse our products</button>
                    {/*   <button className="right-button">Schedule a call with us</button> */}
                 
                     <div className="gradient-section" > </div>
@@ -54,7 +54,7 @@ class homePage extends Component {
                         <h2 className="highpower-one-header">The Highpower One</h2>
                         <h3 className="highpower-one-landing-text">The Highpower One is an 8 Door controller with an integrated touchscreen. Log of entries and audit trail available on screen and via software or USB memory stick. Audit trail can be pulled onto the USB as an Excel file. Unit runs as stand-alone or connected to software, which allows two or more units to communicate. Wi/Fi and Ethernet connections included, as well as USB connection for standalone mode. ​​</h3>
                         <button 
-                        onClick={event =>  window.location.href='http://access-direct-development.s3-website.us-east-2.amazonaws.com/highpower'}
+                        onClick={event =>  window.location.href='/highpower'}
                         className="left-button-2">Learn More</button>
                     </div>
                  </div>
