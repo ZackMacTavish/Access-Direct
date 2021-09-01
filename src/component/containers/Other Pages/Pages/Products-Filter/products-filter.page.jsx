@@ -13,10 +13,6 @@ import {PRODUCT_DATA} from './products-data/products-data';
 
 
 
-
-
-
-
 class productsFilter extends Component {
     constructor() {
         super();

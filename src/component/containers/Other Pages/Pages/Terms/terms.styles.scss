@@ -1,0 +1,73 @@
+.terms-filter-page{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.terms-container-flex{
+    display: flex;
+    align-items: center;
+     margin-bottom: 2vh;
+    width: 80vw;
+    padding: 2vw;
+}
+@media  (max-width: 900px) {
+    .terms-container-flex{
+        width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    height: 25vw;
+    padding-bottom: 2vh;
+   
+}}
+.terms-flexed{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100vw;
+    padding-left: 35vw;
+   }
+
+   @media  (max-width: 900px) {
+    .terms-flexed{
+       padding-left: 2vw;
+       padding-bottom: 4vh;
+       
+       
+}}
+
+.terms-products-name{
+    color: #0400B9;
+    font-size: 2.4rem;
+    font-weight: 800;
+    padding-bottom: 2vh;
+    width: 24vw;
+}
+
+@media  (max-width: 900px) {
+    .terms-products-name{
+     padding-bottom: 4vh;
+       width: 80vw;
+       font-size: 1.5rem;
+       
+}}
+
+.terms-products-description{
+    position: absolute;
+    padding-left: 30vw;
+    width: 30vw;
+    color: #2E2E2E;
+
+}
+
+@media  (max-width: 900px) {
+    .terms-products-description{
+       padding-left: 2vw;
+       padding-top: 16vh;
+       width: 80vw;
+       height: 8vh;
+       padding-bottom: 6vh;
+       
+}}
