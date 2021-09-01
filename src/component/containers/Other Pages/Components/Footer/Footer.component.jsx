@@ -24,16 +24,16 @@ class Footer extends Component {
             <img src={logo2} alt="logo" />
 
                             <ul className="footer-links-container">
-                           <a className="footer-listitems-nostyle" href="https://www.access-direct.net/careers">
+                           <a className="footer-listitems-nostyle" href="/Oops">
                     <li className="footer-listitems">CAREERS</li>
                     </a>
 
-                    <a className="footer-listitems-nostyle" href="https://www.access-direct.net/leadership"  >
+                    <a className="footer-listitems-nostyle" href="/Oops"  >
                     <li className="footer-listitems">OUR TEAM</li>
 
                     </a>
 
-                   <a className="footer-listitems-nostyle" href="https://www.access-direct.net/training">
+                   <a className="footer-listitems-nostyle" href="/Oops">
                     <li className="footer-listitems">TRAINING</li>
                     </a>
                     

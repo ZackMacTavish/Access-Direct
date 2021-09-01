@@ -1,0 +1,27 @@
+.oops{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1F56BA;
+    color: white;
+    font-size: 1.5rem;
+}
+.vector-illustration{
+    width: 40vw;
+    padding-bottom: 5vh;
+}
+
+.Oops-flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-float{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 2vw;
+    padding-top: 2vw;
+}

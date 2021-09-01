@@ -8,6 +8,7 @@ import zamakastPage from './Other Pages/Pages/Zamakast/Zamakast-page';
 import highpowerPage from './Other Pages/Pages/Highpower One/highpower';
 import productsFilter from './Other Pages/Pages/Products-Filter/products-filter.page';
 import homePage from './Other Pages/Pages/Home/homePage';
+import OopsPage from './Other Pages/Components/404 Page/Oops';
 
 class App extends Component {
     render() {
@@ -22,12 +23,16 @@ class App extends Component {
                
             <Route path='/fob' component={fobPage} />
 
+
             <Route path='/zamakast' component={zamakastPage} />
 
 
             <Route path='/products' component={productsFilter} />
 
             <Route  path='/highpower' component={highpowerPage} />
+
+                
+            <Route path='/Oops' component={OopsPage} />
 
            
 

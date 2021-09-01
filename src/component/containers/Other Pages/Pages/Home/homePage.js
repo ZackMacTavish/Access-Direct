@@ -71,7 +71,7 @@ class homePage extends Component {
                                     <h3 className="wholesaling-header-text">Wholesaling and Distribution</h3>
                                     <h4 className="wholesaling-text-section">Access Direct offers a variety of products and our team is ready to work with you on the best solution for you.   </h4>
                                     <button 
-                                    onClick={event =>  window.location.href='https://www.access-direct.net/company'}
+                                    onClick={event =>  window.location.href='/Oops'}
                                     className="right-button-2">Learn More</button>
                                     </div>
 
@@ -80,7 +80,7 @@ class homePage extends Component {
                                     <h3 className="nationalprojects-header-text">National Project Managers</h3>
                                     <h4 className="national-text-section">Access Direct is ready to assist you directly with your project. We employ a national team of installers who are ready to assist.</h4>
                                     <button 
-                                    onClick={event =>  window.location.href='https://www.access-direct.net/company'}
+                                    onClick={event =>  window.location.href='/Oops'}
                                     className="right-button-2">Learn More</button>
                                     </div>
                                 
@@ -94,7 +94,7 @@ class homePage extends Component {
                                         <div className="pneumatic-button-image-flex grid-1">
                                             <img src={pneumaticsection} />
                                             <button 
-                                            onClick={event =>  window.location.href='https://www.access-direct.net/pneumatic-switches'}
+                                            onClick={event =>  window.location.href='/Oops'}
                                             className="left-button-3">Pneumatic Switches</button>
                                             
                                         </div>
@@ -102,7 +102,7 @@ class homePage extends Component {
                                         <div className="pneumatic-button-image-flex grid-2">
                                         <img src={fobssection} />
                                         <button 
-                                        onClick={event =>  window.location.href='https://www.access-direct.net/fobs-prox-cards'}
+                                        onClick={event =>  window.location.href='/Oops'}
                                         className="left-button-3">Fobs &
                                         Prox Cards</button>
                                     </div>
@@ -110,21 +110,21 @@ class homePage extends Component {
                                     <div className="pneumatic-button-image-flex grid-3">
                                     <img src={fobcustomizersection} />
                                     <button 
-                                    onClick={event =>  window.location.href='http://access-direct-development.s3-website.us-east-2.amazonaws.com/fob'}
+                                    onClick={event =>  window.location.href='/fob'}
                                     className="left-button-3">Custom Fob Logo</button>
                                 </div>
 
                               <div className="pneumatic-button-image-flex grid-4">
                                             <img src={alfasection} />
                                             <button 
-                                            onClick={event =>  window.location.href='http://access-direct-development.s3-website.us-east-2.amazonaws.com/Zamakast'}
+                                            onClick={event =>  window.location.href='/Zamakast'}
                                             className="left-button-3">Alfa Lock</button>
                                         </div>
 
                                         <div className="pneumatic-button-image-flex grid-5">
                                         <img src={doorsection} />
                                         <button 
-                                        onClick={event =>  window.location.href='https://www.access-direct.net/record'}
+                                        onClick={event =>  window.location.href='/Oops'}
                                        
                                         className="left-button-3">Door Operators</button>
                                     </div>
@@ -132,7 +132,7 @@ class homePage extends Component {
                                     <div className="pneumatic-button-image-flex grid-6">
                                     <img src={allproducts} />
                                     <button 
-                                    onClick={event =>  window.location.href='http://access-direct-development.s3-website.us-east-2.amazonaws.com/products'}
+                                    onClick={event =>  window.location.href='/products'}
                                     className="left-button-3">All Products</button>
                                 </div>
 
@@ -148,7 +148,7 @@ class homePage extends Component {
                             <img className="logos-brands-we-carry" src={camden} />
 
                             <a 
-                            href="http://access-direct-development.s3-website.us-east-2.amazonaws.com/highpower">
+                            href="/highpower">
                             <img className="logos-brands-we-carry" src={highpower} />
                             </a>
                             </div>
