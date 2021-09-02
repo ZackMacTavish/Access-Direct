@@ -22,6 +22,7 @@ import record from './record_logo 1.png';
 import donjo from './DONJO-LOGO 1.png';
 import westpenn from './West Penn 1.png';
 import zamakast from './zamakast-logo 1.png';
+import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
 
 
 
@@ -29,6 +30,15 @@ import zamakast from './zamakast-logo 1.png';
 
 
 class homePage extends Component {
+    state= {
+        seen: false
+    };
+    
+    togglePop = () => {
+        this.setState({
+            seen: !this.state.seen
+        });
+    };
     render() {
         
         
@@ -41,7 +51,10 @@ class homePage extends Component {
                <div className="container-landing">
                     <h1 className="text-landing">Access Direct will work with you to figure out security solutions ranging from products to installation.</h1>
                     <button onClick={event =>  window.location.href='/products'} className="left-button">Browse our products</button>
-                   {/*   <button className="right-button">Schedule a call with us</button> */}
+                      <button 
+                      onClick={this.togglePop}
+                      className="right-button">Reach Out To Us</button> 
+                      {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
                 
                     <div className="gradient-section" > </div>
 
