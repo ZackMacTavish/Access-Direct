@@ -124,70 +124,7 @@
     }
 
    
-    .Schedule-webinar-button{
-        align-self: center;
-        align-items: center;
-        justify-self: center;
-        color: #0400B9;
-        background-color: white;
-        width: 15vw;
-        height: 5vh;
-        border: 2;
-        border-color: #0400B9;
-        font-family: 'AvenirBold';
-        font-size: 1rem;
-        border-radius: 20px;
-        margin: 2vh 2vw 0 0;
-        &:hover{
-            cursor: pointer;
-            opacity: 75%;
-        }
-
-        @media screen and (max-width: 1160px) {
-            width: 17vw;
-        }
-        @media screen and (max-width: 950px) {
-            width: 21vw;
-        }
-        @media screen and (max-width: 750px) {
-            width: 25vw;
-        }
-        @media screen and (max-width: 650px) {
-            width: 35vw;
-        }
-
-        }
-
-    .download-manual-button{
-        align-self: center;
-        align-items: center;
-        justify-self: center;
-        color: white;
-        background-color: #0400B9;
-        width: 15vw;
-        height: 5vh;
-        border: none;
-        font-family: 'AvenirBold';
-        font-size: 1rem;
-        border-radius: 20px;
-        &:hover{
-            cursor: pointer;
-            opacity: 75%;
-        }
-        @media screen and (max-width: 1160px) {
-            width: 17vw;
-        }
-        @media screen and (max-width: 950px) {
-            width: 21vw;
-        }
-        @media screen and (max-width: 750px) {
-            width: 25vw;
-        }
-        @media screen and (max-width: 650px) {
-            width: 35vw;
-        }
-
-    }
+    
 
 
     
@@ -617,6 +554,17 @@
                     }
         
       
+    }
+
+    .HA7-style-long{
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 10;
+        width: 80vw;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding-top: 10vh;
+        padding-bottom: 4vh;
     }
 
     .hp-security-icon1{

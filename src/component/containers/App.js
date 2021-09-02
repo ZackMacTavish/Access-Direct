@@ -10,6 +10,7 @@ import productsFilter from './Other Pages/Pages/Products-Filter/products-filter.
 import homePage from './Other Pages/Pages/Home/homePage';
 import OopsPage from './Other Pages/Components/404 Page/Oops';
 import termsFilter from './Other Pages/Pages/Terms/terms-filter.page';
+import ditecPage from './Other Pages/Pages/Ditec/Ditec';
 
 class App extends Component {
     render() {
@@ -31,6 +32,8 @@ class App extends Component {
             <Route path='/products' component={productsFilter} />
 
             <Route  path='/highpower' component={highpowerPage} />
+
+            <Route  path='/ditec' component={ditecPage} />
 
             <Route  path='/terms' component={termsFilter} />
                 

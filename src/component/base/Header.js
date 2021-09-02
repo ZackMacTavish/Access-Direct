@@ -24,10 +24,11 @@ class Header extends React.Component {
                                 <li><a href="/Oops">Fobs/Cards</a></li>
                                 <li><a href="/Oops">Record Usa</a></li>
                                 <li><a href="/Zamakast">Zamakast</a></li>
+                                <li><a href="/Ditec">Ditec</a></li>
                                 </ul>                            
                             </li>
                             <li><a href="/Oops">NEWS</a></li>
-                            <li><a href="/Oops">TERMS</a></li>
+                            <li><a href="/terms">TERMS</a></li>
                             <li><a href="/Oops">CONTACT</a></li>
                         </ul>
 
