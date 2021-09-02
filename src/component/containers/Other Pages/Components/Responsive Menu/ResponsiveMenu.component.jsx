@@ -5,11 +5,23 @@ import {AD_COMPANY, AD_CONTACT, AD_HOME, AD_OUR_PRODUCT, AD_TERMS} from "../../.
 import hamburger from './Hamburger.svg';
 
 import './ResponsiveMenu.styles.scss';
+import Popup from '../ToggleMenu/Togglemenu';
 
 
 class ResponsiveHeader extends React.Component {
+state= {
+    seen: false
+};
 
+togglePop = () => {
+    this.setState({
+        seen: !this.state.seen
+    });
+};
     render() {
+
+       
+
         return (
             <div className="header-wrapper">
                 <div className="header">
@@ -17,7 +29,11 @@ class ResponsiveHeader extends React.Component {
                         <img src="/img/logo.jpg" alt="Logo"/>
                     </div>
                     <div className="header-nav">
-                       <img className="hamburger-menu"src={hamburger} alt="Navigation Menu" />
+                        
+                       <img 
+                       onClick={this.togglePop}
+                       className="hamburger-menu"src={hamburger} alt="Navigation Menu" />
+                       {this.state.seen ? <Popup toggle={this.togglePop} /> : null}
 
                          
                     </div>

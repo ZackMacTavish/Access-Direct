@@ -138,7 +138,7 @@ class homePage extends Component {
 
                             </div>
 
-                            <div class="brands-we-carry-section">
+                            <div className="brands-we-carry-section">
                             <h2 className="header-brands">Brands we carry</h2>
 
                             <div className="row-one-section-brands">

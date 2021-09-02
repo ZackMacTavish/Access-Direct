@@ -139,8 +139,8 @@ class highpowerPage extends Component {
 
                                      <h3 className="hp-EasyInstallation-header-text">Easy Installation</h3>
 
-                                     <p className="hp-easyinstallation-text-paragraph">The Alfa lock is easily installed on metal or wood by just screwing 
-                                     it in. Lorem Ipsum Doler imight alfa lock for everyone. </p>
+                                     <p className="hp-easyinstallation-text-paragraph">The Highpower One is easily installed on metal or wood by just screwing 
+                                     it in. </p>
 
                                      <img className="hp-security-icon3" src={securityicon} alt="Zamakast's alfa lock" />
 
