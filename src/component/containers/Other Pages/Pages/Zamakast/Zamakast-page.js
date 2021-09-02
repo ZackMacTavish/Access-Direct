@@ -18,12 +18,22 @@ import Header from "../../../../base/Header";
 import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
 import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
 import Footer from '../../Components/Footer/Footer.component';
+import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
 
 
 
 
 
 class zamakastPage extends Component {
+    state= {
+        seen: false
+    };
+    
+    togglePop = () => {
+        this.setState({
+            seen: !this.state.seen
+        });
+    };
     render() {
         
         
@@ -44,7 +54,10 @@ class zamakastPage extends Component {
                                     180° locking movements. These locks are ideal for office furniture, 
                                     fitness club locker rooms, or workplace.
                                     </p>
-
+                                    <button 
+                                 onClick={this.togglePop}
+                                className="Schedule-webinar-button">Schedule Webinar</button>
+                                {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
                                     
 
                                 </div>

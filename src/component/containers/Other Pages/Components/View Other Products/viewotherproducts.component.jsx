@@ -6,6 +6,8 @@ import pneumaticsicon from './Pneumatics.svg';
 import Highpoweroneicon from './HighpowerOne.png';
 import customfob from './CustomFob.svg';
 
+import {Link} from 'react-router-dom';
+
 
 class OtherProducts extends Component {
     render() {
@@ -25,7 +27,7 @@ class OtherProducts extends Component {
 
            
 
-            <a className="pneumatic-switches-page" href="https://www.access-direct.net/pneumatic-switches">Pneumatic Switches</a>
+            <a className="pneumatic-switches-page" href="/oops">Pneumatic Switches</a>
 
             <img className="highpower-icon-otherproducts" src={Highpoweroneicon} alt="Highpower Graphic" />
 
@@ -41,7 +43,7 @@ class OtherProducts extends Component {
 
            
 
-            <a className="highpowerone-page" href="https://www.access-direct.net/pneumatic-switches">Highpower One</a>
+            <a className="highpowerone-page" href="/highpower">Highpower One</a>
 
             <h3 className="custom-fobgenerator-header-text">Custom Fob Generator</h3>
 
@@ -50,9 +52,11 @@ class OtherProducts extends Component {
             First time users of the fob layout designer get 30 free fobs added to their order.
             </p>
 
-           
+           <a 
+           className="custom-fobgenerator-page"
+           href={'/fob'}>
             <button className="custom-fobgenerator-page">Custom Fob Generator</button>
-            
+            </a>
 
        
 
