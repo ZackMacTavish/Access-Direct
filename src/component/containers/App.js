@@ -1,27 +1,41 @@
 import React, {Component} from 'react';
 import '../../scss/containers/App.scss';
-
+import Loadable from 'react-loadable';
 import {connect} from 'react-redux';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import fobPage from './FobPage';
 import zamakastPage from './Other Pages/Pages/Zamakast/Zamakast-page';
 import highpowerPage from './Other Pages/Pages/Highpower One/highpower';
 import productsFilter from './Other Pages/Pages/Products-Filter/products-filter.page';
-import homePage from './Other Pages/Pages/Home/homePage';
 import OopsPage from './Other Pages/Components/404 Page/Oops';
 import termsFilter from './Other Pages/Pages/Terms/terms-filter.page';
 import ditecPage from './Other Pages/Pages/Ditec/Ditec';
+import logo2 from '../containers/Other Pages/Components/Footer/Logo2.svg';
+
+const Loading = () => <div style={{display: 'flex', flexDirection: 'column', color: 'white', justifyContent:'center', alignItems: 'center', fontWeight: '700', height: '100vh', width: '100vw', backgroundColor: '#1F56BA'}}>
+  <div>
+ <img src={logo2} />
+  <h2>...Loading</h2>
+  </div>
+  </div>;
+
+const AsyncHome = Loadable({
+  loader: () => import('./Other Pages/Pages/Home/homePage'),
+  loading: Loading,
+});
+
+
 
 class App extends Component {
     render() {
         return (
-            <BrowserRouter>
+            
             <div className="App">
 
-           
+<BrowserRouter>
             <Switch>
 
-             <Route exact path='/' component={homePage} />
+             
                
             <Route path='/fob' component={fobPage} />
 
@@ -38,12 +52,13 @@ class App extends Component {
             <Route  path='/terms' component={termsFilter} />
                 
             <Route path='/Oops' component={OopsPage} />
+            <Route exact path='/' component={AsyncHome} />
 
            </Switch>
            
-               
+           </BrowserRouter>
             </div>
-            </BrowserRouter>
+          
         );
     }
 }

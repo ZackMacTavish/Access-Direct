@@ -137,7 +137,7 @@ class homePage extends Component {
                                         <div className="pneumatic-button-image-flex grid-5">
                                         <img src={doorsection} />
                                         <button 
-                                        onClick={event =>  window.location.href='/Oops'}
+                                        onClick={event =>  window.location.href='/ditec'}
                                        
                                         className="left-button-3">Door Operators</button>
                                     </div>
