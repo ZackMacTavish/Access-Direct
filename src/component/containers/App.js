@@ -10,11 +10,12 @@ import productsFilter from './Other Pages/Pages/Products-Filter/products-filter.
 import OopsPage from './Other Pages/Components/404 Page/Oops';
 import termsFilter from './Other Pages/Pages/Terms/terms-filter.page';
 import ditecPage from './Other Pages/Pages/Ditec/Ditec';
-import logo2 from '../containers/Other Pages/Components/Footer/Logo2.svg';
+import logo3 from './Logo2-01.png';
+import Company from './Other Pages/Pages/Company/Company';
 
 const Loading = () => <div style={{display: 'flex', flexDirection: 'column', color: 'white', justifyContent:'center', alignItems: 'center', fontWeight: '700', height: '100vh', width: '100vw', backgroundColor: '#1F56BA'}}>
-  <div>
- <img src={logo2} />
+  <div> 
+<img src={logo3} /> 
   <h2>...Loading</h2>
   </div>
   </div>;
@@ -39,9 +40,9 @@ class App extends Component {
                
             <Route path='/fob' component={fobPage} />
 
-
             <Route path='/zamakast' component={zamakastPage} />
 
+            <Route path='/company' component={Company} />
 
             <Route path='/products' component={productsFilter} />
 
@@ -52,6 +53,7 @@ class App extends Component {
             <Route  path='/terms' component={termsFilter} />
                 
             <Route path='/Oops' component={OopsPage} />
+
             <Route exact path='/' component={AsyncHome} />
 
            </Switch>

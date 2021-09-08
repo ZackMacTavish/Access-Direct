@@ -1,0 +1,61 @@
+.style-reset{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.flexed-Company{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.pictures-styling{
+    width: 80vw;
+}
+
+.header-color{
+    color: #1F56BA;
+    font-size: clamp(1rem, 10vw, 2rem); 
+}
+
+
+.gradient-box{
+    display: flex;
+   
+    justify-content: center;
+    height: 130vh;
+    width: 100vw;
+margin-top: -30vh;
+    background: rgb(250,252,255);
+    background: linear-gradient(184deg, rgba(250,252,255,1) 0%, rgba(189,203,227,1) 100%);
+
+}
+
+.ourstory{
+    
+    margin-top: -3vw;
+    width: 80vw;
+}
+
+.our-story-header{
+    position: absolute;
+    margin-top: 16vw;
+    font-size: 2rem;
+    color: #1F56BA;
+}
+
+.our-story-text{
+    margin-top: 20vw;
+    position: absolute;
+    width: 40vw;
+    color: rgb(70, 70, 70);
+}
+
