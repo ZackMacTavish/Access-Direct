@@ -1,21 +1,34 @@
 .HA9-styles{
     width: 35vw;
-    padding-left: 10vw;
+    margin-left: -2vw;
+    min-width: 500px;
+    padding-top: 3.4vh;
+padding-bottom: 2.4vh;
+}
+
+.dlig-styles{
+    min-width: 500px;
+width: 48vw;
+padding-top: 1.4vh;
+padding-bottom: 1.4vh;
+
+
 }
 
 .ditec-ha9-section-flex{
     display: flex;
     width: 100vw;
-    height: 60vh;
-    
-    padding-top: 5vh;
+    height: 50vh;
+    padding-bottom: 5vh;
     align-items: center;
    
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 950px) {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 2vh;
+    height: 70vh;
 }
 }
 
@@ -55,9 +68,6 @@
     }
 
 .download-manual-button{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
     align-self: center;
     align-items: center;
     justify-self: center;
@@ -68,8 +78,7 @@
     border: none;
     font-family: 'AvenirBold';
     font-size: 1rem;
-    border-radius: 30px;
-    margin: 2vh 2vw 0 0;
+    border-radius: 20px;
     &:hover{
         cursor: pointer;
         opacity: 75%;

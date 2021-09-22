@@ -107,7 +107,7 @@ class homePage extends Component {
                                         <div className="pneumatic-button-image-flex grid-1">
                                             <img src={pneumaticsection} />
                                             <button 
-                                            onClick={event =>  window.location.href='/Oops'}
+                                            onClick={event =>  window.location.href='https://www.info.access-direct.net/pneumatic-switches'}
                                             className="left-button-3">Pneumatic Switches</button>
                                             
                                         </div>
@@ -115,7 +115,7 @@ class homePage extends Component {
                                         <div className="pneumatic-button-image-flex grid-2">
                                         <img src={fobssection} />
                                         <button 
-                                        onClick={event =>  window.location.href='/Oops'}
+                                        onClick={event =>  window.location.href='https://www.info.access-direct.net/fobs-prox-cards'}
                                         className="left-button-3">Fobs &
                                         Prox Cards</button>
                                     </div>

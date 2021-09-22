@@ -100,6 +100,8 @@
     .paragraph-text-highpower{
         color: #646D70;
         max-width: 40vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
         font-family: 'AvenirMedium';
         line-height: 1.6;
 
@@ -130,6 +132,14 @@
     
 
 }
+
+
+.button-flexed-highpower{
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 .cellphone-section-flex{
     display: flex;
@@ -557,9 +567,10 @@
     }
 
     .HA7-style-long{
+        padding-left: 2vw;
         display: grid;
-        grid-column-start: 2;
-        grid-column-end: 10;
+        grid-column-start: 4;
+        grid-column-end: 7;
         width: 80vw;
         grid-row-start: 1;
         grid-row-end: 3;

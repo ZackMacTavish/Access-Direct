@@ -9,6 +9,7 @@ import LinkedInIcon from './LinkedIn.svg';
 import YoutubeIcon from './Youtube.svg';
 
 import { Link } from "react-router-dom";
+import { AD_CAREERS, AD_TEAM, AD_TRAINING } from '../../../../../const/links';
 
 
 class Footer extends Component {
@@ -24,16 +25,16 @@ class Footer extends Component {
             <img src={logo2} alt="logo" />
 
                             <ul className="footer-links-container">
-                           <a className="footer-listitems-nostyle" href="/Oops">
+                           <a className="footer-listitems-nostyle" href={AD_CAREERS}>
                     <li className="footer-listitems">CAREERS</li>
                     </a>
 
-                    <a className="footer-listitems-nostyle" href="/Oops"  >
+                    <a className="footer-listitems-nostyle" href={AD_TEAM}  >
                     <li className="footer-listitems">OUR TEAM</li>
 
                     </a>
 
-                   <a className="footer-listitems-nostyle" href="/Oops">
+                   <a className="footer-listitems-nostyle" href={AD_TRAINING}>
                     <li className="footer-listitems">TRAINING</li>
                     </a>
                     

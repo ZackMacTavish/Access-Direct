@@ -46,7 +46,9 @@
     background-color: white;
     color: #1F56BA;
     border: none;
+    
     padding: 1.5vh 2vw;
+    margin-left: clamp(15px, 2.2vw, 30px);
     border-radius: 25px;
     font-size: 1rem;
     font-weight: 600;

@@ -54,8 +54,7 @@ class OtherProducts extends Component {
 
            <a 
            className="custom-fobgenerator-page"
-           href={'/fob'}>
-            <button className="custom-fobgenerator-page">Custom Fob Generator</button>
+           href={'/fob'}>Custom Fob Generator
             </a>
 
        
