@@ -6,6 +6,34 @@
     
 }
 
+.product-filters-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    color: #414141;
+    font-size: 0.8rem;
+
+    .product-subheader{
+        color:  #1F56BA;
+        padding-top: 2vh;
+    }
+}
+
+.search-bar{
+    display: flex;
+    width: 25vw;
+   margin-bottom: 4vh;
+   padding: 1vh;
+   margin-top: 1vh;
+   border-radius: 20px;
+   border: 2px solid #1F56BA;
+   cursor: pointer;
+
+}
+
 .terms-container-flex{
     display: flex;
     align-items: center;

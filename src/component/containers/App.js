@@ -12,7 +12,7 @@ import ditecPage from './Other Pages/Pages/Ditec/Ditec';
 import logo3 from './Logo2-01.png';
 import Company from './Other Pages/Pages/Company/Company';
 import lifesaversPage from './Other Pages/Pages/Lifesavers/lifesaver';
-import Ligpdf from './Other Pages/Pages/Pdf/lig-pdf';
+
 
 const Loading = () => <div style={{display: 'flex', flexDirection: 'column', color: 'white', justifyContent:'center', alignItems: 'center', fontWeight: '700', height: '100vh', width: '100vw', backgroundColor: '#1F56BA'}}>
   <div> 
@@ -39,11 +39,11 @@ class App extends Component {
     render() {
         return (
             
-            <div className="App">
+            
 
 <BrowserRouter>
             <Switch>
-   
+            <div className="App">
             <Route path='/fob' component={fobPage} />
 
             <Route path='/zamakast' component={zamakastPage} />
@@ -64,11 +64,11 @@ class App extends Component {
             <Route path='/Oops' component={OopsPage} />
 
             <Route exact path='/' component={AsyncHome} />
-
+            </div>
            </Switch>
            
            </BrowserRouter>
-            </div>
+           
           
         );
     }

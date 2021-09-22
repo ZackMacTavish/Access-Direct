@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../scss/base/header.scss';
+import { Link } from 'react-router-dom';
 import {AD_COMPANY, AD_CONTACT, AD_HOME, AD_OUR_PRODUCT, AD_TERMS, AD_NEWS, AD_SWITCHES, AD_FOBS, AD_RECORD} from "../../const/links";
 
 
@@ -18,14 +19,14 @@ class Header extends React.Component {
                             <li><a href={AD_COMPANY}>COMPANY</a></li>
                             <li><a href="/products">OUR PRODUCTS</a>
                                 <ul className="our-products-dropdown">
-                                <li><a href="/products">All Products</a></li>
-                                <li><a href="/Highpower">Highpower</a></li>
+                                <li><Link to="./products">All Products</Link></li>
+                                <li><Link to='./Highpower'>Highpower</Link></li>
                                 <li><a href={AD_SWITCHES}>Pneumatic Switches</a></li>
                                 <li><a href={AD_FOBS}>Fobs/Cards</a></li>
                                 <li><a href={AD_RECORD}>Record Usa</a></li>
-                                <li><a href="/Zamakast">Zamakast</a></li>
-                                <li><a href="/Ditec">Ditec</a></li>
-                                <li><a href="/lifesavers">Lifesavers</a></li>
+                                <li><Link to='./Zamakast'>Zamakast</Link></li>
+                                <li><Link to='./Ditec'>Ditec</Link></li>
+                                <li><Link to="./lifesavers">Lifesavers</Link></li>
                                 </ul>                            
                             </li>
                             <li><a href={AD_NEWS}>NEWS</a></li>
