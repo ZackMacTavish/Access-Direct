@@ -57,6 +57,9 @@ class Footer extends Component {
        
 
                 </div>
+                <div className="flex-love">
+                <h6 className="made-with-love">Made by MacTavish Designs</h6><h6 className="hello">👋🏼</h6> 
+                </div>
             
             </div>
 

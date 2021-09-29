@@ -4,12 +4,49 @@
     overflow: hidden;
 }
 
+.Join-us-Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    width: 100vw;
+    padding-top: 3vh;
+
+}
+
+.video-text{
+    padding-left: 14vw;
+    padding-top: 5vw;
+    font-size: 1.6rem;
+}
+
+.Videos-Section{
+    display: flex;
+   flex-direction: column;
+    height: 120vh;
+    width: 100vw;
+
+}
+
+.blue-box{
+    color: white;
+    background-color: #0400B9;
+    height: 20vh;
+}
+
+.join-us-img{
+    width: clamp(400px, 40vw, 600px);
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 5vw;
+}
+
 .flexed-Company{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
-    justify-content: center;
+    height: auto;
+    padding-bottom: 5vh;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -18,44 +55,75 @@
 }
 
 .pictures-styling{
-    width: 80vw;
+    width:clamp(500px, 80vw, 1600px) ;
 }
 
 .header-color{
-    color: #1F56BA;
+    color: #3d3d3d;
     font-size: clamp(1rem, 10vw, 2rem); 
 }
 
 
 .gradient-box{
     display: flex;
-   
-    justify-content: center;
-    height: 130vh;
+    flex-direction: column;
+    padding-left: 12.5vw;
+    height: auto;
     width: 100vw;
-margin-top: -30vh;
-    background: rgb(250,252,255);
-    background: linear-gradient(184deg, rgba(250,252,255,1) 0%, rgba(189,203,227,1) 100%);
-
-}
+    padding-top: 5vh;
+    background: rgba(250, 252, 255, 0.678);
+   }
 
 .ourstory{
     
-    margin-top: -3vw;
     width: 80vw;
+    padding-bottom: 2vh;
+    
 }
 
 .our-story-header{
-    position: absolute;
-    margin-top: 16vw;
-    font-size: 2rem;
-    color: #1F56BA;
+    padding-left: 2.5vw;
+    font-size: 3rem;
+    color: #102853;
+    font-weight: 900;
 }
 
 .our-story-text{
-    margin-top: 20vw;
-    position: absolute;
-    width: 40vw;
-    color: rgb(70, 70, 70);
+    margin-top: 2vh;
+    padding-left: 2.5vw;
+    width: clamp(400px, 40vw, 1000px);
+    line-height: 1.5;
+    color: #5e5e5e;
 }
 
+.embedded-video{
+    width: 70vw;
+    height: 80vh;
+}
+
+.div-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100vw;
+height: 90vh;
+background-color: #0400B9;
+}
+
+@media (max-width: 900px) {
+    .Join-us-Section{
+       flex-direction: column;
+    
+    }
+
+    .header-color{
+        
+        font-size: 18px; 
+    }
+
+    
+    
+
+   
+    
+}

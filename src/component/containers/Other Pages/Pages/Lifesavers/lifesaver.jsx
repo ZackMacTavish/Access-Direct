@@ -95,7 +95,7 @@ class lifesaversPage extends Component {
 
                                                         <button className="Schedule-webinar-button">Schedule Webinar</button>
 
-                                                        <button className="download-manual-button">Download Manual</button>
+                                                        <a href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" className="download-manual-button">Download Manual</a>
 
                                                     </div>
 
@@ -160,7 +160,7 @@ class lifesaversPage extends Component {
 
                                                         <button className="Schedule-webinar-button">Schedule Webinar</button>
 
-                                                        <button className="download-manual-button">Download Manual</button>
+                                                        <a href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" className="download-manual-button">Download Manual</a>
 
                                                     </div>
 

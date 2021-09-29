@@ -1,6 +1,7 @@
 import React from 'react';
 import './togglemenu.styles.scss';
 import {AD_COMPANY, AD_CONTACT, AD_HOME, AD_OUR_PRODUCT, AD_TERMS} from "../../../../../const/links";
+import { Link } from 'react-router-dom';
 
 
 class Popup extends React.Component {
@@ -17,13 +18,13 @@ class Popup extends React.Component {
              
               className="close">&times;</span>
               <ul className="responsive-list">
-                            <li><a href={AD_HOME}>HOME</a></li>
-                            <li><a href="/Oops">COMPANY</a></li>
-                            <li><a href="/products">OUR PRODUCTS</a>                          
+                            <li><Link to='./'>HOME</Link></li>
+                            <li><Link to="./company">COMPANY</Link></li>
+                            <li><Link to="./products">OUR PRODUCTS</Link>                          
                             </li>
-                            <li><a href="/Oops">NEWS</a></li>
-                            <li><a href="/terms">TERMS</a></li>
-                            <li><a href="/Oops">CONTACT</a></li>
+                            <li><a href="https://www.info.access-direct.net/news-1">NEWS</a></li>
+                            <li><Link to="./terms">TERMS</Link></li>
+                            <li><a href="https://www.info.access-direct.net/map">CONTACT</a></li>
                         </ul>
             </div>
          </div>

@@ -59,7 +59,11 @@ class highpowerPage extends Component {
                                 className="Schedule-webinar-button">Schedule Webinar</button>
                                 {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
 
-                                <button className="download-manual-button">Download Manual</button>
+                              
+
+                                <a href="https://highpowersecurity.com/wp-content/uploads/2021/04/hp1man29.pdf" target="_blank" className="download-manual-button">Download Manual</a>
+
+                                
                             
                             </div>
 

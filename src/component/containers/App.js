@@ -14,7 +14,7 @@ import Company from './Other Pages/Pages/Company/Company';
 import lifesaversPage from './Other Pages/Pages/Lifesavers/lifesaver';
 
 
-const Loading = () => <div style={{display: 'flex', flexDirection: 'column', color: 'white', justifyContent:'center', alignItems: 'center', fontWeight: '700', height: '100vh', width: '100vw', backgroundColor: '#1F56BA'}}>
+const Loading = () => <div style={{display: 'flex', flexDirection: 'column', color: 'white', justifyContent:'center', alignItems: 'center', fontWeight: '700', height: '100vh', width: '100vw', backgroundColor: '#0400B9'}}>
   <div> 
 <img src={logo3} /> 
   <h2>...Loading</h2>

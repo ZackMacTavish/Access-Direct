@@ -16,7 +16,7 @@ class Header extends React.Component {
                     <div className="header-nav">
                         <ul className="first-ul">
                             <li><a href={AD_HOME}>HOME</a></li>
-                            <li><a href={AD_COMPANY}>COMPANY</a></li>
+                            <li><Link to='./company'>COMPANY</Link></li>
                             <li><a href="/products">OUR PRODUCTS</a>
                                 <ul className="our-products-dropdown">
                                 <li><Link to="./products">All Products</Link></li>
