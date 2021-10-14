@@ -30,7 +30,7 @@
 .products-container-grid{
     display: grid;
     grid-template-columns: 20vw;
-    grid-template-rows: 40vh 20vh;
+    grid-template-rows: 48vh 20vh;
     border: solid 1px #B9B9B9;
     padding-left: 5vw; 
     padding-right: 5vw;
@@ -41,8 +41,8 @@
         grid-column-start: 1;
         grid-row-start: 1;
         width: 20vw;
+        max-width: 320px;
        
-        max-width: 350px;
         justify-content: center;
         justify-items: center;
         align-self: center;
@@ -99,7 +99,7 @@ textarea:focus, input:focus{
     
 }
 .images-products-url {
-margin-top: -2vh;
+margin-top: 2vh;
 padding-bottom: 3vh;
 color:#0400B9;
 width: 5vw;

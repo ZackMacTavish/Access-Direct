@@ -191,7 +191,9 @@ export const PRODUCT_DATA =
         company: 'GMS/KSP',
         name: 'D7',
         image: require('../product photos/D7-min.jpg'),
-        description: '7 pin IC core. Pins are placed in the top to set the lock. Key is placed into slot in the front.' ,
+        description: '7 pin IC core. Pins are placed in the top to set the lock. Key is placed into slot in the front. Click below to see more keyways we offer.' ,
+        click: 'See more',
+        url: 'https://static.wixstatic.com/media/34dcee_f1ced7b5b3044fcd903f40a55ad17aac~mv2.png/v1/fill/w_586,h_143,al_c,q_85,usm_0.66_1.00_0.01/Screen%20Shot%202019-01-02%20at%2010_10_10%20PM_pn.webp',
         id: '21'
     },
 
@@ -232,6 +234,8 @@ export const PRODUCT_DATA =
         name: 'Tailpiece-IC',
         image: require('../product photos/Tailpiece-IC-min.png'),
         description: 'Yale is top left, Sargent is top right, Adams Rite is bottom left, and Falcon is bottom right.' ,
+        click: 'See more',
+        url: 'https://gmslock.com/cams-for-sfic-and-lfic-mortise-housings',
         id: '26'
     },
 
@@ -240,6 +244,8 @@ export const PRODUCT_DATA =
         name: 'Tailpiece-Non-IC',
         image: require('../product photos/Non-IC-min.png'),
         description: 'Tailpiece for housing. Tailpieces for Adams Rite, Yale, Falcon, and Schlage keyway.' ,
+        click: 'See more',
+        url: 'https://gmslock.com/cams-for-mortise-and-mortise-t-turn-cylinders',
         id: '27'
     },
 
@@ -350,7 +356,7 @@ export const PRODUCT_DATA =
     {
         company: 'RCI',
         name: '6514',
-        image: require('../product photos/6514-min.png'),
+        image: require('../product photos/6514-min.jpg'),
         description: 'A recommended Access Direct Product' ,
         id: '41'
     },
@@ -359,7 +365,9 @@ export const PRODUCT_DATA =
         company: 'RCI',
         name: '8310',
         image: require('../product photos/8310-min.png'),
-        description: 'RCI 8310(Single)/8320(Double) magnetic lock with 1200lb holding force and optional DPS' ,
+        description: 'RCI 8310(Single)/8320(Double) magnetic lock with 1200lb holding force and optional DPS. Other RCI products avavailable with lead time.' ,
+        click: 'See more',
+        url: 'https://www.dormakaba.com/us-en/solutions/products/electronic-access---data/electromagnetic-locks/rci-83108320-multimag-603228',
         id: '42'
     },
 
@@ -390,7 +398,7 @@ export const PRODUCT_DATA =
     {
         company: 'Record',
         name: 'Swinging Door',
-        image: require('../product photos/swinging-door.jpeg'),
+        image: require('../product photos/swinging-door.jpg'),
         description: 'A recommended Access Direct Product' ,
         id: '46'
     },
@@ -406,7 +414,7 @@ export const PRODUCT_DATA =
     {
         company: 'Regent',
         name: '5V0A4809',
-        image: require('../product photos/5V0A4809.jpeg'),
+        image: require('../product photos/5V0A4809.jpg'),
         description: 'A recommended Access Direct Product' ,
         id: '48'
     },
@@ -414,7 +422,7 @@ export const PRODUCT_DATA =
     {
         company: 'Regent',
         name: '5V0A4837',
-        image: require('../product photos/5V0A4837.jpeg'),
+        image: require('../product photos/5V0A4837.jpg'),
         description: 'A recommended Access Direct Product' ,
         id: '49'
     },
@@ -422,7 +430,7 @@ export const PRODUCT_DATA =
     {
         company: 'Regent',
         name: '5V0A4810',
-        image: require('../product photos/5V0A4810.jpeg'),
+        image: require('../product photos/regent2.jpg'),
         description: 'A recommended Access Direct Product' ,
         id: '50'
     },
@@ -430,7 +438,7 @@ export const PRODUCT_DATA =
     {
         company: 'Regent',
         name: '2322 Series',
-        image: require('../product photos/5V0A4792.jpeg'),
+        image: require('../product photos/regent4.jpg'),
         description: 'A recommended Access Direct Product' ,
         id: '51'
     },
@@ -438,7 +446,7 @@ export const PRODUCT_DATA =
     {
         company: 'Regent',
         name: '2333-36',
-        image: require('../product photos/5V0A4804.jpeg'),
+        image: require('../product photos/regent3.jpg'),
         description: 'A recommended Access Direct Product' ,
         id: '52'
     },
