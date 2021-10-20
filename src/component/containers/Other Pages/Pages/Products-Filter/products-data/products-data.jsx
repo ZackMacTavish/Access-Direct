@@ -41,7 +41,7 @@ export const PRODUCT_DATA =
     },
 
     {
-        company: 'Highpower Security',
+        company: 'Highpower',
         name: 'H200',
         image: require('../product photos/H200-min.png'),
         description: 'Highpower Security pushplate exit release comes with or without pneumatic timers. Buttons are engraved with messages that include: Push to exit, Push to unlock, Blank(no text) or custom engraved with your message. H200 is Double-wide, with two-gang electrical box.' ,

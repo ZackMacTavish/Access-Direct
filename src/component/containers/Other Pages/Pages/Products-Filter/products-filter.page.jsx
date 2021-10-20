@@ -10,6 +10,7 @@ import OtherProducts from "../../Components/View Other Products/viewotherproduct
 import Footer from '../../Components/Footer/Footer.component';
 
 import {PRODUCT_DATA} from './products-data/products-data';
+import { Link } from 'react-router-dom';
 
 
 
@@ -34,13 +35,20 @@ class productsFilter extends Component {
         return (
             <div className="products-filter-page">
                 {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
-               
+
+                <div className="search-manufacturer">
+                        <h4 className="manufacturer-header">Click here to search by manufacturer</h4>
+                        <Link className="search-manufacturer-button" to='./manufacturer'>
+                        <button className="search-manufacturer-button">Search by manufacturer</button>
+                        </Link>
+                </div>
 
                 <div className="product-filters-header">
                 
               
                        <h2>Filter by Products</h2>
                        <h3 className="product-subheader">Access Direct is proud to carry over 2,300 products.</h3>
+                      
                 </div>
 
                 <input className="search-bar"
@@ -48,10 +56,8 @@ class productsFilter extends Component {
                 placeholder='Search Products'
                 onChange={e => 
                     this.setState({ searchField: e.target.value})}
-                        
-                    
-               
-                />
+                        />
+                 
 
                     <div className="products-flexed">
 
@@ -62,11 +68,10 @@ class productsFilter extends Component {
                             <img className="images-products-render" src={product.image}/>
                             <h3 className="images-products-company">{product.company}</h3> 
                                 <h4 className="images-products-name">{product.name}</h4>
-                                <a className="a-link-click-through"
-                                href={product.url}>
-                                    {product.click ='See more' ?  <h4 className="images-products-url">{product.click}</h4> : <h4></h4> }
-                              
-                                </a> 
+                                            <a className="a-link-click-through"href={product.url}>
+                                                {product.click ='See more' ?  <h4 className="images-products-url">{product.click}</h4> : <h4></h4> }
+                                        
+                                            </a> 
                                 <h4 className="images-products-description">{product.description}</h4> 
                             
                             </div>)
