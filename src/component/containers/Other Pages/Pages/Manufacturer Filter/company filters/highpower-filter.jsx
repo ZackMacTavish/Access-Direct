@@ -60,9 +60,12 @@ class highpowerFilter extends Component {
                             <img className="images-products-render" src={product.image}/>
                             <h3 className="images-products-company">{product.company}</h3> 
                             <h4 className="images-products-name">{product.name}</h4>
+                            <h4 className="images-products-description">{product.description}</h4>
                                 <a className="a-link-click-through"
                                 href={product.url}>
                                     {product.click ='See more' ?  <h4 className="images-products-url">{product.click}</h4> : <h4></h4> }
+
+                                     
                               
                                 </a> 
                             

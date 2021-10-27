@@ -32,7 +32,7 @@ import dortronicsFilter from './Other Pages/Pages/Manufacturer Filter/company fi
 
 
 const Loading = () => <div style={{display: 'flex', flexDirection: 'column', color: 'white', justifyContent:'center', alignItems: 'center', fontWeight: '700', height: '100vh', width: '100vw', backgroundColor: '#0400B9'}}>
-  <div> 
+  <div style={{display: 'flex', flexDirection: 'column'}}> 
 <img src={logo3} /> 
   <h2>...Loading</h2>
   </div>

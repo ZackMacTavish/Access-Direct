@@ -485,6 +485,75 @@ export const PRODUCT_DATA =
         id: '57'
     },
 
+    {
+        company: 'Highpower',
+        name: 'Highpower One',
+        image: require('../../Highpower One/HighpowerOne-phone.png'),
+        description: '8 door controller' ,
+        id: '58'
+    },
+
+    {
+        company: 'Highpower',
+        name: 'Fobs',
+        image: require('../product photos/Fob.png'),
+        description: 'Custom programmed fobs with the ability to print a company logo on the front' ,
+        id: '59'
+    },
+
+    {
+        company: 'Highpower',
+        name: 'Cards',
+        image: require('../product photos/Card.png'),
+        description: 'Custom programmed cards with the ability to print a company logo on the front' ,
+        id: '60'
+    },
+
+    {
+        company: 'Highpower',
+        name: 'H-100',
+        image: require('../product photos/pp-100L.png'),
+        description: 'H-100 series pneumatic switch. Size: 4.5”H x 2.75”W. Tamper resistant, Allen screws behind the front plate. Quickly mounts to single-gang electrical boxes.' ,
+        id: '61'
+    },
+
+    {
+        company: 'Highpower',
+        name: 'H-110',
+        image: require('../product photos/pp-110L.jpg'),
+        description: 'H-110 series pneumatic switch. Size: 4.5”H x 1.75”W. Small, rugged self-timing switches available with wires or terminal block (PNZ).' ,
+        id: '62'
+    },
+
+    {
+        company: 'Highpower',
+        name: 'H-120-140',
+        image: require('../product photos/pp-120-140L.jpg'),
+        description: 'H-120-140 series pneumatic switches.' ,
+        id: '63'
+    },
+
+    {
+        company: 'Highpower',
+        name: 'H-130',
+        image: require('../product photos/pp-130L.jpg'),
+        description: 'H-130 series pneumatic switch. Size: 4.5”H x 1.75”W. Tamper resistant, the button cannot be burned or pried off.' ,
+        id: '64'
+    },
+
+    {
+        company: 'Highpower',
+        name: 'H-120',
+        image: require('../product photos/H120 Series.png'),
+        description: 'H-120 series pneumatic switch. Size: 4.5”H x 2.75”W. Tamper resistant, the button cannot be burned or pried off. 1 to 45 second adjustment range (PNZ).' ,
+        id: '65'
+    },
+
+
+
+
+
+
 
 
 

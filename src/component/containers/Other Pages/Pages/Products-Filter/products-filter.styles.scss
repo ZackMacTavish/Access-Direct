@@ -21,7 +21,6 @@
     font-family: 'AvenirBold';
     font-size: 1rem;
     border-radius: 20px;
-    margin: 2vh 2vw 0 0;
     text-decoration: none;
     &:hover{
         cursor: pointer;
@@ -32,14 +31,18 @@
 
 .search-manufacturer{
     display: grid;
-    grid-template-columns: 2vw 78vw 18vw 2vw;
-    grid-template-rows: 2vh 5vh;
+    padding-top: 2vw;
+    grid-template-columns: 2vw 74vw 22vw 2vw;
+    grid-template-rows: 4vh 5vh;
 }
 
 .manufacturer-header{
     display: grid;
     grid-column-start: 3;
         grid-row-start: 1;
+        align-self: center;
+        align-items: center;
+        justify-self: center;
 }
 
 

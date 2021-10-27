@@ -10,6 +10,7 @@ import YoutubeIcon from './Youtube.svg';
 
 import { Link } from "react-router-dom";
 import { AD_CAREERS, AD_TEAM, AD_TRAINING } from '../../../../../const/links';
+import logo from './Final-M-SinglePiece-AD-01.svg';
 
 
 class Footer extends Component {
@@ -22,9 +23,17 @@ class Footer extends Component {
 
             <div className="flex-container-footer">
 
-            <img src={logo2} alt="logo" />
+            <img className="AD-Logo" src={logo2} alt="logo" />
+
+            
 
                             <ul className="footer-links-container">
+
+
+                            <Link to="./manufacturer" style={{textDecoration:'none', color: 'white'}} >
+                    <li className="footer-listitems">MANUFACTURERS</li>
+                    </Link>
+
                            <a className="footer-listitems-nostyle" href={AD_CAREERS}>
                     <li className="footer-listitems">CAREERS</li>
                     </a>
@@ -57,9 +66,13 @@ class Footer extends Component {
        
 
                 </div>
+                <a target="_blank" href="https://zackmactavish.github.io/MacTavish/">
                 <div className="flex-love">
-                <h6 className="made-with-love">Made by MacTavish Designs</h6><h6 className="hello">👋🏼</h6> 
+                <h6 className="made-with-love">Made by MacTavish Designs</h6>
+                
+                <img src={logo} className="hello" />
                 </div>
+                </a>
             
             </div>
 

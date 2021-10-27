@@ -87,13 +87,25 @@
       align-items: center;
     }
 
-    .hello{
-      font-size: 2rem;
-      padding-left: 1vw;
+    .flex-love:hover{
+      opacity: 75%;
+      cursor: pointer;
     }
 
+    .hello{
+      width: clamp(40px, 2.5vw, 300px);
+      padding-left: 1vw;
+    }
+    
+  
     .made-with-love{
       font-size: 0.8rem;
       color: white;
       
     }
+
+    .AD-Logo {
+      width: 13vw;
+    }
+
+  

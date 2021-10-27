@@ -81,7 +81,7 @@ export const MANUFACTURER_DATA =
 
     {
         company: 'MS Sedco',
-        image: require('../manufacturer logos/mssedco.jpeg'),
+        image: require('../manufacturer logos/mssedco.jpg'),
         click: 'See More',
         url:'./mssedco-products',
         id: '10'

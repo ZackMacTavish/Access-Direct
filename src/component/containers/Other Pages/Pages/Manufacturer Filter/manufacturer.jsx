@@ -9,6 +9,7 @@ import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.co
 import { MANUFACTURER_DATA } from './manufacturer-data/manufacturer-data';
 
 import {PRODUCT_DATA} from '../Products-Filter/products-data/products-data';
+import { Link } from 'react-router-dom';
 
 
 
@@ -22,6 +23,11 @@ class ManufacturerFilter extends Component {
         };
     }
 
+      componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
+
 
     render() {
         const { products, manufacturers, searchField} = this.state;
@@ -33,6 +39,14 @@ class ManufacturerFilter extends Component {
         return (
             <div className="products-filter-page">
                 {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
+
+                <div className="search-manufacturer">
+                        <h4 className="manufacturer-header">Click here to search All Products</h4>
+                        <Link className="search-manufacturer-button" to='./products'>
+                        <button className="search-manufacturer-button">Search by Products</button>
+                        </Link>
+                </div>
+
                
 
                 <div className="product-filters-header">
