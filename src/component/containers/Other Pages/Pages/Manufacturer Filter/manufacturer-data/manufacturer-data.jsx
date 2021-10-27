@@ -6,6 +6,22 @@ export const MANUFACTURER_DATA =
 
 
     {
+        company: 'Paclock',
+        image: require('../manufacturer logos/PACLOCK_Web_Logo.png'),
+        click: 'See More',
+        url: './paclock-products',
+        id: '17'
+    },
+
+    {
+        company: 'Visco',
+        image: require('../manufacturer logos/Visco.jpeg'),
+        click: 'See More',
+        url: './visco-products',
+        id: '18'
+    },
+
+    {
         company: 'Zamakast',
         image: require('../manufacturer logos/zamakast.png'),
         click: 'See More',

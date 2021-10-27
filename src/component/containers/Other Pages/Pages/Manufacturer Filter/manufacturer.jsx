@@ -58,7 +58,7 @@ class ManufacturerFilter extends Component {
 
                 <input className="search-bar"
                 type='search' 
-                placeholder='Search Products'
+                placeholder='Search Manufacturer'
                 onChange={e => 
                     this.setState({ searchField: e.target.value})}
                         

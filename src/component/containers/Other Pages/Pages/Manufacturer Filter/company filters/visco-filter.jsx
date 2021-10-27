@@ -11,7 +11,7 @@ import { PRODUCT_DATA } from '../../Products-Filter/products-data/products-data'
 
 
 
-class ZamakastFilter extends Component {
+class ViscoFilter extends Component {
     constructor() {
         super();
         this.state={
@@ -24,7 +24,7 @@ class ZamakastFilter extends Component {
     render() {
         const { products, searchField} = this.state;
         const filteredProducts = products.filter(product =>
-            product.name.toLowerCase().includes(searchField.toLowerCase()) && product.company === 'Zamakast'
+            product.name.toLowerCase().includes(searchField.toLowerCase()) && product.company === 'Visco'
             ) 
 
             
@@ -37,8 +37,8 @@ class ZamakastFilter extends Component {
                 <div className="product-filters-header">
                 
               
-                       <h2>Filter by Zamakast</h2>
-                       <h3 className="product-subheader">Access Direct is proud to carry multiple Alfa Lock products.</h3>
+                       <h2>Filter by Visco</h2>
+                       <h3 className="product-subheader">Access Direct is proud to carry multiple Visco products.</h3>
                 </div>
 
                 <input className="search-bar"
@@ -82,4 +82,4 @@ class ZamakastFilter extends Component {
     }
 }
 
-export default ZamakastFilter;
+export default ViscoFilter;

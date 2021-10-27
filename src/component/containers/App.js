@@ -29,6 +29,8 @@ import regentFilter from './Other Pages/Pages/Manufacturer Filter/company filter
 import southwireFilter from './Other Pages/Pages/Manufacturer Filter/company filters/southwire-filter';
 import wikkFilter from './Other Pages/Pages/Manufacturer Filter/company filters/wikk-filter';
 import dortronicsFilter from './Other Pages/Pages/Manufacturer Filter/company filters/dortronics-filter';
+import PaclockFilter from './Other Pages/Pages/Manufacturer Filter/company filters/paclock-filter';
+import ViscoFilter from './Other Pages/Pages/Manufacturer Filter/company filters/visco-filter';
 
 
 const Loading = () => <div style={{display: 'flex', flexDirection: 'column', color: 'white', justifyContent:'center', alignItems: 'center', fontWeight: '700', height: '100vh', width: '100vw', backgroundColor: '#0400B9'}}>
@@ -71,6 +73,9 @@ class App extends Component {
 
             <Route path='/manufacturer' component={ManufacturerFilter} />
 
+
+            <Route path='/visco-products' component={ViscoFilter} />
+            <Route path='/paclock-products' component={PaclockFilter} />
             <Route path='/zamakast-products' component={ZamakastFilter} />
             <Route path='/rci-products' component={RCIFilter} />
             <Route path='/highpower-products' component={highpowerFilter} />

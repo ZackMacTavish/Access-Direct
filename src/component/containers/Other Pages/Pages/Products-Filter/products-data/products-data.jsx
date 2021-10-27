@@ -549,14 +549,148 @@ export const PRODUCT_DATA =
         id: '65'
     },
 
+    {
+        company: 'Zamakast',
+        name: 'Locker Inserts',
+        image: require('../product photos/locker.png'),
+        description: 'Zamakast locker inserts are perfect for the bottom of a school or work locker.' ,
+        id: '66'
+    },
+
+    {
+        company: 'Zamakast',
+        name: 'U-shape Benches',
+        image: require('../product photos/UshapeBench.jpeg'),
+        description: 'Bench series that is perfect for locker rooms.' ,
+        id: '67'
+    },
+
+    {
+        company: 'Zamakast',
+        name: 'Tubular-shape Benches',
+        image: require('../product photos/FlatBench.jpeg'),
+        description: 'Bench series that is perfect for locker rooms.' ,
+        id: '68'
+    },
+
+    {
+        company: 'Zamakast',
+        name: '1.201',
+        image: require('../product photos/Zamakast1.201.jpg'),
+        description: 'Stainless steel lock body with plastic cover, waterproof, rust-proof. Brass cylinder, high strength, high accuracy, anti-rust. high durability.' ,
+        id: '69'
+    },
+
+    {
+        company: 'Paclock',
+        name: 'FSIC-3A',
+        image: require('../product photos/FSIC-3A.jpeg'),
+        description: 'PACLOCK’s FSIC-3A padlock features a 3/8” thick hardened steel shackle; is precision CNC machined in the USA for quality and dependability; and works with your 6-pin full size Schlage® compatible cores.' ,
+        id: '70'
+    },
+
+    {
+        company: 'Paclock',
+        name: 'UCS_6A',
+        image: require('../product photos/UCS_6A.jpeg'),
+        description: 'The UCS-6A is a padlock that includes a one-handed “pop-top” operation and chain retention hook that makes it effortless to lock and unlock. It’s made for protecting ladders, fences, generators, bikes, and many other possessions! Tested to over 3,600 lbs. of pull resistance, the UCS-6A accepts between 5/16″ to 3/8″ chain of any length.' ,
+        id: '71'
+    },
 
 
+    {
+        company: 'Paclock',
+        name: 'Disc Padlock Pro',
+        image: require('../product photos/Disc_Padlock_Pro.jpeg'),
+        description: 'PACLOCK boasts 6-pin cylinders compared to the industry standard of 4-pins, thus providing more than 20,000 guaranteed unique key changes!' ,
+        id: '72'
+    },
 
+    {
+        company: 'Paclock',
+        name: '5-Pack of Keyed-Different UCS Cylinders',
+        image: require('../product photos/10_Key_Cylinder.jpeg'),
+        description: 'The Universal Cylinder System by PACLOCK allows padlock owners to replace the cylinders in their UCS padlocks in minutes.' ,
+        id: '73'
+    },
 
+    {
+        company: 'Paclock',
+        name: '8mm Square Chain',
+        image: require('../product photos/8mm_Chain.jpeg'),
+        description: 'Made in the USA. 8mm chain made from hardened steel then zinc plated; chain hardness of 62 HRC and square links make this chain a beast! ' ,
+        id: '74'
+    },
 
+    {
+        company: 'Visco',
+        name: 'AT-401',
+        image: require('../product photos/AT-401.jpg'),
+        description: '4" Flat Threshold, 1 1/2 Rise. All Thresholds are made with a heavy duty aluminum extrusion in mill finish. They are available in any length up to 24 linear feet.' ,
+        id: '75'
+    },
 
+    {
+        company: 'Visco',
+        name: 'AT-600',
+        image: require('../product photos/AT-600.jpg'),
+        description: '5" Flat Threshold, 1 1/2 Rise. All Thresholds are made with a heavy duty aluminum extrusion in mill finish. They are available in any length up to 24 linear feet.' ,
+        id: '76'
+    },
 
+    {
+        company: 'Visco',
+        name: 'AT-601',
+        image: require('../product photos/AT-600.jpg'),
+        description: '6" Flat Threshold, 1 1/2 Rise. All Thresholds are made with a heavy duty aluminum extrusion in mill finish. They are available in any length up to 24 linear feet.' ,
+        id: '77'
+    },
 
+    {
+        company: 'Visco',
+        name: 'AT-700',
+        image: require('../product photos/AT-600.jpg'),
+        description: '7" Flat Threshold, 1 1/2 Rise. All Thresholds are made with a heavy duty aluminum extrusion in mill finish. They are available in any length up to 24 linear feet.' ,
+        id: '78'
+    },
 
+    {
+        company: 'Visco',
+        name: 'AT-800',
+        image: require('../product photos/AT-800.jpg'),
+        description: '8" Flat Threshold, 1 1/2 Rise. All Thresholds are made with a heavy duty aluminum extrusion in mill finish. They are available in any length up to 24 linear feet.' ,
+        id: '79'
+    },
 
-    ]
+    {
+        company: 'Visco',
+        name: 'AT-500',
+        image: require('../product photos/AT-500.jpg'),
+        description: '5" Flat Threshold, 1/4" Rise. All Thresholds are made with a heavy duty aluminum extrusion in mill finish. They are available in any length up to 24 linear feet.' ,
+        id: '80'
+    },
+
+    {
+        company: 'Visco',
+        name: 'AT-625',
+        image: require('../product photos/AT-625.jpg'),
+        description: '5" Flat Threshold, 1/4" Rise. All Thresholds are made with a heavy duty aluminum extrusion in mill finish. They are available in any length up to 24 linear feet.' ,
+        id: '81'
+    },
+
+    {
+        company: 'Visco',
+        name: 'AT-599',
+        image: require('../product photos/AT-599.jpg'),
+        description: '5" Flat Threshold, 7/8" Rise. All Thresholds are made with a heavy duty aluminum extrusion in mill finish. They are available in any length up to 24 linear feet.' ,
+        id: '82'
+    },
+
+    {
+        company: 'Visco',
+        name: 'AT-1000',
+        image: require('../product photos/AT-1000.jpg'),
+        description: '4" Flat Threshold, 7/8" Rise. All Thresholds are made with a heavy duty aluminum extrusion in mill finish. They are available in any length up to 24 linear feet.' ,
+        id: '83'
+    },
+]
