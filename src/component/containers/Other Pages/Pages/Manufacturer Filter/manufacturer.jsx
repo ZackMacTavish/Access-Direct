@@ -73,7 +73,7 @@ class ManufacturerFilter extends Component {
                             <div className="products-container-grid" key={manufacturer.id}> 
                             
                             <img className="images-products-render" src={manufacturer.image}/>
-                            <h3 className="images-products-company">{manufacturer.company}</h3> 
+                            <h3 className="images-products-company2">{manufacturer.company}</h3> 
                                 <a className="a-link-click-through"
                                 href={manufacturer.url}>
                                     {manufacturer.click ='See more' ?  <h4 className="images-products-url">{manufacturer.click}</h4> : <h4></h4> }

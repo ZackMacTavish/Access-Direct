@@ -29,6 +29,11 @@ class zamakastPage extends Component {
         seen: false
     };
     
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
+
     togglePop = () => {
         this.setState({
             seen: !this.state.seen

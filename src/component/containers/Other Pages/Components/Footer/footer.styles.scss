@@ -1,30 +1,168 @@
-.footer-container-component{
-    width: auto;
-    overflow: hidden;
-    height: 20vh;
-    
-    background-color: #0400B9;
+.flex-container-footer{
+       display: grid; 
+       background-color: #0400B9;
+       width: auto;
+       height: auto;
+       color: white;
+       grid-template-columns: 5vw 15vw 5vw 11vw 2vw 11vw 2vw 11vw 2vw 11vw 3vw 17vw 5vw;
+       grid-template-rows: 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 5vh;
+      }
+      .footer-listitem-1 {
+        grid-column-start: 4;
+        grid-row-start: 2;
+        align-self:flex-start;
+        list-style-type: none;
+        font-weight: 700;
+      }
 
-    @media screen and (max-width: 800px) {
-        height: 35vh;
-        
-          }
-    
-    
-    .flex-container-footer{
-        display: flex; 
-        width: 90vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
-        align-items: center;
-        @media screen and (max-width: 800px) {
-            flex-direction: column;
-            padding-top: 4vh;
-            
-              }
-    }
+      .footer-listitem-2 {
+        grid-column-start: 6;
+        grid-row-start: 2;
+        font-weight: 700;
+        align-self:flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
 
-    .footer-links-container{
+      .footer-listitem-3 {
+        grid-column-start: 8;
+        grid-row-start: 2;
+        align-self:flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+      }
+
+      .footer-listitem-4 {
+        grid-column-start: 10;
+        grid-row-start: 2;
+        font-weight: 700;
+        align-self:flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-listitem-5 {
+        grid-column-start: 4;
+        grid-row-start: 4;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-listitem-6 {
+        grid-column-start: 4;
+        grid-row-start: 5;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-listitem-7 {
+        grid-column-start: 4;
+        grid-row-start: 6;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-listitem-8 {
+        grid-column-start: 4;
+        grid-row-start: 7;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-listitem-9 {
+        grid-column-start: 4;
+        grid-row-start: 8;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+
+      .footer-listitem-10 {
+        grid-column-start: 4;
+        grid-row-start: 9;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-listitem-11 {
+        grid-column-start: 4;
+        grid-row-start: 10;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-listitem-12 {
+        grid-column-start: 6;
+        grid-row-start: 3;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-listitem-13 {
+        grid-column-start: 6;
+        grid-row-start: 4;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-listitem-14 {
+        grid-column-start: 6;
+        grid-row-start: 5;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+
+      .footer-listitem-15 {
+        grid-column-start: 8;
+        grid-row-start: 3;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-listitem-16 {
+        grid-column-start: 4;
+        grid-row-start: 3;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-listitem-16:hover, .footer-listitem-15:hover, .footer-listitem-14:hover, .footer-listitem-13:hover, .footer-listitem-12:hover, .footer-listitem-11:hover, .footer-listitem-10:hover, .footer-listitem-9:hover, .footer-listitem-8:hover, .footer-listitem-7:hover, .footer-listitem-6:hover, .footer-listitem-5:hover,
+      .footer-listitem-4:hover, .footer-listitem-3:hover, .footer-listitem-2:hover, .footer-listitem-1:hover {
+        opacity: 75%;
+        cursor: pointer;
+      }
+
+    
+      .footer-links-container{
         margin-left: 12vh;
         display: flex;
         color: white;
@@ -39,14 +177,13 @@
             margin: 0;
             padding: 4vh 0 0 0;
               }
-       
-              .footer-listitems-nostyle{
+
+            .footer-listitems-nostyle{
                 text-decoration: none;
                 color:white;
               }
               
         .footer-listitems{
-            
             padding-right: 3vw;
             @media screen and (max-width: 800px) {
                 margin: 0;
@@ -58,33 +195,51 @@
             
         }
 }
+
+@media screen and (max-width: 550px) {
+  .footer-links-container{
+    flex-direction: column;
+  }
+
+  .footer-listitems{
+    padding: 2vh 0;
+  }
 }
 
-.social-media-icons{display: flex;
-
-    @media screen and (max-width: 800px) {
-        padding-top: 5vh;
-          }
+  .social-media-icons{
+  grid-row-start: 2;
+  grid-column-start: 12;
+  display: flex;
+  justify-self: flex-start;
+  align-self: flex-start;
         
         &:hover{
             cursor: pointer;
-            
-        }
-        
-        }
+        }}
 
 .social-media-icon-styling{height: 8vh;
 
     &:hover{
-        
         opacity: 80%;
     }}
 
+    .year-update{
+      grid-column-start: 2;
+      grid-row-start: 11;
+      align-items: center;
+      justify-self: flex-start;
+      align-self: center;
+      font-size: 0.8rem;
+    }
 
     .flex-love{
+      grid-column-start: 12;
+      grid-column-end: 13;
+      grid-row-start: 11;
       display: flex;
-      justify-content: center;
       align-items: center;
+      justify-self: flex-start;
+      align-self: center;
     }
 
     .flex-love:hover{
@@ -105,7 +260,139 @@
     }
 
     .AD-Logo {
-      width: 13vw;
+      position: relative;
+      width: clamp(90px, 13vw, 150px);
+  
+      left: 5vw;
+     top: 2vh;
+    }
+
+
+    @media screen and (max-width: 1150px) {
+      .flex-container-footer{
+        padding-left: 8vw;
+       grid-template-columns: 5vw 90vw 5vw;
+        grid-template-rows: 7vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 12vh 4vh 4vh 5vh 5vh;
+       }
+       //Manufacturers
+       .footer-listitem-1 {
+         grid-column-start: 2;
+         grid-row-start: 3;
+       }
+
+        //All Products
+        .footer-listitem-16 {
+          grid-column-start: 2;
+          grid-row-start: 4;
+        }
+       //Company
+       .footer-listitem-2 {
+         grid-column-start: 2;
+         grid-row-start: 12;
+       }
+ 
+    
+ 
+       .footer-listitem-5 {
+         grid-column-start: 2;
+         grid-row-start: 5;
+       }
+ 
+       //Pneumatic Switches
+       .footer-listitem-6 {
+         grid-column-start: 2;
+         grid-row-start: 6;
+       }
+       
+       //Fobs/Cards
+       .footer-listitem-7 {
+         grid-column-start: 2;
+         grid-row-start: 7;
+       }
+ 
+       //Record USA
+       .footer-listitem-8 {
+         grid-column-start: 2;
+         grid-row-start: 8;
+       }
+       
+       //Zamakast
+       .footer-listitem-9 {
+         grid-column-start: 2;
+         grid-row-start: 9;
+       }
+ 
+       //Ditec
+       .footer-listitem-10 {
+         grid-column-start: 2;
+         grid-row-start: 10;
+       }
+ 
+       //Lifesavers
+       .footer-listitem-11 {
+         grid-column-start: 2;
+         grid-row-start: 11;
+       }
+ 
+       //Leadership
+       .footer-listitem-12 {
+         grid-column-start: 2;
+         grid-row-start: 13;
+         align-self: flex-start;
+         list-style-type: none;
+         text-decoration: none;
+         color: white;
+       }
+ 
+       //Opportunities
+       .footer-listitem-13 {
+         grid-column-start: 2;
+         grid-row-start: 14;
+       }
+ 
+       //Training information
+       .footer-listitem-14 {
+         grid-column-start: 2;
+         grid-row-start: 15;
+       }
+
+        //Industry Terms
+        .footer-listitem-3 {
+          grid-column-start: 2;
+          grid-row-start: 16;
+        }
+  
+ 
+        //News
+       .footer-listitem-15 {
+         grid-column-start: 2;
+         grid-row-start: 17;
+       }
+
+         //Contact
+         .footer-listitem-4 {
+          grid-column-start: 2;
+          grid-row-start: 18;
+        }
+
+        .year-update{
+          grid-column-start: 2;
+          grid-row-start: 22;
+        }
+
+        .flex-love{
+          grid-column-start: 2;
+          grid-row-start: 23;
+        }
+
+        .social-media-icons{
+          grid-row-start: 20;
+          grid-column-start: 2;
+        }
+         
+       
+      
+
     }
 
   

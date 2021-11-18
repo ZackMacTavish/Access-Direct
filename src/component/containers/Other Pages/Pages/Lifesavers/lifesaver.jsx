@@ -23,6 +23,11 @@ class lifesaversPage extends Component {
     state= {
         seen: false
     };
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     
     togglePop = () => {
         this.setState({

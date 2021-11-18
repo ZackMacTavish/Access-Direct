@@ -151,28 +151,28 @@ class homePage extends Component {
 
                             </div>
 
-                            <div className="brands-we-carry-section">
+
                             <h2 className="header-brands">Brands we carry</h2>
+                            <div className="brands-we-carry-section">
+                            
 
-                            <div className="row-one-section-brands">
-                            <img className="logos-brands-we-carry" src={calroyal} />
-                            <img className="logos-brands-we-carry" src={dormakaba} />
-                            <img className="logos-brands-we-carry" src={abh} />
-                            <img className="logos-brands-we-carry" src={camden} />
+                            
+                            <img className="brands-1" src={calroyal} />
+                            <img className="brands-2" src={dormakaba} />
+                            <img className="brands-3" src={abh} />
+                            <img className="brands-4" src={camden} />
 
-                            <a 
+                            <a  className="brands-10"
                             href="/highpower">
-                            <img className="logos-brands-we-carry" src={highpower} />
+                            <img src={highpower} />
                             </a>
-                            </div>
-
-                            <div className="row-two-section-brands">
-                            <img className="logos-brands-we-carry" src={farpointe} />
-                            <img className="logos-brands-we-carry" src={record} />
-                            <img className="logos-brands-we-carry" src={donjo} />
-                            <img className="logos-brands-we-carry" src={westpenn} />
-                            <img className="logos-brands-we-carry" src={zamakast} />
-                            </div>
+                            
+                            <img className="brands-5" src={farpointe} />
+                            <img className="brands-6" src={record} />
+                            <img className="brands-7" src={donjo} />
+                            <img className="brands-8" src={westpenn} />
+                            <img className="brands-9" src={zamakast} />
+                           
                             
                             </div>
 

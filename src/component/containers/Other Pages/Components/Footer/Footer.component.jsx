@@ -19,37 +19,89 @@ class Footer extends Component {
     render() {
         return (
 
-            <div className="footer-container-component">
 
             <div className="flex-container-footer">
 
             <img className="AD-Logo" src={logo2} alt="logo" />
 
-            
-
-                            <ul className="footer-links-container">
-
-
-                            <Link to="./manufacturer" style={{textDecoration:'none', color: 'white'}} >
-                    <li className="footer-listitems">MANUFACTURERS</li>
+                    <Link className="footer-listitem-1" to="./manufacturer" style={{textDecoration:'none', color: 'white'}} >
+                    <li >MANUFACTURERS</li>
                     </Link>
 
-                           <a className="footer-listitems-nostyle" href={AD_CAREERS}>
-                    <li className="footer-listitems">CAREERS</li>
+                    <Link className="footer-listitem-5" to="./Highpower" style={{textDecoration:'none', color: 'white'}} >
+                    <li >Highpower</li>
+                    </Link>
+
+                    <a className="footer-listitems-nostyle footer-listitem-6" href="https://www.info.access-direct.net/pneumatic-switches">
+                    <li>Pneumatic Switches</li>
                     </a>
 
-                    <a className="footer-listitems-nostyle" href={AD_TEAM}  >
-                    <li className="footer-listitems">OUR TEAM</li>
-
+                    <a className="footer-listitems-nostyle footer-listitem-7" href="https://www.info.access-direct.net/fobs-prox-cards">
+                    <li>Fobs/Cards</li>
                     </a>
 
-                   <a className="footer-listitems-nostyle" href={AD_TRAINING}>
-                    <li className="footer-listitems">TRAINING</li>
+                    <a className="footer-listitems-nostyle footer-listitem-8" href="https://www.info.access-direct.net/record">
+                    <li>Record Usa</li>
                     </a>
+
+                    <Link className="footer-listitems-nostyle footer-listitem-9" to="./Zamakast">
+                    <li>Zamakast</li>
+                    </Link>
+
+                    <Link className="footer-listitems-nostyle footer-listitem-10" to="./Ditec">
+                    <li>Ditec</li>
+                    </Link>
+
+                    <Link className="footer-listitems-nostyle footer-listitem-11" to="./lifesavers">
+                    <li>Lifesavers</li>
+                    </Link>
                     
-                </ul>
+                    <Link className="footer-listitems-nostyle footer-listitem-2" to="./Company">
+                    <li>COMPANY</li>
+                    </Link>
 
+                    <a className="footer-listitems-nostyle footer-listitem-12" href="https://www.info.access-direct.net/leadership">
+                    <li>Leadership</li>
+                    </a>
+
+                    <a className="footer-listitems-nostyle footer-listitem-13" href="https://www.info.access-direct.net/careers">
+                    <li>Opportunities</li>
+                    </a>
+
+                    <a className="footer-listitems-nostyle footer-listitem-14" href="https://www.info.access-direct.net/training">
+                    <li>Training Information</li>
+                    </a>
+
+
+                    <Link className="footer-listitems-nostyle footer-listitem-3"  to="./terms"  >
+                    <li >INDUSTRY TERMS</li>
+                    </Link>
+
+                    <a className="footer-listitems-nostyle footer-listitem-15" href="https://www.info.access-direct.net/news-1">
+                    <li>News</li>
+                    </a>
+
+                    <Link className="footer-listitems-nostyle footer-listitem-16"  to="./products"  >
+                    <li>All Products</li>
+                    </Link>
+
+
+                   <a className="footer-listitems-nostyle footer-listitem-4" href="https://www.info.access-direct.net/map">
+                    <li>CONTACT</li>
+                    </a>
+
+                    <a className="flex-love" target="_blank" href="https://zackmactavish.github.io/MacTavish/">
+                
+                <h6 className="made-with-love">Site by MacTavish Designs</h6>
+                
+                <img src={logo} className="hello" />
+               
+                </a>
+
+                <h6 className="year-update">© 2022 by Access Direct</h6>
+            
                 <div className="social-media-icons">
+
                 <a href="https://www.instagram.com/access_direct/">
                     <img className="social-media-icon-styling" src={InstagramIcon} alt="instagram-icon" />
                     </a>
@@ -61,19 +113,12 @@ class Footer extends Component {
                     <img className="social-media-icon-styling" src={YoutubeIcon} alt="instagram-icon" />
                     </a>
            
-                </div>
 
        
 
                 </div>
-                <a target="_blank" href="https://zackmactavish.github.io/MacTavish/">
-                <div className="flex-love">
-                <h6 className="made-with-love">Made by MacTavish Designs</h6>
-                
-                <img src={logo} className="hello" />
-                </div>
-                </a>
-            
+
+               
             </div>
 
 

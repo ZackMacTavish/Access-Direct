@@ -13,6 +13,11 @@ class Company extends React.Component {
     state= {
         seen: false
     };
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     
     togglePop = () => {
         this.setState({
@@ -93,7 +98,7 @@ At Access Direct, we believe everyone should have access to simple and trustwort
 
 <div className="blue-box">
     <h2 className="video-text">
-    Access Direct has released a series of videos on Youtube to explain our philosphies.
+    Access Direct has released a series of videos on Youtube to explain our products and process.
     </h2>
     </div>
 

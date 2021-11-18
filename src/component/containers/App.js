@@ -35,7 +35,7 @@ import ViscoFilter from './Other Pages/Pages/Manufacturer Filter/company filters
 
 const Loading = () => <div style={{display: 'flex', flexDirection: 'column', color: 'white', justifyContent:'center', alignItems: 'center', fontWeight: '700', height: '100vh', width: '100vw', backgroundColor: '#0400B9'}}>
   <div style={{display: 'flex', flexDirection: 'column'}}> 
-<img src={logo3} /> 
+<img style={{width: '7vw'}} src={logo3} /> 
   <h2>...Loading</h2>
   </div>
   </div>;
