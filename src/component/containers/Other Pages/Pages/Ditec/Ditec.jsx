@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-
 import '../Ditec/Ditec.styles.scss'
 import '../Highpower One/highpower.styles.scss';
 import ditechero from './DitecHero.png';
@@ -10,7 +9,6 @@ import daycares from '../Highpower One/daycares.png';
 
 import securityicon from '../Highpower One/Security-icon.svg';
 import HA7Long from '../Ditec/HA7-Long.png';
-
 
 import Header from "../../../../base/Header";
 import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
@@ -59,10 +57,10 @@ class ditecPage extends Component {
 
                             <button 
                                  onClick={this.togglePop}
-                                className="Schedule-webinar-button">Schedule Webinar</button>
+                                className="Schedule-webinar-button3">Schedule Webinar</button>
                                 {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
 
-                                <button className="download-manual-button">Download Manual</button>
+                                <button className="download-manual-button3">Download Manual</button>
                             
                             </div>
 
@@ -73,7 +71,7 @@ class ditecPage extends Component {
                         </div>
 
                     <div className="zamakast-hero-image">
-                        <img className="image-2-highpower" src={ditechero} alt="zamakast's alfa lock" />
+                        <img className="image-2-ditec" src={ditechero} alt="ditec's ha-7" />
                         
                     
                     </div>
@@ -96,9 +94,9 @@ class ditecPage extends Component {
 
                                                     <div className="button-flexed-highpower">
 
-                                                        <button className="Schedule-webinar-button">Schedule Webinar</button>
+                                                        <button className="Schedule-webinar-button3">Schedule Webinar</button>
 
-                                                        <button className="download-manual-button">Download Manual</button>
+                                                        <button className="download-manual-button3">Download Manual</button>
 
                                                     </div>
 

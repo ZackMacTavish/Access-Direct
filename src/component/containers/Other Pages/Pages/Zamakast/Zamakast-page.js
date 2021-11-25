@@ -61,7 +61,7 @@ class zamakastPage extends Component {
                                     </p>
                                     <button 
                                  onClick={this.togglePop}
-                                className="Schedule-webinar-button">Schedule Webinar</button>
+                                className="Schedule-webinar-button-zamakast">Schedule Webinar</button>
                                 {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
                                     
 

@@ -71,10 +71,21 @@
 .products-container-grid{
     display: grid;
     grid-template-columns: 20vw;
-    grid-template-rows: 48vh 20vh;
+    grid-template-rows: 48vh 3vh 3vh auto auto 3vh;
     border: solid 1px #B9B9B9;
     padding-left: 5vw; 
     padding-right: 5vw;
+}
+
+
+.manufacturer-container-grid{
+    display: grid;
+    grid-template-columns: 20vw;
+    grid-template-rows: 30vh 3vh 3vh auto auto 3vh;
+    border: solid 1px #B9B9B9;
+    padding-left: 5vw; 
+    padding-right: 5vw;
+}
  
 
     .images-products-render{
@@ -101,23 +112,17 @@
     .images-products-name{
         display: grid;
         grid-column-start: 1;
-        grid-row-start: 2;
-        padding-top: 3.5vh;
+        grid-row-start: 3;
         color: #0400B9;
     }
 
     .images-products-description{
         display: grid;
         grid-column-start: 1;
-        grid-row-start: 2;
-        padding-top: 6.75vh;
-        
+        grid-row-start: 4;
         color: #414141; 
         font-size: 0.775rem;
     }
-
-
-}
 
 .search-bar{
     display: flex;
@@ -135,17 +140,83 @@ textarea:focus, input:focus{
  
 .a-link-click-through {
     text-decoration: none;
-    
-    
-}
+    }
 .images-products-url {
 margin-top: 2vh;
 padding-bottom: 3vh;
 color:#0400B9;
-width: 5vw;
+width: 10vw;
 }
 
 .images-products-url:hover {
    opacity: 0.8;
    cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+    .products-filter-page{
+        width: 100vw;
+        margin: auto;
+    }
+    .products-flexed{
+        width: 100vw;
+        grid-template-columns:1fr;
+        
+       }
+
+       .products-container-grid{
+        grid-template-columns: 85vw;
+        grid-template-rows: 48vh 5vh 5vh auto auto 3vh;
+        margin: auto;
+       }
+
+       .manufacturer-container-grid{
+        grid-template-columns: 85vw;
+        grid-template-rows: 38vh 5vh 5vh auto auto 3vh;
+        margin: auto;
+       }
+
+       .images-products-render{
+        width: 60vw;
+        margin: auto;
+    }
+
+    .images-products-company{
+    padding-left: 2vw;
+    padding-bottom: 1vh;
+       }
+
+    .images-products-name{
+        padding-left: 2vw;
+        padding-bottom: 1vh;
+}
+
+    .images-products-description{
+        padding-left: 2vw;
+    }
+
+    .images-products-url {
+       padding-left: 2vw;
+       width: 40vw;
+        }
+
+        .search-bar{
+            width: 80vw;
+         }
+
+         .product-subheader{
+          width: 70vw;
+          text-align: center;
+        }
+
+        .search-manufacturer{
+            padding-top: 10vw;
+            grid-template-columns: 2vw 3vw 90vw 2vw 3vw;
+        }
+
+
+.search-manufacturer-button{
+    width: 80vw;
+}
+       
 }

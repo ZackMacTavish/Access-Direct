@@ -7,20 +7,13 @@
     display: flex;
     width: 100vw;
     height: 60vh;
-    
     padding-top: 5vh;
     align-items: center;
-   
-
-@media screen and (max-width: 750px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-}
+    
+   }
 
 
-.Schedule-webinar-button{
+.Schedule-webinar-button3{
     align-self: center;
     align-items: center;
     justify-self: center;
@@ -52,9 +45,11 @@
         width: 35vw;
     }
 
+   
     }
 
-.download-manual-button{
+
+.download-manual-button3{
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -87,4 +82,75 @@
         width: 35vw;
     }
 
+    @media screen and (max-width: 450px) {
+        width: 60vw;
+        margin-top: 1vh;
+    
+
+    }
+
 }
+
+@media screen and (max-width: 450px) {
+   .Schedule-webinar-button3{ 
+    width: 60vw;
+    margin: 0;
+    }}
+
+    @media screen and (max-width: 800px) {
+        .HA9-styles{
+            width:45vw;
+            margin: 0;
+            padding: 0;
+        }
+        
+        }
+
+        .image-2-ditec{
+            height: 75vh;
+            @media screen and (max-width: 1290px) {
+                           height: 63vh;
+                }
+                @media screen and (max-width: 1190px) {
+                    padding-top: 8vh;
+                    height: 58vh;
+         }
+         @media screen and (max-width: 1050px) {
+            padding-top: 8vh;
+            height: 53vh;
+        }
+        
+        @media screen and (max-width: 900px) {
+            padding-top: 15vh;
+            height: 44vh;
+        }
+        @media screen and (max-width: 750px) {
+            padding-top: 4vh;
+            height: 44vh;
+        }
+
+        @media screen and (max-width: 750px) {
+            padding-top: 4vh;
+            height: 38vh;
+        }
+        }
+
+        .HA7-style-long{
+            padding-left: 2vw;
+            display: grid;
+            grid-column-start: 4;
+            grid-column-end: 7;
+            width: 80vw;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            padding-top: 10vh;
+            padding-bottom: 4vh;
+        }
+        @media(max-width: 450) {
+            .HA7-style-long{
+                grid-column-start: 2;
+                grid-column-end: 3;
+            }
+        }
+        
+  

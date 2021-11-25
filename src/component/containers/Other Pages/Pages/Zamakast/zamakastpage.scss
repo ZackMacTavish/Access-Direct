@@ -35,6 +35,12 @@
            height: 70vh;
         }
 
+        @media screen and (max-width: 450px) {
+        
+            margin-bottom: 2vh;
+            height: auto;
+         }
+
 
        
        
@@ -126,6 +132,10 @@
                margin-top: 0;
                max-width: 70vw;
             }
+
+            @media screen and (max-width: 450px) {
+                padding: 5vh 0;
+            }
         
             
         }
@@ -200,7 +210,6 @@
             }
 
                 .blue-shape-container{
-                    
                     margin-top: 5vh;
                     position: relative;
                     width: 100vw;
@@ -259,11 +268,7 @@
                           }
                         }
 
-                       
-                    
-
-
-                        .lockers-header-text{
+                       .lockers-header-text{
                             display: grid;
                             grid-column-start: 2;
                             grid-row-start: 2;
@@ -272,8 +277,7 @@
                             font-size: 1.2rem;
                             justify-self: center;
 
-                           
-                            @media screen and (max-width: 750px) {
+                           @media screen and (max-width: 750px) {
                                 display: grid;
                               grid-column-start: 3;
                               grid-row-start: 2;
@@ -928,7 +932,7 @@
                        }
                        @media screen and (max-width: 450px) {
                         align-self: flex-end;
-                        grid-column-end: 5;
+                        grid-column-end: 3;
                         justify-self: flex-end;
                         grid-column-start: 1;
                         width: 65vw;
@@ -941,6 +945,47 @@
 
 
 }
+
+.Schedule-webinar-button-zamakast{
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    color: #0400B9;
+    background-color: white;
+    width: 15vw;
+    height: 5vh;
+    border: 2;
+    border-color: #0400B9;
+    font-family: 'AvenirBold';
+    font-size: 1rem;
+    border-radius: 20px;
+    margin: 2vh 2vw 0 0;
+    &:hover{
+        cursor: pointer;
+        opacity: 75%;
+    }
+
+    @media screen and (max-width: 1160px) {
+        width: 17vw;
+    }
+    @media screen and (max-width: 950px) {
+        width: 21vw;
+    }
+    @media screen and (max-width: 750px) {
+        width: 25vw;
+    }
+    @media screen and (max-width: 650px) {
+        width: 35vw;
+    }
+
+   
+    }
+
+    @media screen and (max-width: 450px) {
+        .Schedule-webinar-button-zamakast{ 
+         width: 60vw;
+         margin: 0;
+         }}
 
 
 

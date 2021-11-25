@@ -1,7 +1,7 @@
 .HA9-styles{
     width: 35vw;
     margin-left: -2vw;
-    min-width: 500px;
+    min-width: 250px;
     padding-top: 3.4vh;
 padding-bottom: 2.4vh;
 }
@@ -11,6 +11,13 @@ padding-bottom: 2.4vh;
 width: 48vw;
 padding-top: 1.4vh;
 padding-bottom: 1.4vh;
+
+
+}
+
+.button-flexed-lifesaver{
+display: flex;
+padding-top: 2vh;
 
 
 }
@@ -28,12 +35,22 @@ padding-bottom: 1.4vh;
     flex-direction: column;
     align-items: center;
     padding-left: 2vh;
-    height: 70vh;
+    height: auto;
+}
+
+@media screen and (max-width: 450px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2vh;
+    height: auto;
 }
 }
 
 
-.Schedule-webinar-button{
+.Schedule-webinar-button-ditec{
+    display: flex;
+    justify-content: center;
     align-self: center;
     align-items: center;
     justify-self: center;
@@ -46,7 +63,7 @@ padding-bottom: 1.4vh;
     font-family: 'AvenirBold';
     font-size: 1rem;
     border-radius: 20px;
-    margin: 2vh 2vw 0 0;
+    margin: 0 2vw 0 0;
     &:hover{
         cursor: pointer;
         opacity: 75%;
@@ -65,9 +82,16 @@ padding-bottom: 1.4vh;
         width: 35vw;
     }
 
+    @media screen and (max-width: 450px) {
+        width: 60vw;
+        margin-top: 1vh;
     }
 
-.download-manual-button{
+    }
+
+.download-manual-button-lifesavers{
+    display: flex;
+    justify-content: center;
     align-self: center;
     align-items: center;
     justify-self: center;
@@ -96,4 +120,50 @@ padding-bottom: 1.4vh;
         width: 35vw;
     }
 
+    @media screen and (max-width: 450px) {
+        width: 60vw;
+        margin-top: 2vh;
+    }
+
 }
+
+@media (max-width: 450px) {
+    
+
+    .button-flexed-lifesaver{
+        flex-direction: column;
+    }
+}
+
+.image-2-lifesavers{
+    height: 75vh;
+    @media screen and (max-width: 1290px) {
+                   height: 63vh;
+        }
+        @media screen and (max-width: 1190px) {
+            padding-top: 8vh;
+            height: 58vh;
+ }
+ @media screen and (max-width: 1050px) {
+    padding-top: 8vh;
+    height: 53vh;
+}
+
+@media screen and (max-width: 900px) {
+    padding-top: 15vh;
+    height: 44vh;
+}
+@media screen and (max-width: 750px) {
+    padding-top: 4vh;
+    height: 44vh;
+}
+
+@media screen and (max-width: 750px) {
+    padding-top: 4vh;
+    height: 38vh;
+}
+}
+
+
+
+

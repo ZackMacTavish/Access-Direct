@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import '../Lifesavers/Ditec.styles.scss'
+import '../Lifesavers/lifesavers.styles.scss'
 import '../Highpower One/highpower.styles.scss';
 import lifesaverhero from './Lifesavers.png';
 import pushpull from '../Lifesavers/push-pull.png';
@@ -56,14 +56,14 @@ class lifesaversPage extends Component {
                             All LifeSaver series locks are stainless steel and come with the Marks USA Lifetime Mechanical Warranty.
 
 ​​                             </p>
-                            <div className="button-flexed-highpower">
+                            <div className="button-flexed-lifesaver">
 
                             <button 
                                  onClick={this.togglePop}
-                                className="Schedule-webinar-button">Schedule Webinar</button>
+                                className="Schedule-webinar-button-ditec">Schedule Webinar</button>
                                 {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
 
-                                <a href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" className="download-manual-button">Download Manual</a>
+                                <a style={{textDecoration:'none'}} href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" className="download-manual-button-lifesavers">Download Manual</a>
                             
                             </div>
 
@@ -74,7 +74,7 @@ class lifesaversPage extends Component {
                         </div>
 
                     <div className="zamakast-hero-image">
-                        <img className="image-2-highpower" src={lifesaverhero} alt="zamakast's alfa lock" />
+                        <img className="image-2-lifesavers" src={lifesaverhero} alt="zamakast's alfa lock" />
                         
                     
                     </div>
@@ -96,11 +96,11 @@ class lifesaversPage extends Component {
                                                
                                                     <div className="google-apple-flexcontainer">
 
-                                                    <div className="button-flexed-highpower">
+                                                    <div className="button-flexed-lifesaver">
 
-                                                        <button className="Schedule-webinar-button">Schedule Webinar</button>
+                                                        <button className="Schedule-webinar-button-ditec">Schedule Webinar</button>
 
-                                                        <a href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" className="download-manual-button">Download Manual</a>
+                                                        <a style={{textDecoration:'none'}} href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" className="download-manual-button-lifesavers">Download Manual</a>
 
                                                     </div>
 
@@ -161,11 +161,11 @@ class lifesaversPage extends Component {
                                                
                                                     <div className="google-apple-flexcontainer">
 
-                                                    <div className="button-flexed-highpower">
+                                                    <div className="button-flexed-lifesaver">
 
-                                                        <button className="Schedule-webinar-button">Schedule Webinar</button>
+                                                        <button className="Schedule-webinar-button-ditec">Schedule Webinar</button>
 
-                                                        <a href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" className="download-manual-button">Download Manual</a>
+                                                        <a style={{textDecoration:'none'}} href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" className="download-manual-button-lifesavers">Download Manual</a>
 
                                                     </div>
 

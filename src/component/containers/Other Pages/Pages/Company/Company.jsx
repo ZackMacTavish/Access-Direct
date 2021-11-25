@@ -43,15 +43,15 @@ class Company extends React.Component {
                            Become part of our team, and help us on our quest of problem solving, and delivering top notch security solutions.
 
 ​​                             </p>
-                            <div className="button-flexed-highpower">
+                            <div className="button-flexed-company">
 
                             <button 
                                  onClick={this.togglePop}
-                                className="Schedule-webinar-button">Schedule Webinar</button>
+                                className="Schedule-webinar-button2">Schedule Webinar</button>
                                 {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
                                
                                 <a style={{textDecoration:'none'}} href="https://www.info.access-direct.net/leadership" >
-                                <button className="download-manual-button">Learn more about us</button>
+                                <button className="download-manual-button2">Learn more about us</button>
                                 </a>
                             
                             </div>

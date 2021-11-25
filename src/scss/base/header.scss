@@ -25,7 +25,9 @@
 
   .header-logo{
    padding: 10px;
+
   }
+
 
   .header-nav{
     
@@ -89,7 +91,6 @@ font-size: clamp(16px, 2rem, 26px);
     width: 100vw;
     position: absolute;
     margin-top: 1rem;
-    
     top: 5vh;
     display: none;
   }
@@ -101,8 +102,7 @@ ul li ul:hover,
 ul li ul:focus {
    visibility: visible;
    opacity: 1;
-  
-   width: 100vw;
+width: 100vw;
 }
 
 ul li ul li {
@@ -111,4 +111,8 @@ ul li ul li {
   
 }
 
+}
+
+.logo-home:hover{
+opacity: 75%;
 }

@@ -70,7 +70,7 @@ class ManufacturerFilter extends Component {
 
                        {
                         filteredManufacturers.map(manufacturer => 
-                            <div className="products-container-grid" key={manufacturer.id}> 
+                            <div className="manufacturer-container-grid" key={manufacturer.id}> 
                             
                             <img className="images-products-render" src={manufacturer.image}/>
                             <h3 className="images-products-company2">{manufacturer.company}</h3> 

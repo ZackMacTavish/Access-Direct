@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 89vh;
+    height: auto;
     width: 100vw;
     padding-top: 3vh;
 
@@ -32,10 +32,11 @@
     color: white;
     background-color: #0400B9;
     height: 20vh;
+    width: auto;
 }
 
 .join-us-img{
-    width: clamp(400px, 40vw, 600px);
+    width: clamp(270px, 40vw, 600px);
     padding-left: 4vw;
     padding-right: 4vw;
     padding-top: 5vw;
@@ -55,7 +56,7 @@
 }
 
 .pictures-styling{
-    width:clamp(500px, 80vw, 1600px) ;
+    width:clamp(350px, 80vw, 1600px) ;
 }
 
 .header-color{
@@ -91,7 +92,7 @@
 .our-story-text{
     margin-top: 2vh;
     padding-left: 2.5vw;
-    width: clamp(400px, 40vw, 1000px);
+    width: clamp(250px, 40vw, 1000px);
     line-height: 1.5;
     color: #5e5e5e;
 }
@@ -113,17 +114,149 @@ background-color: #0400B9;
 @media (max-width: 900px) {
     .Join-us-Section{
        flex-direction: column;
+       justify-content: center;
+       align-items: center;
     
     }
+.header-color{font-size: 18px; }}
 
-    .header-color{
-        
-        font-size: 18px; 
-    }
-
-    
-    
-
-   
-    
+@media (max-width: 450px) {
+    .Join-us-Section{
+     padding-top: 20vh;
 }
+.join-us-img{
+    margin-top: 2vh;
+}
+
+.header-color{padding-left: 2vw; }
+
+.gradient-box{
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-story-text{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.video-text{
+    font-size: 1rem;
+    padding: 0;
+    width: 85vw;
+}
+
+.blue-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+.embedded-video{
+    width: 100vw;
+    height: 75vh;
+}
+
+
+}
+
+.Schedule-webinar-button2{
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    color: #0400B9;
+    background-color: white;
+    width: 15vw;
+    height: 5vh;
+    border: 2;
+    border-color: #0400B9;
+    font-family: 'AvenirBold';
+    font-size: 1rem;
+    border-radius: 20px;
+    margin: 0 2vw 0 0;
+    &:hover{
+        cursor: pointer;
+        opacity: 75%;
+    }
+
+    @media screen and (max-width: 1160px) {
+        width: 17vw;
+    }
+    @media screen and (max-width: 950px) {
+        width: 21vw;
+    }
+    @media screen and (max-width: 750px) {
+        width: 25vw;
+    }
+    @media screen and (max-width: 650px) {
+        width: 35vw;
+    }
+
+    @media screen and (max-width: 450px) {
+        width: 60vw;
+        margin: 0;
+        padding-top: 1vh;
+}}
+
+
+    .download-manual-button2{
+        align-self: center;
+        align-items: center;
+        justify-self: center;
+        color: white;
+        background-color: #0400B9;
+        width: 15vw;
+        height: 5vh;
+        border: none;
+        font-family: 'AvenirBold';
+        font-size: 1rem;
+        border-radius: 20px;
+        &:hover{
+            cursor: pointer;
+            opacity: 75%;
+        }
+        @media screen and (max-width: 1160px) {
+            width: 17vw;
+        }
+        @media screen and (max-width: 950px) {
+            width: 21vw;
+        }
+        @media screen and (max-width: 750px) {
+            width: 25vw;
+        }
+        @media screen and (max-width: 650px) {
+            width: 35vw;
+        }
+
+        @media screen and (max-width: 650px) {
+            width: 60vw;
+            margin: 0;
+
+            margin-top: 1.5vh;
+        }
+    
+    
+    }
+
+    .button-flexed-company{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    @media (max-width: 450px) {
+    
+
+        .button-flexed-company{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    
