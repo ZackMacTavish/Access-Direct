@@ -1,7 +1,7 @@
 .otherproducts-container-component{
     display: grid;
     grid-template-columns: 4vw 1fr 1fr 1fr 4vw;
-    grid-template-rows: 15vh 1fr 4vh 15vh 10vh 15vh;
+    grid-template-rows: 15vh 1fr 4vh 12vh 8vh 15vh;
     height: 80vh;
     width: 100vw;
 
@@ -221,6 +221,7 @@
 
                 @media screen and (max-width: 550px) {
                     width: 85vw;
+                  
                     }
 
     }
@@ -265,6 +266,7 @@
 
               @media screen and (max-width: 650px) {
                 width: 55vw;
+                margin-top: 8vh;
                 }
 
         &:hover{

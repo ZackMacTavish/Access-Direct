@@ -463,7 +463,8 @@
         .Alfa-lock-vertical-breakdown-container-section{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            grid-template-rows: 75px 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 75px 1fr 1fr 1fr 1fr 1fr ;
+            padding-bottom: 4vh;
            width: auto;
            overflow: hidden;
             
@@ -649,9 +650,7 @@
                     @media screen and (max-width: 550px) {
                         padding-left: 13vw;
                          }
-
-              
-            }
+                        }
 
 
             .security-icon3{
@@ -975,6 +974,7 @@
         width: 25vw;
     }
     @media screen and (max-width: 650px) {
+        
         width: 35vw;
     }
 
@@ -985,7 +985,9 @@
         .Schedule-webinar-button-zamakast{ 
          width: 60vw;
          margin: 0;
-         }}
+         }
+        
+         .paragraph-text-zamakast{padding-bottom: 2vh;}}
 
 
 

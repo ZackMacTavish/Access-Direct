@@ -1,55 +1,54 @@
 .schedule-popup{
     display: flex;
     overflow: hidden;
-   
-   top: 0;
-   left: 0;
+    top: 0;
+    left: 0;
     position: absolute;
     height: 100%;
     width: 100%;
-
     z-index: 1;
-  
     filter: drop-shadow(0 0 0.75rem rgba(0,0,0,0.2));
 }
 
 .close-schedule{
-    
-        position: absolute;
-        padding-top: 15vh;
+    position: absolute;
+    padding-top: 15vh;
     font-size: 2rem;
     display: flex;
-   right: 0;
-   padding-right: 15vw;
-      z-index: 55;
-    
+    right: 0;
+    padding-right: 15vw;
+    z-index: 55;
+    }
   
-     
-}
-  
-    .close-schedule:hover{
+.close-schedule:hover{
   cursor: pointer;
   opacity: 0.8;
   }
 
   .please-call-title{
       padding-top: 5.2vh;
-      
-  }
+      }
 
   .flex-fish{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      
       height: 100vh;
       width: 100vw;
       padding-top: 1.2vh;
   }
   .schedule-webinar{
       width: 24vw;
-      
       padding-top: 1vh;
+  }
+
+  @media screen and (max-width: 800px) {
+      .schedule-webinar{
+        width: 70vw;
+      }
+      .please-call-title{
+          width: 80vw;
+      }
   }
 

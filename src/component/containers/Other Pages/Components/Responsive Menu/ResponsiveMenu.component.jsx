@@ -6,6 +6,7 @@ import hamburger from './Hamburger.svg';
 
 import './ResponsiveMenu.styles.scss';
 import Popup from '../ToggleMenu/Togglemenu';
+import { Link } from 'react-router-dom';
 
 
 class ResponsiveHeader extends React.Component {
@@ -25,9 +26,11 @@ togglePop = () => {
         return (
             <div className="header-wrapper">
                 <div className="header">
+                    <Link to="/">
                     <div className="header-logo">
                         <img src="/img/logo.jpg" alt="Logo"/>
                     </div>
+                    </Link>
                     <div className="header-nav">
                         
                        <img 

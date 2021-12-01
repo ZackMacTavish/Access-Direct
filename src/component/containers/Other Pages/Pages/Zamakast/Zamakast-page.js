@@ -130,29 +130,26 @@ class zamakastPage extends Component {
 
                                     <h3 className="secure-header-text">Secure</h3>
 
-                                    <p className="secure-text-paragraph">Built in interface and integrated touchscreen which makes
-                                     it ready to use as soon as plugged in. Log of entries and audit </p>
+                                    <p className="secure-text-paragraph">The steel materials from Alfa Lock allow for a guaranteed secure lock. </p>
 
                                      <img className="security-icon2" src={securityicon} alt="Zamakast's alfa lock" />
 
                                      <h3 className="EasyInstallation-header-text">Easy Installation</h3>
 
                                      <p className="easyinstallation-text-paragraph">The Alfa lock is easily installed on metal or wood by just screwing 
-                                     it in. Lorem Ipsum Doler imight alfa lock for everyone. </p>
+                                     it in. Our team can help suggest installation procedures. </p>
 
                                      <img className="security-icon3" src={securityicon} alt="Zamakast's alfa lock" />
 
                                      <h3 className="Adaptable-header-text">Adaptable</h3>
 
-                                     <p className="adaptable-text-paragraph">The Alfa lock is easily installed on metal or wood by just screwing 
-                                     it in. Lorem Ipsum Doler imight alfa lock for everyone. </p>
+                                     <p className="adaptable-text-paragraph">The Alfa Lock can be used on lockers, in cars, cabinets, and a variety of other surfaces. </p>
 
                                      <img className="security-icon4" src={securityicon} alt="Zamakast's alfa lock" />
 
                                      <h3 className="Easyuse-header-text">Easy Use</h3>
 
-                                     <p className="Easyuse-text-paragraph">The Alfa lock is easily installed on metal or wood by just screwing 
-                                     it in. Lorem Ipsum Doler imight alfa lock for everyone. </p>
+                                     <p className="Easyuse-text-paragraph">Once installed, the Alfa Lock has a great experience for the owner to quickly use the lock. </p>
 
                             
                             

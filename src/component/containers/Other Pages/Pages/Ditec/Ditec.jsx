@@ -157,29 +157,25 @@ class ditecPage extends Component {
 
                                     <h3 className="hp-secure-header-text">Secure</h3>
 
-                                    <p className="hp-secure-text-paragraph">Built in interface and integrated touchscreen which makes
-                                     it ready to use as soon as plugged in. Log of entries and audit </p>
+                                    <p className="hp-secure-text-paragraph">Ditec products are built with a steel casing to ensure they are tamper proof. </p>
 
                                      <img className="hp-security-icon2" src={securityicon} alt="Highpower One and Mobile App" />
 
                                      <h3 className="hp-EasyInstallation-header-text">Easy Installation</h3>
 
-                                     <p className="hp-easyinstallation-text-paragraph">The Alfa lock is easily installed on metal or wood by just screwing 
-                                     it in. Lorem Ipsum Doler imight alfa lock for everyone. </p>
+                                     <p className="hp-easyinstallation-text-paragraph">Our team can help to ensure a proper installation on all Ditec products. We can also hire an installer to help on-site. </p>
 
                                      <img className="hp-security-icon3" src={securityicon} alt="Zamakast's alfa lock" />
 
                                      <h3 className="hp-Adaptable-header-text">Adaptable</h3>
 
-                                     <p className="hp-adaptable-text-paragraph">The Alfa lock is easily installed on metal or wood by just screwing 
-                                     it in. Lorem Ipsum Doler imight alfa lock for everyone. </p>
+                                     <p className="hp-adaptable-text-paragraph">The variety of Ditec products are adaptable to any size door. We can ensure we will find the right fit for you. </p>
 
                                      <img className="hp-security-icon4" src={securityicon} alt="Zamakast's alfa lock" />
 
                                      <h3 className="hp-Easyuse-header-text">Easy Use</h3>
 
-                                     <p className="hp-Easyuse-text-paragraph">The Alfa lock is easily installed on metal or wood by just screwing 
-                                     it in. Lorem Ipsum Doler imight alfa lock for everyone. </p>
+                                     <p className="hp-Easyuse-text-paragraph">Once installed, the Ditec products are guaranteed to work smoothly, and function as expected. </p>
 
                             
                             

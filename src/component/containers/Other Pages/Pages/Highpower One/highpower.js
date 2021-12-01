@@ -168,15 +168,13 @@ class highpowerPage extends Component {
 
                                      <h3 className="hp-Adaptable-header-text">Adaptable</h3>
 
-                                     <p className="hp-adaptable-text-paragraph">The Alfa lock is easily installed on metal or wood by just screwing 
-                                     it in. Lorem Ipsum Doler imight alfa lock for everyone. </p>
+                                     <p className="hp-adaptable-text-paragraph">The Highpower One can be installed in a variety of locations. Our support team will help you with the best solutions. </p>
 
                                      <img className="hp-security-icon4" src={securityicon} alt="Zamakast's alfa lock" />
 
                                      <h3 className="hp-Easyuse-header-text">Easy Use</h3>
 
-                                     <p className="hp-Easyuse-text-paragraph">The Alfa lock is easily installed on metal or wood by just screwing 
-                                     it in. Lorem Ipsum Doler imight alfa lock for everyone. </p>
+                                     <p className="hp-Easyuse-text-paragraph">The Highpower One app allows the Highpower One to be controlled from virtually anywhere. </p>
 
                             
                             
