@@ -19,6 +19,7 @@ import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.co
 import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
 import Footer from '../../Components/Footer/Footer.component';
 import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
+import { HeroImage } from '../../Components/Hero Image Component/herocomponent';
 
 
 
@@ -68,7 +69,7 @@ class zamakastPage extends Component {
                                 </div>
 
                             <div className="zamakast-hero-image">
-                                <img className="image-2-alfalock" src={heroimage1} alt="zamakast's alfa lock" />
+                            <HeroImage poster={heroimage1}  />
                                 
                             
                             </div>

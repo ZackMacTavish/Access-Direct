@@ -1,56 +1,19 @@
 .HA9-styles{
     width: 35vw;
-    margin-left: -2vw;
-    min-width: 250px;
-    padding-top: 3.4vh;
-padding-bottom: 2.4vh;
-}
-
-.dlig-styles{
-    min-width: 500px;
-width: 48vw;
-padding-top: 1.4vh;
-padding-bottom: 1.4vh;
-
-
-}
-
-.button-flexed-lifesaver{
-display: flex;
-padding-top: 2vh;
-
-
+    padding-left: 10vw;
 }
 
 .ditec-ha9-section-flex{
     display: flex;
     width: 100vw;
-    height: 50vh;
-    padding-bottom: 5vh;
+    height: 60vh;
+    padding-top: 5vh;
     align-items: center;
-   
-
-@media screen and (max-width: 950px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 2vh;
-    height: auto;
-}
-
-@media screen and (max-width: 450px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 2vh;
-    height: auto;
-}
-}
+    
+   }
 
 
-.Schedule-webinar-button-ditec{
-    display: flex;
-    justify-content: center;
+.Schedule-webinar-button3{
     align-self: center;
     align-items: center;
     justify-self: center;
@@ -63,12 +26,47 @@ padding-top: 2vh;
     font-family: 'AvenirBold';
     font-size: 1rem;
     border-radius: 20px;
-    margin: 0 2vw 0 0;
+    margin: 2vh 2vw 0 0;
     &:hover{
         cursor: pointer;
         opacity: 75%;
     }
 
+    @media screen and (max-width: 1160px) {
+        width: 17vw;
+    }
+    @media screen and (max-width: 950px) {
+        width: 21vw;
+    }
+    @media screen and (max-width: 750px) {
+        width: 25vw;
+    }
+    @media screen and (max-width: 650px) {
+        width: 35vw;
+    }
+}
+
+
+.download-manual-button3{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    color: white;
+    background-color: #0400B9;
+    width: 15vw;
+    height: 5vh;
+    border: none;
+    font-family: 'AvenirBold';
+    font-size: 1rem;
+    border-radius: 30px;
+    margin: 2vh 2vw 0 0;
+    &:hover{
+        cursor: pointer;
+        opacity: 75%;
+    }
     @media screen and (max-width: 1160px) {
         width: 17vw;
     }
@@ -85,58 +83,54 @@ padding-top: 2vh;
     @media screen and (max-width: 450px) {
         width: 60vw;
         margin-top: 1vh;
-    }
-
-    }
-
-.download-manual-button-lifesavers{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    justify-self: center;
-    color: white;
-    background-color: #0400B9;
-    width: 15vw;
-    height: 5vh;
-    border: none;
-    font-family: 'AvenirBold';
-    font-size: 1rem;
-    border-radius: 20px;
-    &:hover{
-        cursor: pointer;
-        opacity: 75%;
-    }
-    @media screen and (max-width: 1160px) {
-        width: 17vw;
-    }
-    @media screen and (max-width: 950px) {
-        width: 21vw;
-    }
-    @media screen and (max-width: 750px) {
-        width: 25vw;
-    }
-    @media screen and (max-width: 650px) {
-        width: 35vw;
-    }
-
-    @media screen and (max-width: 450px) {
-        width: 60vw;
-        margin-top: 2vh;
-    }
-
-}
-
-@media (max-width: 450px) {
     
 
-    .button-flexed-lifesaver{
-        flex-direction: column;
     }
+
 }
 
+@media screen and (max-width: 450px) {
+   .Schedule-webinar-button3{ 
+    width: 60vw;
+    margin: 0;
+    }}
 
+    @media screen and (max-width: 800px) {
+        .HA9-styles{
+            width:45vw;
+            margin: 0;
+            padding: 0;
+        }
+        
+        }
 
+        .BEA-style{
+            padding-left: 2vw;
+            display: grid;
+            grid-column-start: 2;
+            grid-column-end: 9;
+            width: 40vw;
+            grid-row-start: 1;
+            justify-self: center;
+            grid-row-end: 3;
+            padding-top: 10vh;
+            padding-bottom: 4vh;
+    
+            @media screen and (max-width: 860px) {
+                grid-column-start: 2;
+                grid-column-end:5;
 
+             }
+             @media screen and (max-width: 450px) {
+                grid-column-start: 2;
+                justify-self: flex-start;
+                width: 70vw;
+             }
+            }
+            
 
+          
+       
 
+       
+  

@@ -31,30 +31,6 @@
 
 }
 
-.image-2-highpower{
-    height: 75vh;
-    @media screen and (max-width: 1290px) {
-                   height: 63vh;
-        }
-        @media screen and (max-width: 1190px) {
-            padding-top: 8vh;
-            height: 58vh;
- }
- @media screen and (max-width: 1050px) {
-    padding-top: 8vh;
-    height: 53vh;
-}
-
-@media screen and (max-width: 900px) {
-    padding-top: 15vh;
-    height: 44vh;
-}
-@media screen and (max-width: 750px) {
-    padding-top: 4vh;
-    height: 44vh;
-}
-}
-
 .header-paragraph-container{
     padding-left: 8vw;
 
@@ -63,9 +39,7 @@
     }
 
     
-  
-   
-    .highpower-header{
+  .highpower-header{
         padding: 20vh 0 0 0;
         font-size: 50px;
         color: #696A86;

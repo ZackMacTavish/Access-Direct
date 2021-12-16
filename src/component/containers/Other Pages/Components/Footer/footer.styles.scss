@@ -5,7 +5,7 @@
        height: auto;
        color: white;
        grid-template-columns: 5vw 15vw 5vw 11vw 2vw 11vw 2vw 11vw 2vw 11vw 3vw 17vw 5vw;
-       grid-template-rows: 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 5vh;
+       grid-template-rows: 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 5vh;
       }
       .footer-listitem-1 {
         grid-column-start: 4;
@@ -155,7 +155,18 @@
         color: white;
       }
 
-      .footer-listitem-16:hover, .footer-listitem-15:hover, .footer-listitem-14:hover, .footer-listitem-13:hover, .footer-listitem-12:hover, .footer-listitem-11:hover, .footer-listitem-10:hover, .footer-listitem-9:hover, .footer-listitem-8:hover, .footer-listitem-7:hover, .footer-listitem-6:hover, .footer-listitem-5:hover,
+       //BEA
+       .footer-listitem-17 {
+        grid-column-start: 4;
+        grid-row-start: 11;
+        align-self: flex-start;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+
+
+      .footer-listitem-17:hover, .footer-listitem-16:hover, .footer-listitem-15:hover, .footer-listitem-14:hover, .footer-listitem-13:hover, .footer-listitem-12:hover, .footer-listitem-11:hover, .footer-listitem-10:hover, .footer-listitem-9:hover, .footer-listitem-8:hover, .footer-listitem-7:hover, .footer-listitem-6:hover, .footer-listitem-5:hover,
       .footer-listitem-4:hover, .footer-listitem-3:hover, .footer-listitem-2:hover, .footer-listitem-1:hover {
         opacity: 75%;
         cursor: pointer;
@@ -225,7 +236,7 @@
 
     .year-update{
       grid-column-start: 2;
-      grid-row-start: 11;
+      grid-row-start: 12;
       align-items: center;
       justify-self: flex-start;
       align-self: center;
@@ -235,7 +246,7 @@
     .flex-love{
       grid-column-start: 12;
       grid-column-end: 13;
-      grid-row-start: 11;
+      grid-row-start: 12;
       display: flex;
       align-items: center;
       justify-self: flex-start;
@@ -272,7 +283,7 @@
       .flex-container-footer{
         padding-left: 8vw;
        grid-template-columns: 5vw 90vw 5vw;
-        grid-template-rows: 7vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 12vh 4vh 4vh 5vh 5vh;
+        grid-template-rows: 7vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 4vh 12vh 4vh 4vh 5vh 5vh;
        }
        //Manufacturers
        .footer-listitem-1 {
@@ -288,7 +299,7 @@
        //Company
        .footer-listitem-2 {
          grid-column-start: 2;
-         grid-row-start: 12;
+         grid-row-start: 13;
        }
  
     
@@ -333,11 +344,12 @@
          grid-column-start: 2;
          grid-row-start: 11;
        }
- 
+
+       
        //Leadership
        .footer-listitem-12 {
          grid-column-start: 2;
-         grid-row-start: 13;
+         grid-row-start: 14;
          align-self: flex-start;
          list-style-type: none;
          text-decoration: none;
@@ -347,46 +359,53 @@
        //Opportunities
        .footer-listitem-13 {
          grid-column-start: 2;
-         grid-row-start: 14;
+         grid-row-start: 15;
        }
  
        //Training information
        .footer-listitem-14 {
          grid-column-start: 2;
-         grid-row-start: 15;
+         grid-row-start: 16;
        }
+
+       //BEA
+       .footer-listitem-17 {
+        grid-column-start: 2;
+        grid-row-start: 12;
+      }
+
 
         //Industry Terms
         .footer-listitem-3 {
           grid-column-start: 2;
-          grid-row-start: 16;
+          grid-row-start: 17;
         }
   
  
         //News
        .footer-listitem-15 {
          grid-column-start: 2;
-         grid-row-start: 17;
+         grid-row-start: 18;
        }
 
          //Contact
          .footer-listitem-4 {
           grid-column-start: 2;
-          grid-row-start: 18;
+          grid-row-start: 19;
         }
 
         .year-update{
           grid-column-start: 2;
-          grid-row-start: 22;
+          grid-row-start: 23;
         }
 
         .flex-love{
           grid-column-start: 2;
-          grid-row-start: 23;
+          grid-row-start: 24;
         }
 
         .social-media-icons{
-          grid-row-start: 20;
+          grid-row-start: 21;
           grid-column-start: 2;
         }
          

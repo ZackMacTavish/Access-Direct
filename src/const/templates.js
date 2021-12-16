@@ -8,7 +8,6 @@ import redfobcover from './red_fob_cover.png';
 import grayfob from './gray_fob.png';
 import grayfobcover from './GrayFoboCover.png';
 
-
 export const BLACK_FOB_BASE_1 = imageblack;
 export const BLACK_FOB_BASE_2 = image2;
 export const BLACK_FOB_BASE_3 = image3;

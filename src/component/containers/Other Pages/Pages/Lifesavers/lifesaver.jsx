@@ -15,6 +15,7 @@ import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.co
 import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
 import Footer from '../../Components/Footer/Footer.component';
 import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
+import { HeroImage } from '../../Components/Hero Image Component/herocomponent';
 
 
 
@@ -34,6 +35,7 @@ class lifesaversPage extends Component {
             seen: !this.state.seen
         });
     };
+    
     render() {
         
         
@@ -74,7 +76,7 @@ class lifesaversPage extends Component {
                         </div>
 
                     <div className="zamakast-hero-image">
-                        <img className="image-2-lifesavers" src={lifesaverhero} alt="zamakast's alfa lock" />
+                    <HeroImage poster={lifesaverhero}  />
                         
                     
                     </div>

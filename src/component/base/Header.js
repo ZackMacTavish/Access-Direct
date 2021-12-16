@@ -24,11 +24,12 @@ class Header extends React.Component {
                                 <li><Link to="./products">All Products</Link></li>
                                 <li><Link to='./Highpower'>Highpower</Link></li>
                                 <li><a href={AD_SWITCHES}>Pneumatic Switches</a></li>
-                                <li><a href={AD_FOBS}>Fobs/Cards</a></li>
+                                <li><Link to='./fobs'>Fobs/Cards</Link></li>
                                 <li><a href={AD_RECORD}>Record Usa</a></li>
                                 <li><Link to='./Zamakast'>Zamakast</Link></li>
                                 <li><Link to='./Ditec'>Ditec</Link></li>
                                 <li><Link to="./lifesavers">Lifesavers</Link></li>
+                                <li><Link to="./bea">BEA</Link></li>
                                 </ul>                            
                             </li>
                             <li><a href={AD_NEWS}>NEWS</a></li>

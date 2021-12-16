@@ -1,0 +1,27 @@
+
+        .image-hero-styles{
+            max-width: 45vw;
+            padding-top: 0vh;
+
+            @media screen and (max-width: 1110px) {
+                padding-top: 12vh;
+                max-width: 42vw;
+            }
+
+            @media screen and (max-width: 960px) {
+                padding-top: 15vh;
+                max-width: 50vw;
+               
+            }
+
+            @media screen and (max-width: 750px) {
+                padding-top: 5vh;
+               margin-top: 0;
+               max-width: 70vw;
+            }
+
+            @media screen and (max-width: 450px) {
+                padding: 5vh 0;
+            }
+        
+             }

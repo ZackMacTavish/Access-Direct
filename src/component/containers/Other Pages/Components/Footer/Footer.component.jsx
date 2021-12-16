@@ -55,6 +55,10 @@ class Footer extends Component {
                     <Link className="footer-listitems-nostyle footer-listitem-11" to="./lifesavers">
                     <li>Lifesavers</li>
                     </Link>
+
+                    <Link className="footer-listitems-nostyle footer-listitem-17" to="./bea">
+                    <li>BEA</li>
+                    </Link>
                     
                     <Link className="footer-listitems-nostyle footer-listitem-2" to="./Company">
                     <li>COMPANY</li>

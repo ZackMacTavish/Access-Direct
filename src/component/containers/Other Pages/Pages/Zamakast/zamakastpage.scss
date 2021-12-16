@@ -112,34 +112,6 @@
 
         }
 
-        .image-2-alfalock{
-            max-width: 45vw;
-            padding-top: 0vh;
-
-            @media screen and (max-width: 1110px) {
-                padding-top: 12vh;
-                max-width: 42vw;
-            }
-
-            @media screen and (max-width: 960px) {
-                padding-top: 15vh;
-                max-width: 50vw;
-               
-            }
-
-            @media screen and (max-width: 750px) {
-                padding-top: 0;
-               margin-top: 0;
-               max-width: 70vw;
-            }
-
-            @media screen and (max-width: 450px) {
-                padding: 5vh 0;
-            }
-        
-            
-        }
-
 
 
 
@@ -361,9 +333,7 @@
                               grid-row-start: 6;
                               padding-top: 0;
                               }
-                              
-                           
-                        }
+                              }
 
                         .storage-text-paragraph{
                             display: grid;

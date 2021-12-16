@@ -15,6 +15,7 @@ import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.co
 import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
 import Footer from '../../Components/Footer/Footer.component';
 import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
+import { HeroImage } from '../../Components/Hero Image Component/herocomponent';
 
 
 
@@ -71,7 +72,7 @@ class ditecPage extends Component {
                         </div>
 
                     <div className="zamakast-hero-image">
-                        <img className="image-2-ditec" src={ditechero} alt="ditec's ha-7" />
+                    <HeroImage poster={ditechero}  />
                         
                     
                     </div>

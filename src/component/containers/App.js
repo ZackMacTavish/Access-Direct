@@ -31,6 +31,8 @@ import wikkFilter from './Other Pages/Pages/Manufacturer Filter/company filters/
 import dortronicsFilter from './Other Pages/Pages/Manufacturer Filter/company filters/dortronics-filter';
 import PaclockFilter from './Other Pages/Pages/Manufacturer Filter/company filters/paclock-filter';
 import ViscoFilter from './Other Pages/Pages/Manufacturer Filter/company filters/visco-filter';
+import beaPage from './Other Pages/Pages/BEA/BEA';
+import fobsPage from './Other Pages/Pages/Fobs/Fobs';
 
 
 const Loading = () => <div style={{display: 'flex', flexDirection: 'column', color: 'white', justifyContent:'center', alignItems: 'center', fontWeight: '700', height: '100vh', width: '100vw', backgroundColor: '#0400B9'}}>
@@ -63,6 +65,7 @@ class App extends Component {
 <BrowserRouter>
             <Switch>
             <div className="App">
+
             <Route path='/fob' component={fobPage} />
 
             <Route path='/zamakast' component={zamakastPage} />
@@ -97,7 +100,11 @@ class App extends Component {
 
             <Route  path='/ditec' component={ditecPage} />
 
+            <Route  path='/bea' component={beaPage} />
+
            <Route  path='/lifesavers' component={lifesaversPage} />
+
+           <Route  path='/fobs' component={fobsPage} />
 
             <Route  path='/terms' component={termsFilter} />
                 
