@@ -20,13 +20,15 @@ import Footer from '../../Components/Footer/Footer.component';
 import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
 import { HeroImage } from '../../Components/Hero Image Component/herocomponent';
 import { Link } from 'react-router-dom';
+import Formats from '../../Components/See Formats Popup/Formats';
 
 
 
 
 class fobsPage extends Component {
     state= {
-        seen: false
+        schedule: false,
+        formats: false
     };
 
     componentDidMount() {
@@ -34,9 +36,15 @@ class fobsPage extends Component {
     }
 
     
-    togglePop = () => {
+    toggleSchedule = () => {
         this.setState({
-            seen: !this.state.seen
+            schedule: !this.state.schedule
+        });
+    };
+
+    toggleFormats = () => {
+        this.setState({
+            formats: !this.state.formats
         });
     };
     render() {
@@ -60,11 +68,14 @@ class fobsPage extends Component {
                             <div className="button-flexed-highpower">
 
                             <button 
-                                 onClick={this.togglePop}
+                                 onClick={this.toggleSchedule}
                                 className="Schedule-webinar-button3">Schedule Webinar</button>
-                                {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
+                                {this.state.schedule ? <Schedule toggle={this.toggleSchedule} /> : null}
 
-                                 {/* <button className="download-manual-button3">Download Manual</button> */}
+                                 { <button 
+                                 onClick={this.toggleFormats}
+                                 className="download-manual-button3">See Formats</button> }
+                                 {this.state.formats ? <Formats toggle={this.toggleFormats} /> : null}
                             
                             </div>
 
@@ -97,11 +108,14 @@ class fobsPage extends Component {
                                                     <div className="button-flexed-highpower">
 
                                                         <button    
-                                                        onClick={this.togglePop}
+                                                        onClick={this.toggleSchedule}
                                                             className="Schedule-webinar-button3">Schedule Webinar</button>
-                                                            {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
+                                                            {this.state.schedule ? <Schedule toggle={this.toggleSchedule} /> : null}
 
-                                                        {/* <button className="download-manual-button3">Download Manual</button> */}
+                                                        { <button 
+                                                        onClick={this.toggleFormats}
+                                                        className="download-manual-button3">See Formats</button> }
+                                                        {this.state.formats ? <Formats toggle={this.toggleFormats} /> : null}
 
                                                     </div>
 
@@ -198,11 +212,15 @@ pre-punched with a hole on the top vertical end of the card and are only availab
                                                               <div className="button-flexed-highpower">
           
                                                                   <button    
-                                                                  onClick={this.togglePop}
+                                                                  onClick={this.toggleSchedule}
                                                                       className="Schedule-webinar-button3">Schedule Webinar</button>
-                                                                      {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
+                                                                      {this.state.schedule ? <Schedule toggle={this.toggleSchedule} /> : null}
           
-                                                                  {/* <button className="download-manual-button3">Download Manual</button> */}
+                                                        
+                                                                      { <button 
+                                                        onClick={this.toggleFormats}
+                                                        className="download-manual-button3">See Formats</button> }
+                                                        {this.state.formats ? <Formats toggle={this.toggleFormats} /> : null}
           
                                                               </div>
           
@@ -231,11 +249,16 @@ pre-punched with a hole on the top vertical end of the card and are only availab
                                                               <div className="button-flexed-highpower">
           
                                                                   <button    
-                                                                  onClick={this.togglePop}
+                                                                  onClick={this.toggleSchedule}
                                                                       className="Schedule-webinar-button3">Schedule Webinar</button>
-                                                                      {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
+                                                                      {this.state.schedule ? <Schedule toggle={this.toggleSchedule} /> : null}
+
+
+                                                                      { <button 
+                                                        onClick={this.toggleFormats}
+                                                        className="download-manual-button3">See Formats</button> }
+                                                        {this.state.formats ? <Formats toggle={this.toggleFormats} /> : null}
           
-                                                                  {/* <button className="download-manual-button3">Download Manual</button> */}
           
                                                               </div>
           
@@ -265,11 +288,15 @@ pre-punched with a hole on the top vertical end of the card and are only availab
                                                               <div className="button-flexed-highpower">
           
                                                                   <button    
-                                                                  onClick={this.togglePop}
+                                                                  onClick={this.toggleSchedule}
                                                                       className="Schedule-webinar-button3">Schedule Webinar</button>
-                                                                      {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
+                                                                      {this.state.schedule ? <Schedule toggle={this.toggleSchedule} /> : null}
           
-                                                                  {/* <button className="download-manual-button3">Download Manual</button> */}
+                                                              
+                                                        { <button 
+                                                        onClick={this.toggleFormats}
+                                                        className="download-manual-button3">See Formats</button> }
+                                                        {this.state.formats ? <Formats toggle={this.toggleFormats} /> : null}
           
                                                               </div>
           

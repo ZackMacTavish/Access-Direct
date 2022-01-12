@@ -36,9 +36,9 @@ class Footer extends Component {
                     <li>Pneumatic Switches</li>
                     </a>
 
-                    <a className="footer-listitems-nostyle footer-listitem-7" href="https://www.info.access-direct.net/fobs-prox-cards">
-                    <li>Fobs/Cards</li>
-                    </a>
+                    <Link className="footer-listitem-7" to="./fobs" style={{textDecoration:'none', color: 'white'}} >
+                   <li>Fobs/Cards</li>
+                    </Link>
 
                     <a className="footer-listitems-nostyle footer-listitem-8" href="https://www.info.access-direct.net/record">
                     <li>Record Usa</li>

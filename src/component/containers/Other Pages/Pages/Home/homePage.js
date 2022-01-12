@@ -115,7 +115,7 @@ class homePage extends Component {
                                         <div className="pneumatic-button-image-flex grid-2">
                                         <img src={fobssection} />
                                         <button 
-                                        onClick={event =>  window.location.href='https://www.info.access-direct.net/fobs-prox-cards'}
+                                        onClick={event =>  window.location.href='./fobs'}
                                         className="left-button-3">Fobs &
                                         Prox Cards</button>
                                     </div>
