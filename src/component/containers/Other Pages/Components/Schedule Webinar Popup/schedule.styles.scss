@@ -1,14 +1,18 @@
 .schedule-popup{
     display: flex;
     overflow: hidden;
+    overflow-y: hidden;
     top: 0;
     left: 0;
     position: fixed;
     height: 100%;
     width: 100%;
     z-index: 1;
-    filter: drop-shadow(0 0 0.75rem rgba(0,0,0,0.2));
+    filter: drop-shadow(0 0 0.75rem rgba(0,0,0,0.2)); 
+   
+
 }
+
 
 .close-schedule{
     position: absolute;

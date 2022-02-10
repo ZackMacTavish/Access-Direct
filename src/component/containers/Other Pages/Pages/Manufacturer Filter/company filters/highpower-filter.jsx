@@ -21,6 +21,10 @@ class highpowerFilter extends Component {
         };
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
 
     render() {
         const { products, searchField} = this.state;
@@ -62,13 +66,13 @@ class highpowerFilter extends Component {
                             <h3 className="images-products-company">{product.company}</h3> 
                             <h4 className="images-products-name">{product.name}</h4>
                             <h4 className="images-products-description">{product.description}</h4>
-                                <Link className="a-link-click-through"
-                                to={product.url}>
-                                    {product.click ='See more' ?  <h4 className="images-products-url">{product.click}</h4> : null }
+                                
+                               
+                                    {product.click === 'See more' ? <Link  to={product.url} className="a-link-click-through"><h4 className="images-products-url">{product.click}</h4> </Link>   : null }
 
                                      
                               
-                                </Link> 
+                                
                             
                             </div>)
                     }

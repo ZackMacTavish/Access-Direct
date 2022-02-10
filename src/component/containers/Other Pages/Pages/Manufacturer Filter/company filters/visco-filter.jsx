@@ -62,11 +62,7 @@ class ViscoFilter extends Component {
                             <h3 className="images-products-company">{product.company}</h3> 
                             <h4 className="images-products-name">{product.name}</h4>
                             <h4 className="images-products-description">{product.description}</h4>
-                                <Link className="a-link-click-through"
-                                to={product.url}>
-                                    {product.click ='See more' ?  <h4 className="images-products-url">{product.click}</h4> : null }
-                              
-                                </Link> 
+                               {product.click === 'See more' ? <Link  to={product.url} className="a-link-click-through"><h4 className="images-products-url">{product.click}</h4> </Link>   : null }
                             
                             </div>)
                     }

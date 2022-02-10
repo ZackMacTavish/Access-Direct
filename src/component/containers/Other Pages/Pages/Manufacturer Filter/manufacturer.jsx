@@ -76,7 +76,7 @@ class ManufacturerFilter extends Component {
                             <h3 className="images-products-company2">{manufacturer.company}</h3> 
                                 <a className="a-link-click-through"
                                 href={manufacturer.url}>
-                                    {manufacturer.click ='See more' ?  <h4 className="images-products-url">{manufacturer.click}</h4> : null }
+                                    {manufacturer.click === 'See More' ?  <h4 className="images-products-url">{manufacturer.click}</h4> : null }
                               
                                 </a> 
                             

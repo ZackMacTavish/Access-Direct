@@ -107,47 +107,52 @@ class homePage extends Component {
                                     
                                         <div className="pneumatic-button-image-flex grid-1">
                                             <img alt="A pneumatic switch for accessibility" src={pneumaticsection} />
+                                            <Link to="./pneumatics">
                                             <button 
-                                            onClick={event =>  window.location.href='https://www.info.access-direct.net/pneumatic-switches'}
                                             className="left-button-3">Pneumatic Switches</button>
+                                            </Link>
                                             
                                         </div>
 
                                         <div className="pneumatic-button-image-flex grid-2">
                                         <img alt="A fob" src={fobssection} />
+                                        <Link to="./fobs">
                                         <button 
-                                        onClick={event =>  window.location.href='./fobs'}
                                         className="left-button-3">Fobs &
                                         Prox Cards</button>
+                                        </Link>
                                     </div>
 
                                     <div className="pneumatic-button-image-flex grid-3">
                                     <img alt="Customize your fob with a personal logo" src={fobcustomizersection} />
+                                    <Link to="./fob">
                                     <button 
-                                    onClick={event =>  window.location.href='/fob'}
                                     className="left-button-3">Custom Fob Logo</button>
+                                    </Link>
                                 </div>
 
                               <div className="pneumatic-button-image-flex grid-4">
                                             <img alt="Zamakast's Alfa Lock for lockers" src={alfasection} />
+                                            <Link to="./Zamakast">
                                             <button 
-                                            onClick={event =>  window.location.href='/Zamakast'}
                                             className="left-button-3">Alfa Lock</button>
+                                            </Link>
                                         </div>
 
                                         <div className="pneumatic-button-image-flex grid-5">
                                         <img alt="Door operators" src={doorsection} />
+                                        <Link to="./ditec">
                                         <button 
-                                        onClick={event =>  window.location.href='/ditec'}
-                                       
                                         className="left-button-3">Door Operators</button>
+                                        </Link>
                                     </div>
 
                                     <div className="pneumatic-button-image-flex grid-6">
                                     <img alt="The Access Direct logo that will take you to all products" src={allproducts} />
+                                    <Link to="./products">
                                     <button 
-                                    onClick={event =>  window.location.href='/products'}
                                     className="left-button-3">All Products</button>
+                                    </Link>
                                 </div>
 
                             </div>

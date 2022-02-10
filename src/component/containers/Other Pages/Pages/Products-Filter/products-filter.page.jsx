@@ -69,7 +69,7 @@ class productsFilter extends Component {
                             <h3 className="images-products-company">{product.company}</h3> 
                                 <h4 className="images-products-name">{product.name}</h4>
                                             <a className="a-link-click-through"href={product.url}>
-                                                {product.click ='See more' ?  <h4 className="images-products-url">{product.click}</h4> : null }
+                                                {product.click === 'See more' ?  <h4 className="images-products-url">{product.click}</h4> : null }
                                         
                                             </a> 
                                 <h4 className="images-products-description">{product.description}</h4> 

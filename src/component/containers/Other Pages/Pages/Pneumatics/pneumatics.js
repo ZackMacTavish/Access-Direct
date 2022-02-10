@@ -1,16 +1,15 @@
 import React, {Component} from 'react';
-import './highpower.styles.scss';
+import './pneu.styles.scss';
 
 import heroimage2 from './Pneumatics.png';
-import cell from './cell.png';
 import banks from './Banks.png';
 import churches from './Churches.png';
 import daycares from './daycares.png';
-import googleplay from './Google-play.png';
-import appstore from './app-store.png';
 import securityicon from './Security-icon.svg';
-import highpowervertical from './HighpowerOne-phone.png';
-
+import pneumaticstwo from './PneumaticsGroup.png';
+import pneumaticsthree from './Pneumaticsthree.png';
+import pneumaticsfour from './Pneumaticsfour.png';
+import pneumaticsfive from './Pneumaticsfive.png';
 
 import Header from "../../../../base/Header";
 import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
@@ -18,6 +17,8 @@ import OtherProducts from "../../Components/View Other Products/viewotherproduct
 import Footer from '../../Components/Footer/Footer.component';
 import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
 import { HeroImage } from '../../Components/Hero Image Component/herocomponent';
+import Formats from '../../Components/See Formats Popup/Formats';
+import { Link } from 'react-router-dom';
 
 
 
@@ -32,7 +33,7 @@ class pneumaticsPage extends Component {
     }
 
     
-    togglePop = () => {
+    toggleSchedule = () => {
         this.setState({
             seen: !this.state.seen
         });
@@ -41,7 +42,9 @@ class pneumaticsPage extends Component {
         
         
         return (
+             /* Pneumatics page taken from the highpower page. Should be refactored. Either make the Highpower page a reusable component, or create separate styles  */
             <div className="highpower-page">
+                
                 {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
 
                     <div className="highpower-hero-flex-container">
@@ -53,22 +56,24 @@ class pneumaticsPage extends Component {
                             <p className="paragraph-text-highpower">
                             Learn about our array of Handicap Operators and Pneumatic switches. 
                             Access Direct has a team of installers that can help you implement automatic doors for easy access to your building. 
-                            We offer an array of different model switches and buttons
-
-​​                             </p>
+                            We offer an array of different model switches and buttons.
+                            </p>
                             <div className="button-flexed-highpower">
 
-                                <button 
-                                 onClick={this.togglePop}
-                                className="Schedule-webinar-button-highpower">Schedule Webinar</button>
-                                {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
-
-                              
-
-                                <a href="https://highpowersecurity.com/wp-content/uploads/2021/04/hp1man29.pdf" target="_blank" rel="noopener noreferrer" className="download-manual-button-highpower">Download Manual</a>
-
-                                
                             
+
+                            <button 
+                            onClick={this.toggleSchedule}
+                            className="Schedule-webinar-button-highpower">Schedule Webinar</button>
+                            {this.state.seen ? <Schedule toggle={this.toggleSchedule} /> : null}
+
+
+                            <Link style={{textDecoration:'none'}} to="./highpower-products" >
+                            <button className="download-manual-button-highpower">See All Products</button>
+                            </Link>
+
+
+
                             </div>
 
                             
@@ -89,31 +94,37 @@ class pneumaticsPage extends Component {
                                 
                     <div className="cellphone-section-flex">
                                                 <div>
-                                                    <h5 className="cabinet-locks-header">HighPower One Mobile App</h5>
+                                                    <h5 className="cabinet-locks-header">H100 & H110 Series</h5>
                                                     <p className="highpower-paragraph-text">
-                                                    The Highpower One App allows control to all of your access points from your phone. 
-                                                    Scan the qr code below to be directed to the app in Google Play, or the App Store.</p>
-                                                    <div className="google-apple-flexcontainer">
-                                                    <img className="googleplay-image" src={googleplay} alt="zamakast's alfa lock" />
-                                                    <img className="appstore-image" src={appstore} alt="zamakast's alfa lock" />
+                                                    H-100 Single-gang box mountable egress door control H-100 PNZ Single-gang box mountable egress release with pneumatic timer.
+                                            
+                                                        H-110 Narrow mullion mounted egress door control.
+
+                                                        H-110 PNZ Narrow mullion mounted egress release with pneumatic timer.
+                                                    </p>
+
+                                                    <div className="button-flexed-pneu">
+
+                                                        <button 
+                                                         onClick={this.toggleSchedule}
+                                                        className="Schedule-webinar-button3">Schedule Webinar</button>
+
+                                                        <Link style={{textDecoration:'none'}}  to="./highpower-products" >
+                                                        <button className="download-manual-button3">See all products</button>
+                                                        </Link>
+
                                                     </div>
+                                                
                                                    
                                                 </div>
 
-                                            
-
-                             
-                                    
-
                                                 <div>
-                                                <img className="cell-image-highpower" src={cell} alt="zamakast's alfa lock" />
+                                                <img className="HA9-styles" src={pneumaticstwo} alt="zamakast's alfa lock" />
                                                 </div>
 
                         </div>
 
-                        
-
-                            
+      
                         <div className="highpower-blue-shape-container">
                         
                             <h4 className="cabinet-locks-use-cases-header">Use Cases</h4>
@@ -123,17 +134,17 @@ class pneumaticsPage extends Component {
                                 
                                     <img className="banks-image" src={banks} alt="Zamakast's alfa lock" />
                                     <h5 className="lockers-header-text">Banks</h5>
-                                    <p className="lockers-text-paragraph">Highpower One is useful to control all access points in a bank.</p>
+                                    <p className="lockers-text-paragraph">Pneumatic switches are useful to control all access points in a bank.</p>
                                     
 
                                     
                                     <img className="churches-image" src={churches} alt="Zamakast's alfa lock" />
                                     <h5 className="furniture-header-text">Churches</h5>
-                                    <p className="furniture-text-paragraph">Highpower One is useful to control all access points in a church.</p>
+                                    <p className="furniture-text-paragraph">Pneumatic switches are useful to control all access points in a church.</p>
 
                                     <img className="daycares-image" src={daycares} alt="Zamakast's alfa lock" />
                                     <h5 className="storage-header-text">Daycares</h5>
-                                    <p className="storage-text-paragraph">Highpower One is useful to control all access points in a daycare.</p>
+                                    <p className="storage-text-paragraph">Pneumatic switches are useful to control all access points in a daycare.</p>
                                     
                                 </div>
                         
@@ -145,42 +156,126 @@ class pneumaticsPage extends Component {
 
 
 
-                <div className="highpower-breakdown-container-section">
+                <div className="pneu-breakdown-container-section">
 
-                                <img className="highpower-mobile-image-breakdown" src={highpowervertical} alt="Highpower One and Mobile App" />
+                                <img className="pneu-mobile-image-breakdown" src={pneumaticsthree} alt="Highpower One and Mobile App" />
                                 
                                 <img className="hp-security-icon1" src={securityicon} alt="Highpower One and Mobile App" />
 
                                     <h3 className="hp-secure-header-text">Secure</h3>
 
-                                    <p className="hp-secure-text-paragraph">Built in interface and integrated touchscreen which makes
-                                     it ready to use as soon as plugged in. Log of entries and audit </p>
+                                    <p className="hp-secure-text-paragraph">
+
+                                        All pneumatic push plate products are listed UL294 & UI508 / CSA C22.2 No14.10 with MET LABS, File # E113051.</p>
 
                                      <img className="hp-security-icon2" src={securityicon} alt="Highpower One and Mobile App" />
 
                                      <h3 className="hp-EasyInstallation-header-text">Easy Installation</h3>
 
-                                     <p className="hp-easyinstallation-text-paragraph">The Highpower One is easily installed on metal or wood by just screwing 
-                                     it in. </p>
+                                     <p className="hp-easyinstallation-text-paragraph"> 
+                                     All styles can also be furnished with standard micro-switches.
+                                      </p>
 
                                      <img className="hp-security-icon3" src={securityicon} alt="Zamakast's alfa lock" />
 
                                      <h3 className="hp-Adaptable-header-text">Adaptable</h3>
 
-                                     <p className="hp-adaptable-text-paragraph">The Highpower One can be installed in a variety of locations. Our support team will help you with the best solutions. </p>
+                                     <p className="hp-adaptable-text-paragraph">Like many of our products we have custom engraving available. </p>
 
                                      <img className="hp-security-icon4" src={securityicon} alt="Zamakast's alfa lock" />
 
                                      <h3 className="hp-Easyuse-header-text">Easy Use</h3>
 
-                                     <p className="hp-Easyuse-text-paragraph">The Highpower One app allows the Highpower One to be controlled from virtually anywhere. </p>
+                                     <p className="hp-Easyuse-text-paragraph">Limited plate travel against the back plate ensures durability in these units. </p>
 
                             
                             
                             
                             </div>
 
-                       
+
+
+
+                            {/* Section taken from Highpower one mobile section with a inline style to set the bg to blue  */}
+                            <div className="highpower-one-mobile-section-container">
+                              
+                              <div style={{marginTop: '5vh',backgroundColor: '#1F56BA'}} className="ditec-ha9-section-flex">
+                                                          <div>
+                                                              <h5 style={{color: 'white'}} className="cabinet-locks-header">H120 & H130 Series</h5>
+                                                              <p  style={{color: 'white'}}className="highpower-paragraph-text">
+                                                              H-120 Single-gang box mountable egress door control.
+                                                              H-120 PNZ Single-gang box mountable egress release with pneumatic timer. 
+                                                                H-130 Narrow mullion mounted egress door control. 
+                                                                H-130 PNZ Narrow mullion mounted egress release with pneumatic timer. 
+                                                                </p>
+
+                                                         
+                                                              <div className="google-apple-flexcontainer">
+          
+                                                              <div className="button-flexed-highpower">
+          
+                                                                  <button    
+                                                                  onClick={this.toggleSchedule}
+                                                                      className="Schedule-webinar-button3">Schedule Webinar</button>
+                                                                      {this.state.schedule ? <Schedule toggle={this.toggleSchedule} /> : null}
+          
+                                                                      <Link style={{textDecoration:'none'}} to="./highpower-products" >
+                                                                     <button 
+                                                    
+                                                        className="download-manual-button3">See all products</button> 
+                                                        </Link>
+                                                      
+          
+                                                              </div>
+          
+                                                              </div>
+                                                             
+                                                          </div>
+          
+                                                          <img style={{width: '25vw'}} className="HA9-styles" src={pneumaticsfour} alt="H120 & H130 Pneumatic switches" />
+                                                          </div>
+          
+                                  </div>
+
+                                   {/* Section taken from Highpower one mobile section to add another Pneumatics section  */}
+
+                                  <div className="highpower-one-mobile-section-container">
+                              
+                              <div className="ditec-ha9-section-flex">
+                                                          <div>
+                                                              <h5  className="cabinet-locks-header">H140 & H150 Series</h5>
+                                                              <p  className="highpower-paragraph-text">
+                                                              H-140 Single-gang box mountable egress door control H-140 PNZ Single-gang box mountable egress release with pneumatic timer 
+                                                              H-150 Narrow mullion mounted egress door control H-150 PNZ Narrow mullion mounted egress release with pneumatic timer
+                                                              </p>
+                                                         
+                                                              <div className="google-apple-flexcontainer">
+          
+                                                              <div className="button-flexed-highpower">
+          
+                                                                  <button    
+                                                                  onClick={this.toggleSchedule}
+                                                                      className="Schedule-webinar-button3">Schedule Webinar</button>
+                                                                      {this.state.schedule ? <Schedule toggle={this.toggleSchedule} /> : null}
+          
+                                                                      <Link style={{textDecoration:'none'}} to="./highpower-products" >
+                                                                       <button 
+                                                      
+                                                        className="download-manual-button3">See All Pneumatics</button> 
+                                                        </Link>
+                                                        
+          
+                                                              </div>
+          
+                                                              </div>
+                                                             
+                                                          </div>
+          
+                                                          <img style={{width: '18vw'}} className="HA9-styles" src={pneumaticsfive} alt="zamakast's alfa lock" />
+                                                          </div>
+          
+                                  </div>
+
 
                            
                        

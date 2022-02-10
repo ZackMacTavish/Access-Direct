@@ -17,13 +17,13 @@ class Header extends React.Component {
                     </div>
                     <div className="header-nav">
                         <ul className="first-ul">
-                            <li><a href={AD_HOME}>HOME</a></li>
+                            <li><Link to="./">HOME</Link></li>
                             <li><Link to='./company'>COMPANY</Link></li>
                             <li><Link to='./manufacturer'>MANUFACTURERS</Link>
                                 <ul className="our-products-dropdown">
                                 <li><Link to="./products">All Products</Link></li>
                                 <li><Link to='./Highpower'>Highpower</Link></li>
-                                <li><a href={AD_SWITCHES}>Pneumatic Switches</a></li>
+                                <li><Link to='./pneumatics'>Pneumatic Switches</Link></li>
                                 <li><Link to='./fobs'>Fobs/Cards</Link></li>
                                 <li><a href={AD_RECORD}>Record Usa</a></li>
                                 <li><Link to='./Zamakast'>Zamakast</Link></li>

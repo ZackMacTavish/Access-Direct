@@ -27,8 +27,6 @@
          
     }
 
-
-
 }
 
 .header-paragraph-container{
@@ -99,12 +97,6 @@
        
     }
 
-   
-    
-
-
-    
-
 }
 
 
@@ -112,6 +104,12 @@
     display: flex;
     flex-direction: row;
 }
+.button-flexed-pneu{
+    display: flex;
+    flex-direction: row;
+    padding-left: 8vw;
+}
+
 
 
 
@@ -511,7 +509,7 @@
 
 
 
-.highpower-breakdown-container-section{
+.pneu-breakdown-container-section{
     display: grid;
     padding-top: 3vh;
     grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -522,22 +520,24 @@
 
     @media screen and (max-width: 690px) {
        grid-template-rows: 1fr 1fr 7vh 14vh 7vh 14vh 7vh 14vh 7vh 14vh;
+       grid-template-columns: 1fr 10vw 1fr;
         }
 
         @media screen and (max-width: 450px) {
 
             grid-template-rows: 1fr 1fr 10vh auto auto auto auto auto auto auto;
-            grid-template-columns: 10vw 1fr;
+            grid-template-columns: 1fr 10vw 1fr;
             padding: 0;
             margin: 0;
              }
 
  
-   .highpower-mobile-image-breakdown{
+   .pneu-mobile-image-breakdown{
         display: grid;
         grid-column-start: 1;
         grid-column-end: 10;
-        padding-top: 10vh;
+        padding-top: 5vh;
+        align-items: center;
         padding-bottom: 2vh;
         justify-self: center;
         grid-row-start: 1;
