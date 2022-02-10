@@ -8,7 +8,7 @@ import * as editAction from '../../store/actions/editActions';
 import {API_LOGO_DOWNLOAD_DESIGN, API_LOGO_UPLOAD_DESIGN} from "../../const/api";
 import axios from 'axios';
 import { downloadBase64File} from "../../util/fileUtils";
-import {getDesign} from "../../store/actions/editActions";
+//import {getDesign} from "../../store/actions/editActions";
 import ADDialog from "./ADDialog";
 import ADShareDialog from "./ADShareDialog";
 

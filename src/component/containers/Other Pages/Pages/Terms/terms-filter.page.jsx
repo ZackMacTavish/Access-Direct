@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import '../Terms/terms.styles.scss';
 import Header from "../../../../base/Header";
 import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
-import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
-import Footer from '../../Components/Footer/Footer.component';
+//import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
+//import Footer from '../../Components/Footer/Footer.component';
 
 import {TERMS_DATA} from '../Terms/terms-data';
 

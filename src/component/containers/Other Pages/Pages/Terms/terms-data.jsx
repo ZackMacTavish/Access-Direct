@@ -1,6 +1,3 @@
-import React from 'react';
-import DropLogoDescription from '../../../../base/DropLogoDescription';
-
 
 export const TERMS_DATA = 
 

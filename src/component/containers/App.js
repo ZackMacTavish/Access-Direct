@@ -33,11 +33,12 @@ import PaclockFilter from './Other Pages/Pages/Manufacturer Filter/company filte
 import ViscoFilter from './Other Pages/Pages/Manufacturer Filter/company filters/visco-filter';
 import beaPage from './Other Pages/Pages/BEA/BEA';
 import fobsPage from './Other Pages/Pages/Fobs/Fobs';
+import pneumaticsPage from './Other Pages/Pages/Pneumatics/pneumatics';
 
 
 const Loading = () => <div style={{display: 'flex', flexDirection: 'column', color: 'white', justifyContent:'center', alignItems: 'center', fontWeight: '700', height: '100vh', width: '100vw', backgroundColor: '#0400B9'}}>
   <div style={{display: 'flex', flexDirection: 'column'}}> 
-<img style={{width: '7vw'}} src={logo3} /> 
+<img alt="The logo for Access Direct" style={{width: '7vw'}} src={logo3} /> 
   <h2>...Loading</h2>
   </div>
   </div>;
@@ -97,6 +98,8 @@ class App extends Component {
             <Route path='/dortronics-products' component={dortronicsFilter} />
 
             <Route  path='/highpower' component={highpowerPage} />
+
+            <Route  path='/pneumatics' component={pneumaticsPage} />
 
             <Route  path='/ditec' component={ditecPage} />
 

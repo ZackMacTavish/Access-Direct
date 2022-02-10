@@ -1,7 +1,5 @@
 import React from 'react';
 import '../../../../../scss/base/header.scss';
-import {AD_COMPANY, AD_CONTACT, AD_HOME, AD_OUR_PRODUCT, AD_TERMS} from "../../../../../const/links";
-
 import hamburger from './Hamburger.svg';
 
 import './ResponsiveMenu.styles.scss';

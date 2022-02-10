@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './highpower.styles.scss';
 
-import heroimage2 from './highpowerhero.png';
+import heroimage2 from './Pneumatics.png';
 import cell from './cell.png';
 import banks from './Banks.png';
 import churches from './Churches.png';
@@ -22,7 +22,7 @@ import { HeroImage } from '../../Components/Hero Image Component/herocomponent';
 
 
 
-class highpowerPage extends Component {
+class pneumaticsPage extends Component {
     state= {
         seen: false
     };
@@ -47,15 +47,13 @@ class highpowerPage extends Component {
                     <div className="highpower-hero-flex-container">
                     <div className="header-paragraph-container">
                             <h1 className="highpower-header">
-                               Highpower One
+                              Pneumatic Switches
                             </h1>
 
                             <p className="paragraph-text-highpower">
-                            The Highpower One is an 8 Door controller with an integrated touchscreen. 
-                            Log of entries and audit trail available on screen and via software or USB memory stick. 
-                            Audit trail can be pulled onto the USB as an Excel file. 
-                            Unit runs as stand-alone or connected to software, which allows two or more units to communicate. 
-                            Wi/Fi and Ethernet connections included, as well as USB connection for standalone mode. 
+                            Learn about our array of Handicap Operators and Pneumatic switches. 
+                            Access Direct has a team of installers that can help you implement automatic doors for easy access to your building. 
+                            We offer an array of different model switches and buttons
 
 ​​                             </p>
                             <div className="button-flexed-highpower">
@@ -202,4 +200,4 @@ class highpowerPage extends Component {
     }
 }
 
-export default highpowerPage;
+export default pneumaticsPage;

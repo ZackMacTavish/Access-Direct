@@ -57,7 +57,7 @@ class Company extends React.Component {
                             </div>
                             </div>
 
-            <img className="join-us-img" src={join} />
+            <img alt="The team members of Access Direct" className="join-us-img" src={join} />
 
 
 
@@ -73,7 +73,7 @@ class Company extends React.Component {
             <h2 className="header-color">Your consultants in the security industry. <br />Helping you with hardware, or installation.
             </h2>
 
-            <img className="pictures-styling" src={pictures} />
+            <img alt="An array of different products Access Direct carries" className="pictures-styling" src={pictures} />
 
             
         </div>
@@ -87,7 +87,7 @@ We provide real-time access control for everyday hardworking people.
 
 At Access Direct, we believe everyone should have access to simple and trustworthy access control services. Access Direct and its businesses were built on the principle of providing convenient, reliable services by using the most innovative technology available. Supported by it's unique staff, and state-of-the-art technology, Access Direct has the unique tools to meet each customer’s needs.</h3>
 
-<img className="ourstory" src={ourstory} />
+<img alt="A graphic showing construction workers, and locksmiths in a city" className="ourstory" src={ourstory} />
 
 
 

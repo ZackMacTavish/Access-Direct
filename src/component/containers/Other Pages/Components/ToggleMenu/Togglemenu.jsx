@@ -1,6 +1,5 @@
 import React from 'react';
 import './togglemenu.styles.scss';
-import {AD_COMPANY, AD_CONTACT, AD_HOME, AD_OUR_PRODUCT, AD_TERMS} from "../../../../../const/links";
 import { Link } from 'react-router-dom';
 
 

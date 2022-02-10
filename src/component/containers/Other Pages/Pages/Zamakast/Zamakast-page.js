@@ -4,16 +4,13 @@ import './zamakastpage.scss'
 import '../../../../../scss/containers/App.scss';
 
 import heroimage1 from './Group 195.png';
-import cabinet1 from './Cabinet1.png';
 import cabinet2 from './Cabinet2.png';
-import blueshape from './BlueShape.svg';
 import lockers from './Lockers.png';
 import furniture from './Furniture.png';
 import storage from './Storage.png';
 import alfavertical from './AlfaLock-Vertical.png';
 import alfahorizontal from './AlfaLock-Horizontal.png';
 import securityicon from './Security-icon.svg';
-
 import Header from "../../../../base/Header";
 import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
 import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";

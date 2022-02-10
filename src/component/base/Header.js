@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../scss/base/header.scss';
 import { Link } from 'react-router-dom';
-import {AD_COMPANY, AD_CONTACT, AD_HOME, AD_OUR_PRODUCT, AD_TERMS, AD_NEWS, AD_SWITCHES, AD_FOBS, AD_RECORD} from "../../const/links";
+import {AD_CONTACT, AD_HOME, AD_NEWS, AD_SWITCHES, AD_RECORD} from "../../const/links";
 
 
 class Header extends React.Component {

@@ -9,7 +9,7 @@ import {lang} from "../../i18/en/lang";
 import ADDialog from "../base/ADDialog";
 import {submitOrder} from "../../store/actions/orderActions";
 import {resetState} from "../../store/actions/editActions";
-import {uploadFile, uploadFiles} from "../../rest/StorageRest";
+import {/*uploadFile, */ uploadFiles} from "../../rest/StorageRest";
 
 
 class OrderContainer extends React.Component {

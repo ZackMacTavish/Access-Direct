@@ -23,7 +23,7 @@ class Schedule extends React.Component {
               className="close-schedule">&times;</span>
 
               <div className="flex-fish">
- <img
+ <img       alt="Schedule a webinar"
             className="schedule-webinar"
             src={schedule} />
 

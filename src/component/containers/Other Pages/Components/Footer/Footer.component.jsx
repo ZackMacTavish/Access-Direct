@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { useHistory } from 'react-router-dom';
+//import { useHistory } from 'react-router-dom';
 
 import './footer.styles.scss';
 
@@ -9,7 +9,6 @@ import LinkedInIcon from './LinkedIn.svg';
 import YoutubeIcon from './Youtube.svg';
 
 import { Link } from "react-router-dom";
-import { AD_CAREERS, AD_TEAM, AD_TRAINING } from '../../../../../const/links';
 import logo from './Final-M-SinglePiece-AD-01.svg';
 
 
@@ -94,11 +93,11 @@ class Footer extends Component {
                     <li>CONTACT</li>
                     </a>
 
-                    <a className="flex-love" target="_blank" href="https://zackmactavish.github.io/MacTavish/">
+                    <a className="flex-love" target="_blank" rel="noopener noreferrer" href="https://zackmactavish.github.io/MacTavish/">
                 
                 <h6 className="made-with-love">Site by MacTavish Designs</h6>
                 
-                <img src={logo} className="hello" />
+                <img alt="Access Direct's logo" src={logo} className="hello" />
                
                 </a>
 

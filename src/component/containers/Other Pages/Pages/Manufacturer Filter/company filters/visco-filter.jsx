@@ -8,6 +8,7 @@ import '../../Products-Filter/products-filter.styles.scss';
 import Header from '../../../../../base/Header';
 import ResponsiveHeader from '../../../Components/Responsive Menu/ResponsiveMenu.component';
 import { PRODUCT_DATA } from '../../Products-Filter/products-data/products-data';
+import { Link } from 'react-router-dom';
 
 
 
@@ -57,15 +58,15 @@ class ViscoFilter extends Component {
                         filteredProducts.map(product => 
                             <div className="products-container-grid" key={product.id}> 
                             
-                            <img className="images-products-render" src={product.image}/>
+                            <img alt="Visco products" className="images-products-render" src={product.image}/>
                             <h3 className="images-products-company">{product.company}</h3> 
                             <h4 className="images-products-name">{product.name}</h4>
                             <h4 className="images-products-description">{product.description}</h4>
-                                <a className="a-link-click-through"
-                                href={product.url}>
-                                    {product.click ='See more' ?  <h4 className="images-products-url">{product.click}</h4> : <h4></h4> }
+                                <Link className="a-link-click-through"
+                                to={product.url}>
+                                    {product.click ='See more' ?  <h4 className="images-products-url">{product.click}</h4> : null }
                               
-                                </a> 
+                                </Link> 
                             
                             </div>)
                     }

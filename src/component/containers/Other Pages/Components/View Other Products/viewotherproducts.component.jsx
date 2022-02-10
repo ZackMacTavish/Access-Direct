@@ -27,7 +27,7 @@ class OtherProducts extends Component {
 
            
 
-            <a className="pneumatic-switches-page" href="/oops">Pneumatic Switches</a>
+            <Link className="pneumatic-switches-page" to="/pneumatics">Pneumatic Switches</Link>
 
             <img className="highpower-icon-otherproducts" src={Highpoweroneicon} alt="Highpower Graphic" />
 
@@ -43,7 +43,7 @@ class OtherProducts extends Component {
 
            
 
-            <a className="highpowerone-page" href="/highpower">Highpower One</a>
+            <Link className="highpowerone-page" to="/highpower">Highpower One</Link>
 
             <h3 className="custom-fobgenerator-header-text">Custom Fob Generator</h3>
 
@@ -52,10 +52,10 @@ class OtherProducts extends Component {
             First time users of the fob layout designer get 30 free fobs added to their order.
             </p>
 
-           <a 
+           <Link
            className="custom-fobgenerator-page"
-           href={'/fob'}>Custom Fob Generator
-            </a>
+           to='/fob'>Custom Fob Generator
+            </Link>
 
        
 

@@ -30,7 +30,7 @@ class ManufacturerFilter extends Component {
 
 
     render() {
-        const { products, manufacturers, searchField} = this.state;
+        const { manufacturers, searchField} = this.state;
         const filteredManufacturers = manufacturers.filter(manufacturer =>
             manufacturer.company.toLowerCase().includes(searchField.toLowerCase()))
 
@@ -72,11 +72,11 @@ class ManufacturerFilter extends Component {
                         filteredManufacturers.map(manufacturer => 
                             <div className="manufacturer-container-grid" key={manufacturer.id}> 
                             
-                            <img className="images-products-render" src={manufacturer.image}/>
+                            <img alt="The manufacturers logo" className="images-products-render" src={manufacturer.image}/>
                             <h3 className="images-products-company2">{manufacturer.company}</h3> 
                                 <a className="a-link-click-through"
                                 href={manufacturer.url}>
-                                    {manufacturer.click ='See more' ?  <h4 className="images-products-url">{manufacturer.click}</h4> : <h4></h4> }
+                                    {manufacturer.click ='See more' ?  <h4 className="images-products-url">{manufacturer.click}</h4> : null }
                               
                                 </a> 
                             

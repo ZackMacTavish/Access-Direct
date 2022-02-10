@@ -23,6 +23,7 @@ import donjo from './DONJO-LOGO 1.png';
 import westpenn from './West Penn 1.png';
 import zamakast from './zamakast-logo 1.png';
 import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
+import { Link } from 'react-router-dom';
 
 
 
@@ -60,7 +61,7 @@ class homePage extends Component {
 
                 </div>
                     <div className="second-section-container">
-                    <img className="highpower-box"
+                    <img alt="The Highpower one 8 door controller" className="highpower-box"
                     src={highpowerbox} />
 
                     <div className="text-button-container">
@@ -80,7 +81,7 @@ class homePage extends Component {
                                 <div className="flex-containers-wholesale-nationalprojects">
 
                                     <div className="wholesale-section">
-                                    <img className="wholesale-box-icon" src={wholesalebox} />
+                                    <img alt="An icon showing a package representing our companies wholesale business" className="wholesale-box-icon" src={wholesalebox} />
                                     <h3 className="wholesaling-header-text">Wholesaling and Distribution</h3>
                                     <h4 className="wholesaling-text-section">Access Direct offers a variety of products and our team is ready to work with you on the best solution for you.   </h4>
                                     <button 
@@ -89,7 +90,7 @@ class homePage extends Component {
                                     </div>
 
                                     <div className="nationalprojects-section">
-                                    <img className="wholesale-box-icon" src={nationalicon} />
+                                    <img alt="An icon representing a network" className="wholesale-box-icon" src={nationalicon} />
                                     <h3 className="nationalprojects-header-text">National Project Installation</h3>
                                     <h4 className="national-text-section">Access Direct is ready to assist you directly with your project. We employ a national team of installers who are ready to assist.</h4>
                                     <button 
@@ -105,7 +106,7 @@ class homePage extends Component {
                           
                                     
                                         <div className="pneumatic-button-image-flex grid-1">
-                                            <img src={pneumaticsection} />
+                                            <img alt="A pneumatic switch for accessibility" src={pneumaticsection} />
                                             <button 
                                             onClick={event =>  window.location.href='https://www.info.access-direct.net/pneumatic-switches'}
                                             className="left-button-3">Pneumatic Switches</button>
@@ -113,7 +114,7 @@ class homePage extends Component {
                                         </div>
 
                                         <div className="pneumatic-button-image-flex grid-2">
-                                        <img src={fobssection} />
+                                        <img alt="A fob" src={fobssection} />
                                         <button 
                                         onClick={event =>  window.location.href='./fobs'}
                                         className="left-button-3">Fobs &
@@ -121,21 +122,21 @@ class homePage extends Component {
                                     </div>
 
                                     <div className="pneumatic-button-image-flex grid-3">
-                                    <img src={fobcustomizersection} />
+                                    <img alt="Customize your fob with a personal logo" src={fobcustomizersection} />
                                     <button 
                                     onClick={event =>  window.location.href='/fob'}
                                     className="left-button-3">Custom Fob Logo</button>
                                 </div>
 
                               <div className="pneumatic-button-image-flex grid-4">
-                                            <img src={alfasection} />
+                                            <img alt="Zamakast's Alfa Lock for lockers" src={alfasection} />
                                             <button 
                                             onClick={event =>  window.location.href='/Zamakast'}
                                             className="left-button-3">Alfa Lock</button>
                                         </div>
 
                                         <div className="pneumatic-button-image-flex grid-5">
-                                        <img src={doorsection} />
+                                        <img alt="Door operators" src={doorsection} />
                                         <button 
                                         onClick={event =>  window.location.href='/ditec'}
                                        
@@ -143,7 +144,7 @@ class homePage extends Component {
                                     </div>
 
                                     <div className="pneumatic-button-image-flex grid-6">
-                                    <img src={allproducts} />
+                                    <img alt="The Access Direct logo that will take you to all products" src={allproducts} />
                                     <button 
                                     onClick={event =>  window.location.href='/products'}
                                     className="left-button-3">All Products</button>
@@ -157,22 +158,25 @@ class homePage extends Component {
                             
 
                             
-                            <img className="brands-1" src={calroyal} />
-                            <img className="brands-2" src={dormakaba} />
-                            <img className="brands-3" src={abh} />
-                            <img className="brands-4" src={camden} />
+                            <img alt="The logo for Cal Royal" className="brands-1" src={calroyal} />
+                            <img  alt="The logo for Dorma Kaba" className="brands-2" src={dormakaba} />
+                            <img alt="The logo for ABH" className="brands-3" src={abh} />
+                            <img alt="The logo for Camden" className="brands-4" src={camden} />
 
-                            <a  className="brands-10"
-                            href="/highpower">
-                            <img src={highpower} />
-                            </a>
+                            <Link  className="brands-10"
+                            to="/highpower">
+                            <img alt="The logo for Highpower" src={highpower} />
+                            </Link>
                             
-                            <img className="brands-5" src={farpointe} />
-                            <img className="brands-6" src={record} />
-                            <img className="brands-7" src={donjo} />
-                            <img className="brands-8" src={westpenn} />
-                            <img className="brands-9" src={zamakast} />
-                           
+                            <img alt="Farpointe" className="brands-5" src={farpointe} />
+                            <img alt="The logo for Record" className="brands-6" src={record} />
+                            <img alt="The logo for Donjo" className="brands-7" src={donjo} />
+                            <img alt="The logo for WestPenn" className="brands-8" src={westpenn} />
+
+                            <Link className="brands-9"
+                            to="/Zamakast">
+                            <img alt="The logo for Zamakast" src={zamakast} />
+                            </Link>
                             
                             </div>
 

@@ -9,6 +9,7 @@ import Section from "./Section";
 import EditToolsN2 from "./EditToolsN2";
 import ADButton from "./ADButton";
 import ADDialog from "./ADDialog";
+import OtherProducts from "../containers/Other Pages/Components/View Other Products/viewotherproducts.component";
 
 class Edit extends React.Component {
 
@@ -85,26 +86,12 @@ class Edit extends React.Component {
                 </div>
                 <div className="adv">
                     <div className="adv-logo">
-                        <img src='/img/LatestLogo-10.png'/>
-                    </div>
-                    <div className="adv-title">{lang.en.advertisement.title}</div>
-                    <div className="adv-content">
-                        <div className="adv-picture">
-                            <a className="links-buttons" href="https://www.access-direct.net/highpower-one"
-                               target="_blank">
-                                <img className="pointer" src='/img/Highpoweronehomepage.png'/>
-                                <p>{lang.en.advertisement.highpower}</p>
-                            </a>
-                        </div>
-                        <div className="adv-picture">
-                            <a className="links-buttons" href="https://www.access-direct.net/pneumatic-switches"
-                               target="_blank">
-                                <img className="pointer" src='/img/PneumaticSwitches.png'/>
-                                <p>{lang.en.advertisement.switches}</p>
-                            </a>
-                        </div>
+                        <img alt="The logo for Access Direct" src='/img/LatestLogo-10.png'/>
+                 
                     </div>
                 </div>
+
+                <OtherProducts/>
 
                 <ADDialog title={lang.en.dialog.please_upload_your_logo}
                           open={this.state.uploadLogoDialogVisible}

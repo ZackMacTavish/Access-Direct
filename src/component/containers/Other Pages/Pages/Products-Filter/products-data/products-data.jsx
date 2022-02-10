@@ -490,6 +490,8 @@ export const PRODUCT_DATA =
         name: 'Highpower One',
         image: require('../../Highpower One/HighpowerOne-phone.png'),
         description: '8 door controller' ,
+        click: 'See More',
+        url:'./highpower',
         id: '58'
     },
 

@@ -3,7 +3,7 @@ import '../../scss/layout/edit-logo-wrapper.scss';
 import EditButtonContainer from "../containers/EditButtonContainer";
 import {CENTER_LOGO_ICON, ROTATE_RIGHT_ICON, ZOOM_ICON} from "../../const/icons";
 import {lang} from "../../i18/en/lang";
-import {CENTER_LOGO, ROTATE_RIGHT, TOGGLE_SLIDE, ZOOM_LOGO} from "../../const/actions";
+import {CENTER_LOGO, ROTATE_RIGHT, TOGGLE_SLIDE, /*ZOOM_LOGO */} from "../../const/actions";
 import SliderContainer from "../containers/SliderContainer";
 
 

@@ -28,11 +28,11 @@ class FoboResult extends React.Component {
 
     render() {
         const width = this.props.buildLogoProperties.userLogoWidth;
-        const height = this.props.buildLogoProperties.userLogoHeight;
+        //const height = this.props.buildLogoProperties.userLogoHeight;
 
         var imgStyle = null;
 
-        if (width == 0 || width == null) {
+        if (width === 0 || width === null) {
             imgStyle = {
                 transform: 'rotate(' + this.props.buildLogoProperties.rotation + 'deg)',
             };
@@ -50,17 +50,17 @@ class FoboResult extends React.Component {
             <div className="fobo-result-wrapper">
                 <div className="fobo-result">
                     <div className="base-img">
-                        <img ref={this.baseImgRef} onLoad={() => this.initBase()} src={this.props.buildLogoProperties.baseImgUrl}/>
+                        <img alt="Uploading your logo onto the fob" ref={this.baseImgRef} onLoad={() => this.initBase()} src={this.props.buildLogoProperties.baseImgUrl}/>
                     </div>
                     <Draggable position={{x: x, y: y}}
                                onStop={(event, dragElement) => this.props.setLogoPosition(dragElement.x, dragElement.y)}>
                         <div className="logo-img">
-                            <img style={imgStyle} ref={this.userImgRef} onLoad={() => this.initLogo()}
+                            <img alt="Uploading your logo onto the fob" style={imgStyle} ref={this.userImgRef} onLoad={() => this.initLogo()}
                                  src={this.props.userLogoImgUrl}/>
                         </div>
                     </Draggable>
                     <div>
-                        <img className="base-cover-img" src={this.props.buildLogoProperties.baseCoverImgUrl}/>
+                        <img alt="Uploading your logo onto the fob" className="base-cover-img" src={this.props.buildLogoProperties.baseCoverImgUrl}/>
                     </div>
                     <div className="fobo-id">
                         <div className="option-w">

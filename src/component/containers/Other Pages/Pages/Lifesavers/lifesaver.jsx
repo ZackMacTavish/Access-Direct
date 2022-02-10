@@ -65,7 +65,7 @@ class lifesaversPage extends Component {
                                 className="Schedule-webinar-button-ditec">Schedule Webinar</button>
                                 {this.state.seen ? <Schedule toggle={this.togglePop} /> : null}
 
-                                <a style={{textDecoration:'none'}} href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" className="download-manual-button-lifesavers">Download Manual</a>
+                                <a style={{textDecoration:'none'}} href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" rel="noopener noreferrer" className="download-manual-button-lifesavers">Download Manual</a>
                             
                             </div>
 
@@ -102,7 +102,7 @@ class lifesaversPage extends Component {
 
                                                         <button className="Schedule-webinar-button-ditec">Schedule Webinar</button>
 
-                                                        <a style={{textDecoration:'none'}} href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" className="download-manual-button-lifesavers">Download Manual</a>
+                                                        <a style={{textDecoration:'none'}} href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" rel="noopener noreferrer" className="download-manual-button-lifesavers">Download Manual</a>
 
                                                     </div>
 
@@ -167,7 +167,7 @@ class lifesaversPage extends Component {
 
                                                         <button className="Schedule-webinar-button-ditec">Schedule Webinar</button>
 
-                                                        <a style={{textDecoration:'none'}} href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" className="download-manual-button-lifesavers">Download Manual</a>
+                                                        <a style={{textDecoration:'none'}} href="https://marksusa.com/media/pdfs/A711A-LifeSaver-D-Lig-LR.pdf" target="_blank" rel="noopener noreferrer" className="download-manual-button-lifesavers">Download Manual</a>
 
                                                     </div>
 
