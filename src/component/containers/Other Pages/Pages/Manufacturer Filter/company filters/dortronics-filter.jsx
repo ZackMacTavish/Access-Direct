@@ -3,10 +3,6 @@ import React, {Component} from 'react';
 
 import '../../Products-Filter/products-filter.styles.scss';
 
-
-
-import Header from '../../../../../base/Header';
-import ResponsiveHeader from '../../../Components/Responsive Menu/ResponsiveMenu.component';
 import { PRODUCT_DATA } from '../../Products-Filter/products-data/products-data';
 import { Link } from 'react-router-dom';
 
@@ -32,9 +28,7 @@ class dortronicsFilter extends Component {
        
         return (
             <div className="products-filter-page">
-                {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
                
-
                 <div className="product-filters-header">
                 
               

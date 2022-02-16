@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import '../../../../../scss/base/header.scss';
 import hamburger from './Hamburger.svg';
-
 import './ResponsiveMenu.styles.scss';
 import Popup from '../ToggleMenu/Togglemenu';
 import { Link } from 'react-router-dom';
@@ -41,7 +40,7 @@ const Headertwo = () =>  {
    return (  
 
     <div> 
-      {/* Ternary operator that checks for isDesktop Hook is larger than 450px to render Scene three.js or a static Img */}
+      {/* Ternary operator that checks for isDesktop hook and renders hamburger.svg for mobile */}
       {isDesktop ? 
       
       <div className="header-wrapper">
