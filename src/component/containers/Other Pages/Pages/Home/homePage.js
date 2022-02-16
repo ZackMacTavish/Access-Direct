@@ -8,8 +8,6 @@ import fobcustomizersection from './AD-Web-CustomizeFob-Container 1.png';
 import fobssection from './AD-Web-Fob-Container 1.png'
 import alfasection from './alfalock2 1 (1).png';
 import doorsection from './Record-Container-01 2.png';
-import Header from "../../../../base/Header";
-import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
 import allproducts from './AllProducts-01 1.png';
 import Footer from '../../Components/Footer/Footer.component';
 import calroyal from './cal-royal-logo-blue 1.png';
@@ -45,11 +43,7 @@ class homePage extends Component {
         
         return (
             <div className="home-page">
-                {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
-
-
-
-               <div className="container-landing">
+              <div className="container-landing">
                     <h1 className="text-landing">Access Direct will work with you to figure out security solutions ranging from products to installation.</h1>
                     <button onClick={event =>  window.location.href='/products'} className="left-button">Browse our products</button>
                       <button 

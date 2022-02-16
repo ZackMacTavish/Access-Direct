@@ -10,10 +10,6 @@ import googleplay from './Google-play.png';
 import appstore from './app-store.png';
 import securityicon from './Security-icon.svg';
 import highpowervertical from './HighpowerOne-phone.png';
-
-
-import Header from "../../../../base/Header";
-import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
 import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
 import Footer from '../../Components/Footer/Footer.component';
 import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
@@ -42,7 +38,6 @@ class highpowerPage extends Component {
         
         return (
             <div className="highpower-page">
-                {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
 
                     <div className="highpower-hero-flex-container">
                     <div className="header-paragraph-container">

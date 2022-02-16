@@ -3,9 +3,6 @@ import React, {Component} from 'react';
 
 import './products-filter.styles.scss';
 
-
-import Header from "../../../../base/Header";
-import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
 //import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
 //import Footer from '../../Components/Footer/Footer.component';
 
@@ -34,7 +31,6 @@ class productsFilter extends Component {
        
         return (
             <div className="products-filter-page">
-                {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
 
                 <div className="search-manufacturer">
                         <h4 className="manufacturer-header">Click here to search by manufacturer</h4>

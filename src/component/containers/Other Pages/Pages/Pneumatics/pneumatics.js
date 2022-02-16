@@ -11,8 +11,6 @@ import pneumaticsthree from './Pneumaticsthree.png';
 import pneumaticsfour from './Pneumaticsfour.png';
 import pneumaticsfive from './Pneumaticsfive.png';
 
-import Header from "../../../../base/Header";
-import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
 import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
 import Footer from '../../Components/Footer/Footer.component';
 import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
@@ -44,8 +42,6 @@ class pneumaticsPage extends Component {
         return (
              /* Pneumatics page taken from the highpower page. Should be refactored. Either make the Highpower page a reusable component, or create separate styles  */
             <div className="highpower-page">
-                
-                {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
 
                     <div className="highpower-hero-flex-container">
                     <div className="header-paragraph-container">

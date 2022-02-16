@@ -34,6 +34,8 @@ import ViscoFilter from './Other Pages/Pages/Manufacturer Filter/company filters
 import beaPage from './Other Pages/Pages/BEA/BEA';
 import fobsPage from './Other Pages/Pages/Fobs/Fobs';
 import pneumaticsPage from './Other Pages/Pages/Pneumatics/pneumatics';
+import Header from '../base/Header';
+import ResponsiveHeader from './Other Pages/Components/Responsive Menu/ResponsiveMenu.component';
 
 
 const Loading = () => <div style={{display: 'flex', flexDirection: 'column', color: 'white', justifyContent:'center', alignItems: 'center', fontWeight: '700', height: '100vh', width: '100vw', backgroundColor: '#0400B9'}}>
@@ -65,8 +67,9 @@ class App extends Component {
 
 <BrowserRouter>
             <Switch>
+           
             <div className="App">
-
+            {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
             <Route path='/fob' component={fobPage} />
 
             <Route path='/zamakast' component={zamakastPage} />

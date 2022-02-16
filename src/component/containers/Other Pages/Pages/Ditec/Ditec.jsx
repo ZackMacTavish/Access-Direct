@@ -9,9 +9,6 @@ import daycares from '../Highpower One/daycares.png';
 
 import securityicon from '../Highpower One/Security-icon.svg';
 import HA7Long from '../Ditec/HA7-Long.png';
-
-import Header from "../../../../base/Header";
-import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
 import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
 import Footer from '../../Components/Footer/Footer.component';
 import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
@@ -40,9 +37,7 @@ class ditecPage extends Component {
         
         return (
             <div className="highpower-page">
-                {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
-
-                    <div className="highpower-hero-flex-container">
+               <div className="highpower-hero-flex-container">
                     <div className="header-paragraph-container">
                             <h1 className="highpower-header">
                                Ditec's HA7

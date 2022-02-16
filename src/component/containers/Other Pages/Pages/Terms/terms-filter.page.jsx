@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 import '../Terms/terms.styles.scss';
-import Header from "../../../../base/Header";
-import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
 //import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
 //import Footer from '../../Components/Footer/Footer.component';
 
@@ -32,9 +30,7 @@ class termsFilter extends Component {
        
         return (
             <div className="terms-filter-page">
-                {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
-               
-
+                
                 <div className="product-filters-header">
                 
               

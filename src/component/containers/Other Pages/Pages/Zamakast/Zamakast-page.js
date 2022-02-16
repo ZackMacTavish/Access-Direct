@@ -11,8 +11,6 @@ import storage from './Storage.png';
 import alfavertical from './AlfaLock-Vertical.png';
 import alfahorizontal from './AlfaLock-Horizontal.png';
 import securityicon from './Security-icon.svg';
-import Header from "../../../../base/Header";
-import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
 import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
 import Footer from '../../Components/Footer/Footer.component';
 import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
@@ -42,7 +40,6 @@ class zamakastPage extends Component {
         
         return (
             <div className="zamakast-page">
-                {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
                
                         <div className="zamakast-hero-flex-container">
                             <div className="header-paragraph-container">

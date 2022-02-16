@@ -1,6 +1,4 @@
 import React from 'react'
-import Header from '../../../../base/Header'
-import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component'
 import pictures from './Pictures.png';
 import ourstory from './OurStory.svg';
 import './Company.styles.scss';
@@ -29,10 +27,7 @@ class Company extends React.Component {
         
         return (
             <div className="style-reset">
-           
-
-
-            <div className="Join-us-Section">
+                 <div className="Join-us-Section">
 
                  <div className="header-paragraph-container">
                             <h1 className="highpower-header">
@@ -67,7 +62,7 @@ class Company extends React.Component {
 
 
         <div className="flexed-Company">
-   {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
+  
 
 
             <h2 className="header-color">Your consultants in the security industry. <br />Helping you with hardware, or installation.

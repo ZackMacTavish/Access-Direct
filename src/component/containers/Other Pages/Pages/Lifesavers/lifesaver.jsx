@@ -10,8 +10,6 @@ import daycares from '../Highpower One/daycares.png';
 
 import dlig from '../Lifesavers/d-lig-image.png';
 
-import Header from "../../../../base/Header";
-import ResponsiveHeader from '../../Components/Responsive Menu/ResponsiveMenu.component';
 import OtherProducts from "../../Components/View Other Products/viewotherproducts.component";
 import Footer from '../../Components/Footer/Footer.component';
 import Schedule from '../../Components/Schedule Webinar Popup/Schedule';
@@ -41,7 +39,6 @@ class lifesaversPage extends Component {
         
         return (
             <div className="highpower-page">
-                {window.innerWidth > 800 ? <Header/> : <ResponsiveHeader /> }
 
                     <div className="highpower-hero-flex-container">
                     <div className="header-paragraph-container">
