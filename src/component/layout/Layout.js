@@ -1,6 +1,5 @@
 import React from "react";
 import '../../scss/layout/layout.scss';
-import Header from "../base/Header";
 import OrderContainer from "../containers/OrderContainer";
 import EditContainer from "../containers/EditContainer";
 import FobTemplatePicker from "../containers/FobTemplatePicker";
@@ -10,7 +9,7 @@ class Layout extends React.Component {
         return (
             <div>
                 <div>
-                    <Header/>
+                
                     <FobTemplatePicker/>
                 </div>
                 <div className="middle">
