@@ -32,7 +32,6 @@ const Headertwo = () =>  {
  
    /*useEffect hook that has two functions. One to redirect to the top of the page, and one to check for resizing responsivness  */
    useEffect(() => {
-     window.scrollTo(0, 0);
      window.addEventListener("resize", updateMedia);
      return () => window.removeEventListener("resize", updateMedia);
    }, [])
