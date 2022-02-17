@@ -57,11 +57,19 @@ class termsFilter extends Component {
                             <div className="terms-container-flex" key={product.id}> 
                             
                           
+                          <div>
                                 <h4 className="terms-products-name">{product.name}</h4>
-                           
+                                {product.click === 'See More' ?  <details><summary style={{cursor: 'pointer'}}>See Image</summary>
+                                <img style={{width: '20vw',paddingTop: '5vh'}} src={product.img} />
+                                
+                                
+                                </details> : null }
+                                </div>
                               
                                 
                                 <h4 className="terms-products-description">{product.definition}</h4> 
+
+                                
                             
                             </div>)
                     }

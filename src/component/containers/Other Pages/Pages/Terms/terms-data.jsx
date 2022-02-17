@@ -13,6 +13,8 @@ export const TERMS_DATA =
     {
         name: 'Astragal',
         definition: 'A molding or strip whose purpose is to cover or close the gap between the edges of a pair of doors. Some types overlap, others meet at the centerline of the gap.',
+        click: 'See More',
+        img: require('../Terms/Img/Astragal.jpeg'),
         id: '1'
     },
 
@@ -23,9 +25,19 @@ export const TERMS_DATA =
     },
 
     {
+        name: 'Backset (of a lock)',
+        definition: 'The distance from the edge of the door to the hinge',
+        click: 'See More',
+        img: require('../Terms/Img/backset_drawing5.jpeg'),
+        id: '3'
+    },
+
+    {
         name: 'Backset (of a hinge)',
         definition: 'The distance from the edge of the door to the hinge',
-        id: '3'
+        click: 'See More',
+        img: require('../Terms/Img/images.png'),
+        id: '3.1'
     },
 
     {
@@ -84,7 +96,9 @@ export const TERMS_DATA =
 
     {
         name: 'Coordinator',
-        definition: 'A device used on a pair of doors to ensure that the inactive leaf is permitted to close before the active leaf. Necessary when an overlapping astragal is present and exit devices, automatic or self-latching bolts are used with closers on both door leaves.  ',
+        definition: 'A device used on a pair of doors to ensure that the inactive leaf is permitted to close before the active leaf. Necessary when an overlapping astragal is present and exit devices, automatic or self-latching bolts are used with closers on both door leaves.',
+        click: 'See More',
+        img: require('../Terms/Img/coordinator.png'),
         id: '13'
     },
 
@@ -152,12 +166,16 @@ export const TERMS_DATA =
     {
         name: 'Elbow Catch',
         definition: 'A spring-loaded device embodying a rocker arm, and angle strike, for locking the inactive leaf of a pair of cabinet locks.',
+        click: 'See More',
+        img: require('../Terms/Img/33034-zinc-plated-cabinet-catch.jpeg'),
         id: '23'
     },
 
     {
         name: 'Electric Strike',
         definition: 'An electrical device that permits releasing of the door from a remote control.',
+        click: 'See More',
+        img: require('../Terms/Img/electricstrike.jpg'),
         id: '24'
     },
 
@@ -403,6 +421,8 @@ export const TERMS_DATA =
     {
         name: 'Roller Latch',
         definition: 'A friction door latch employing a roller latch head under spring tension, which engages a strike having a recess formed to receive the roller.',
+        click: 'See More',
+        img: require('../Terms/Img/rollerlatch.jpeg'),
         id: '64'
     },
 
@@ -416,6 +436,8 @@ export const TERMS_DATA =
     {
         name: 'Spindle',
         definition: 'The bar or tube connected with the knob or lever handle that passes through the hub of the lock or otherwise engages the mechanism to transmit the knob action to the bolt(s).',
+        click: 'See More',
+        img: require('../Terms/Img/spindle.jpeg'),
         id: '66'
     },
 
@@ -428,6 +450,8 @@ export const TERMS_DATA =
     {
         name: 'Spring Hinge',
         definition: 'A hinge containing one or more springs to move the door into the desired position. It may be either single or double-acting.',
+        click: 'See More',
+        img: require('../Terms/Img/springhinge.jpeg'),
         id: '68'
     },
 
@@ -440,6 +464,8 @@ export const TERMS_DATA =
     {
         name: 'Strap Hinge',
         definition: 'A surface hinge of which one or both leaves are of considerable length.',
+        click: 'See More',
+        img: require('../Terms/Img/straphinge.jpeg'),
         id: '70'
     },
 
@@ -488,6 +514,8 @@ export const TERMS_DATA =
     {
         name: 'Thumb Piece',
         definition: 'The small pivoted part above the grip of a handle to be pressed by the thumb to operate a latch bolt.',
+        click: 'See More',
+        img: require('../Terms/Img/doorthumb.jpeg'),
         id: '78'
     },
 

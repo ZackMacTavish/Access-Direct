@@ -67,7 +67,7 @@ const Headertwo = () =>  {
                                 </ul>                            
                             </li>
                             <li><a href={AD_NEWS}>NEWS</a></li>
-                            <li><a href="/terms">TERMS</a></li>
+                            <li><a href="/terms">DICTIONARY</a></li>
                             <li><a href={AD_CONTACT}>CONTACT</a></li>
                         </ul>
 
