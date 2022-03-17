@@ -54,6 +54,7 @@ class homePage extends Component {
                     <div className="gradient-section" > </div>
 
                 </div>
+                
                     <div className="second-section-container">
                     <img alt="The Highpower one 8 door controller" className="highpower-box"
                     src={highpowerbox} />

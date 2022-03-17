@@ -228,7 +228,8 @@
             cursor: pointer;
         }}
 
-.social-media-icon-styling{height: 8vh;
+.social-media-icon-styling{
+  height: clamp(44px, 8vh, 120px);
 
     &:hover{
         opacity: 80%;
